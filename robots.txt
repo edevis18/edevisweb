@@ -1,0 +1,11 @@
+# Robots.txt para https://edevisraga.com/
+
+User-agent: *
+Allow: /
+
+# Evitar el rastreo de carpetas administrativas o privadas (descomenta y edita si usas WordPress u otro CMS)
+# Disallow: /wp-admin/
+# Disallow: /admin/
+
+# Enlace al mapa del sitio (Sitemap)
+Sitemap: https://edevisraga.com/sitemap.xml

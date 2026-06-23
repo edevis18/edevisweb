@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <title>404 - Página no encontrada | Edevis Raga</title>
+    
+    <style>
+        /* Replicando las variables de color del sitio principal */
+        :root {
+            --primary-color: #a309fc;
+            --secondary-color: #630c95;
+            --accent-color: #f9b602;
+            --text-color: #ffffff;
+            --sidebar-bg: #232323;
+            --darker-bg: #1a1a1a;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--darker-bg);
+            color: var(--text-color);
+        }
+        
+        /* Clases personalizadas para usar las variables con Tailwind */
+        .bg-primary { background-color: var(--primary-color); }
+        .bg-secondary { background-color: var(--secondary-color); }
+        .text-accent { color: var(--accent-color); }
+    </style>
+</head>
+<body class="antialiased">
+
+    <main class="min-h-screen flex flex-col items-center justify-center text-center p-6">
+        <div class="max-w-md">
+            <h1 class="text-8xl md:text-9xl font-black text-accent drop-shadow-lg">404</h1>
+            <h2 class="mt-4 text-3xl md:text-4xl font-extrabold text-white">¡Ups! Página no encontrada</h2>
+            <p class="mt-4 text-lg text-gray-300">
+                Parece que te has perdido en el universo digital. La página que buscas no existe o fue movida a otra galaxia.
+            </p>
+            <a href="index.html" class="mt-8 inline-block bg-primary text-white font-bold rounded-full py-3 px-8 hover:bg-secondary transition-all duration-300 shadow-lg transform hover:scale-105">
+                Volver a la Base
+            </a>
+        </div>
+    </main>
+
+    <script src="js/noclick.js"></script>
+
+</body>
+</html>

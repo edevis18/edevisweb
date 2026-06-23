@@ -1,0 +1,762 @@
+   :root {
+            --primary-color: #a309fc;
+            --secondary-color: #630c95;
+            --accent-color: #f9b602;
+            --text-color: #ffffff;
+            --sidebar-bg: #232323;
+            --sidebar-width: 280px;
+            --header-height: 60px;
+            --transition-speed: 0.3s;
+            --error:#f54051;
+            --success:#1ba348;
+            --badge:#f94e02;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        /* Ajuste en el body para centrar sus hijos directos si es necesario */
+body {
+    background-color: var(--sidebar-bg);
+    color: var(--text-color);
+    justify-content: center; /* Centra horizontalmente los hijos directos */
+    align-items: center; /* Centra verticalmente los hijos directos */
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Aquí va todo el CSS que te proporcioné anteriormente */
+        .ed-card-content {
+            max-width: 580px;
+            width: 90%;
+            margin: 30px auto;
+            padding: 30px;
+            background: var(--sidebar-bg);
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent-color);
+            margin-bottom: 20px;
+            transition: var(--transition-speed);
+        }
+
+        .profile-picture:hover {
+            transform: scale(1.05);
+            border-color: var(--primary-color);
+        }
+
+        .ed-card-content h1 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+            color: var(--text-color);
+            font-weight: 600;
+        }
+
+        .ed-card-content p {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 20px;
+            font-size: 1rem;
+        }
+
+        .ed-card-content p b {
+            color: var(--accent-color);
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin: 25px 0;
+        }
+
+        .buttons a {
+            background: rgba(99, 12, 149, 0.3);
+            color: var(--text-color);
+            padding: 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: var(--transition-speed);
+            border: 1px solid var(--accent-color);
+        }
+
+        .buttons a:hover {
+            background: var(--primary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(163, 9, 252, 0.3);
+        }
+
+        .buttons a i {
+            font-size: 1.1rem;
+        }
+
+        .ed-redes-sociales {
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+            padding: 20px 0 0;
+            margin-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .ed-redes-sociales a {
+            color: var(--text-color);
+            font-size: 2rem;
+            transition: var(--transition-speed);
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            text-decoration: none;
+        }
+
+        .ed-redes-sociales a:hover {
+            color: var(--primary-color);
+            transform: scale(1.1);
+        }
+
+        .fa-check-circle {
+            vertical-align: middle;
+        }
+
+        @media (max-width: 768px) {
+            .ed-card-content {
+                padding: 25px;
+            }
+            
+            .profile-picture {
+                width: 100px;
+                height: 100px;
+            }
+            
+            .buttons a {
+                padding: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .ed-card-content {
+                padding: 20px;
+                width: 95%;
+            }
+            
+            .ed-card-content h1 {
+                font-size: 1.5rem;
+            }
+            
+            .buttons a {
+                font-size: 0.9rem;
+                padding: 10px;
+            }
+            
+            .ed-redes-sociales {
+                gap: 15px;
+            }
+            
+            .ed-redes-sociales a {
+                font-size: 2rem;
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+
+
+
+
+        /* Contenedor principal */
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cards individuales */
+.card-ede {
+    background: var(--sidebar-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: var(--transition-speed);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-ede:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(163, 9, 252, 0.2);
+}
+
+.card-ede img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 3px solid var(--accent-color);
+}
+
+/* Contenido de la card */
+.card-content-ede {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content-ede p {
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.card-content-ede p b {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+/* Botones */
+.button-container-ede, 
+.button-container {
+    text-align: center;
+    margin-top: auto;
+}
+
+.button {
+    display: inline-block;
+    background: var(--primary-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition-speed);
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.button:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+/* Botón Volver al Menú - Versión corregida */
+.btn-card-ede {
+    display: block;
+    background: var(--accent-color);
+    color: #000;
+    padding: 12px 25px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-speed);
+    margin: 30px auto 10px;
+    text-align: center;
+    text-decoration: none;
+    width: max-content;
+    font-family: inherit;
+    font-size: 0.95rem;
+}
+
+.btn-card-ede:hover {
+    background: #e0a902;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(249, 182, 2, 0.3);
+}
+
+/* Asegurar que el enlace no herede estilos no deseados */
+.card-section > a {
+    text-decoration: none;
+    grid-column: 1 / -1;
+    margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .btn-card-ede {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card-section {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 20px;
+        gap: 20px;
+    }
+    
+    .card-ede img {
+        height: 160px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-section {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+    
+    .card-content-ede {
+        padding: 15px;
+    }
+    
+    .card-section > button {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+
+
+
+
+/* Contenedor principal de proyectos web */
+.card-section-web {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px 30px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Cards individuales */
+.card-web {
+    background: var(--sidebar-bg);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transition: var(--transition-speed);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-web:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(163, 9, 252, 0.25);
+    border-color: rgba(163, 9, 252, 0.3);
+}
+
+.card-web img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-bottom: 3px solid var(--accent-color);
+}
+
+/* Contenido de la card */
+.card-content-web {
+    padding: 25px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content-web p {
+    color: var(--text-color);
+    margin-bottom: 25px;
+    font-size: 1rem;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+.card-content-web p b {
+    color: var(--accent-color);
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+/* Botones */
+.button-container {
+    text-align: center;
+    margin-top: auto;
+}
+
+.button {
+    display: inline-block;
+    background: var(--primary-color);
+    color: var(--text-color);
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition-speed);
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.button:hover {
+    background: var(--secondary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(99, 12, 149, 0.4);
+}
+
+/* Efecto especial para cards web */
+.card-web::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .card-section-web {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-section-web {
+        padding: 30px 20px;
+    }
+    
+    .card-web img {
+        height: 180px;
+    }
+    
+    .card-content-web {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-section-web {
+        grid-template-columns: 1fr;
+        padding: 25px 15px;
+        gap: 20px;
+    }
+    
+    .card-web img {
+        height: 160px;
+    }
+    
+    .button {
+        padding: 10px 20px;
+        font-size: 0.95rem;
+    }
+}
+
+
+
+/* Contenedor principal del formulario */
+.ede-card-form {
+    max-width: 800px;
+    width: 90%;
+    margin: 40px auto;
+    padding: 40px;
+    background: var(--sidebar-bg);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.ede-card-form h1 {
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+}
+
+/* Formulario */
+.ede-contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contactForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#contactForm textarea,
+#contactForm select,
+#contactForm input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--secondary-color);
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-color);
+    font-size: 1rem;
+    transition: var(--transition-speed);
+}
+
+/* Estilos específicos para las opciones del select */
+#contactForm select option {
+    background: var(--sidebar-bg); /* Mismo fondo que tu tarjeta */
+    color: var(--text-color); /* Texto blanco */
+    padding: 10px;
+}
+
+/* Para navegadores WebKit (Chrome, Safari) */
+#contactForm select::-webkit-scrollbar {
+    width: 8px;
+}
+
+#contactForm select::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+#contactForm select::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 4px;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus,
+#contactForm select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    background: rgba(163, 9, 252, 0.05);
+    box-shadow: 0 0 0 2px rgba(163, 9, 252, 0.1);
+}
+
+#contactForm textarea {
+    grid-column: span 2;
+    min-height: 150px;
+    resize: vertical;
+}
+
+#contactForm select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 20px;
+}
+
+/* Botones del formulario */
+#contactForm div {
+    grid-column: span 2;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#contactForm button[type="submit"] {
+    background: var(--primary-color);
+    color: var(--text-color);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-speed);
+    font-size: 1rem;
+}
+
+#contactForm button[type="submit"]:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+#contactForm button[type="reset"] {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-color);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-speed);
+    font-size: 1rem;
+}
+
+#contactForm button[type="reset"]:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Botón Volver */
+.btn-volver-form {
+    display: block;
+    background: var(--accent-color);
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-speed);
+    margin: 30px auto 0;
+    text-align: center;
+    text-decoration: none;
+    width: max-content;
+    font-size: 1rem;
+}
+
+.btn-volver-form:hover {
+    background: #e0a902;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(249, 182, 2, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .ede-card-form {
+        padding: 30px;
+    }
+    
+    #contactForm {
+        grid-template-columns: 1fr;
+    }
+    
+    #contactForm textarea,
+    #contactForm div {
+        grid-column: span 1;
+    }
+    
+    #contactForm div {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .ede-card-form {
+        padding: 25px 20px;
+        width: 95%;
+    }
+    
+    .ede-card-form h1 {
+        font-size: 1.8rem;
+    }
+    
+    #contactForm input,
+    #contactForm select,
+    #contactForm textarea {
+        padding: 12px;
+    }
+    
+    .btn-volver-form {
+        width: 100%;
+    }
+}
+
+
+
+
+/* Mensajes flotantes */
+.message-card {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 1000;
+    max-width: 350px;
+    animation: slideIn 0.5s ease-out;
+    transform: translateX(0);
+    transition: all var(--transition-speed) ease;
+}
+
+/* Animación de entrada */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Mensaje de éxito */
+.message-card.success {
+    background: var(--success);
+    border-left: 5px solid darken(var(--success), 10%);
+}
+
+/* Mensaje de error */
+.message-card.error {
+    background: var(--error);
+    border-left: 5px solid darken(var(--error), 10%);
+}
+
+/* Botón de cerrar */
+.close-button {
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--text-color);
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    transition: var(--transition-speed);
+}
+
+.close-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: rotate(90deg);
+}
+
+/* Iconos (usando Font Awesome) */
+.message-card::before {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+.message-card.error::before {
+    content: '\f06a'; /* Icono exclamation-circle */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .message-card {
+        top: 20px;
+        right: 20px;
+        left: 20px;
+        max-width: none;
+    }
+}

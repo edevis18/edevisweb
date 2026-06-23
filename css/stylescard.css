@@ -1,0 +1,274 @@
+/* CARD PAGINAS */
+
+
+body {
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 20px; /* Ajuste de margen lateral */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1a1b1d;
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px; /* Nuevo margen inferior */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #a309fc;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #cc76fe;
+}
+
+/* Media Query para pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+    .card-section {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+
+    .card {
+        margin-bottom: 10px; /* Ajuste de margen inferior para pantallas más pequeñas */
+    }
+
+    .card img {
+        height: 150px;
+    }
+}
+
+a button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #a309fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a button:hover {
+    background-color: #cc76fe;
+}
+
+
+
+.card-form {
+  background-color: #ccc;  /* Set a background color */
+  border-radius: 20px;     /* Round the corners */
+  padding: 20px;          /* Add padding for content spacing */
+  margin: 20px auto;      /* Center the card horizontally */
+  width: 60%;             /* Set a preferred width */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.card-form button {
+  background-color: #a309fc;  /* Green background for button */
+  color: #fff;             /* White text color */
+  border: none;             /* Remove default border */
+  padding: 10px 20px;       /* Add padding for button size */
+  text-align: center;       /* Center button text */
+  text-decoration: none;    /* Remove default underline */
+  display: inline-block;    /* Set button as inline-block for proper styling */
+  font-size: 16px;          /* Set font size */
+  border-radius: 5px;       /* Round button corners */
+  cursor: pointer;          /* Set hover cursor appearance */
+}
+
+.card-form button:hover {
+  background-color: #cc76fe;  /* Slightly darker green on hover */
+}
+
+/* Optional: Adjust spacing for button placement */
+.card-form a {
+  margin-top: 15px; /* Add spacing before button */
+}
+
+.card-from h1{
+
+}
+
+
+
+/* Media queries for smaller screens (adjust breakpoint as needed) */
+@media (max-width: 768px) {
+  .card-form {
+    width: 80%; /* Adjust width for smaller screens */
+  }
+}
+
+/* Optional media queries for even smaller screens (adjust breakpoints as needed) */
+@media (max-width: 480px) {
+  .card-form {
+    width: 100%; /* Make form full width on very small screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+  .card-form button {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+
+
+
+}
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    width: 48%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #1a1b1d;
+    color: white;
+}
+
+.contact-form button[type="reset"] {
+    background-color: #1a1b1d;
+    color: white;
+}
+
+/* Versión responsive */
+@media (max-width: 600px) {
+  .contact-form {
+        width: 100%;
+        padding: 15px;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+  .contact-form button {
+        width: 90%;
+        margin-top: 5px;
+    }
+
+
+  .contact-form button[type="submit"] {
+    width: 90%;
+}
+
+.contact-form button[type="reset"] {
+  width: 90%;
+}
+
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+
+width: 90%;
+
+}
+
+}
+
+
+.message-card {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e6ffee;
+    color: #28a745;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    width: 300px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.message-card .message-text {
+    margin: 0;
+    font-size: 16px;
+}
+
+.message-card .close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #28a745;
+    cursor: pointer;
+}

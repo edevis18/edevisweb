@@ -1,0 +1,406 @@
+/* Definición de variables de color y estilos base */
+        :root {
+            --primary-color: #a309fc;
+            --secondary-color: #630c95;
+            --accent-color: #f9b602;
+            --text-color: #ffffff;
+            --sidebar-bg: #232323;
+            --darker-bg: #1a1a1a;
+            --error: #f54051;
+            --success: #1ba348;
+            --badge: #f94e02;
+            --transition-speed: 0.3s;
+        }
+
+        /* Aplicando la fuente base y colores */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--sidebar-bg);
+            color: var(--text-color);
+            scroll-behavior: smooth;
+        }
+        
+        /* Clases personalizadas para usar las variables con Tailwind */
+        .bg-primary { background-color: var(--primary-color); }
+        .bg-secondary { background-color: var(--secondary-color); }
+        .bg-accent { background-color: var(--accent-color); }
+        .bg-darker { background-color: var(--darker-bg); }
+        .text-accent { color: var(--accent-color); }
+        .text-error { color: var(--error); }
+        .border-primary { border-color: var(--primary-color); }
+        .border-accent { border-color: var(--accent-color); }
+        
+        /* Estilo para el scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--sidebar-bg);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--secondary-color);
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--primary-color);
+        }
+
+        /* --- Estilo de Hover dinámico para el menú de escritorio --- */
+        header nav.hidden a {
+            position: relative;
+            padding-bottom: 5px; /* Espacio para la línea */
+        }
+
+        header nav.hidden a::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: var(--accent-color);
+            bottom: 0;
+            left: 0;
+            transform: scaleX(0);
+            transform-origin: center;
+            transition: transform var(--transition-speed) ease;
+        }
+
+        header nav.hidden a:hover::after {
+            transform: scaleX(1);
+        }
+
+        /* Asegurar que la imagen sea perfectamente redonda */
+        .profile-image {
+            aspect-ratio: 1 / 1;
+        }
+
+        /* --- Estilos para las notificaciones flotantes (Toast) --- */
+        .toast {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 1rem 1.5rem;
+            border-radius: 0.5rem;
+            color: white;
+            font-weight: 600;
+            z-index: 100;
+            opacity: 0;
+            transform: translateX(100%);
+            animation: slideIn 0.5s forwards, fadeOut 0.5s 3.5s forwards;
+        }
+        .toast.success {
+            background-color: var(--success);
+        }
+        .toast.error {
+            background-color: var(--error);
+        }
+        
+        /* --- Estilos para Logos de Aliados --- */
+        .ally-logo {
+            filter: grayscale(100%);
+            transition: filter var(--transition-speed) ease-in-out;
+        }
+        .ally-logo:hover {
+            filter: grayscale(0%);
+        }
+
+        /* --- Estilos para los campos del Formulario de Contacto --- */
+        #contact-form input,
+        #contact-form textarea,
+        #contact-form select {
+            background-color: #e2e8f0; /* Fondo gris claro */
+            color: #1a202c; /* Texto gris oscuro */
+            border: 2px solid transparent;
+        }
+
+        #contact-form input::placeholder,
+        #contact-form textarea::placeholder {
+            color: #718096; /* Placeholder gris medio */
+        }
+
+        #contact-form select:invalid {
+            color: #718096; /* Color para el placeholder "Selecciona tu país" */
+        }
+
+        #contact-form select option {
+          background-color: #ffffff;
+          color: #000000;
+        }
+
+        #contact-form input:focus,
+        #contact-form textarea:focus,
+        #contact-form select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+        
+        /* Estilos para el CAPTCHA */
+        #captcha-display {
+            font-family: 'Courier New', monospace;
+            letter-spacing: 0.1em;
+            user-select: none;
+            background-color: #cbd5e0;
+            color: #2d3748;
+        }
+
+
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+        }
+
+          /* --- Estilos específicos para el Slider de Proyectos --- */
+        #projects-slider {
+            touch-action: pan-y; /* Permite el scroll vertical en móvil mientras deslizas horizontalmente */
+            cursor: grab;
+        }
+        #slider-track.dragging {
+            cursor: grabbing;
+        }
+        /* Evita la selección de texto en las tarjetas al arrastrar */
+        .project-card {
+            user-select: none;
+        }
+
+
+    /* WHATSAPP FLOAT */
+
+        /* --- Animaciones --- */
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .notification-bubble {
+            animation: slideIn 0.5s ease-out forwards;
+        }
+
+        /* --- Estilos del Chatbot --- */
+        .chat-container {
+            display: none;
+            width: 340px;
+            height: 400px;
+            position: absolute;
+            bottom: 85px; /* Un poco más arriba que el botón */
+            right: 0;
+            flex-direction: column;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            overflow: hidden;
+            animation: fadeIn 0.3s ease-out;
+            background-color: #fff;
+        }
+        .chat-header {
+            background-color: #075E54;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .chat-header-info {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .profile-pic-container {
+            position: relative;
+        }
+        .profile-pic {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+        .online-indicator {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            background-color: #25D366;
+            border-radius: 50%;
+            border: 2px solid #075E54;
+        }
+        .close-btn {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        .chat-messages {
+            flex-grow: 1;
+            padding: 1rem;
+            overflow-y: auto;
+            background-color: #E5DDD5;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            color:#2c2c2c;
+        }
+        .message {
+            padding: 0.5rem 1rem;
+            border-radius: 18px;
+            max-width: 80%;
+            line-height: 1.4;
+            position: relative; /* For meta positioning */
+            padding-bottom: 1.5rem; /* Space for timestamp */
+            word-wrap: break-word;
+        }
+        .message.bot {
+            background-color: #fff;
+            align-self: flex-start;
+            border-bottom-left-radius: 4px;
+        }
+        .message.user {
+            background-color: #DCF8C6;
+            align-self: flex-end;
+            border-bottom-right-radius: 4px;
+        }
+        .message-meta {
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+            font-size: 0.7rem;
+            color: #667781; /* WhatsApp meta text color */
+            display: flex;
+            align-items: center;
+        }
+        .timestamp {
+            margin-right: 5px;
+        }
+        .seen-check {
+            color: #667781; /* Default grey color, same as timestamp */
+            font-size: 0.9rem;
+            transition: color 0.3s ease-in-out; /* Smooth color transition */
+        }
+        .seen-check.read {
+            color: #53bdeb; /* WhatsApp blue check color */
+        }
+        /* Typing indicator */
+        .typing-indicator {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+        }
+        .typing-indicator span {
+            height: 8px;
+            width: 8px;
+            margin: 0 2px;
+            background-color: #999;
+            border-radius: 50%;
+            display: inline-block;
+            animation: bounce 1.4s infinite ease-in-out both;
+        }
+        .typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
+        .typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1.0); }
+        }
+
+        .chat-input {
+            display: flex;
+            padding: 0.75rem;
+            border-top: 1px solid #ddd;
+            background-color: #f0f0f0;
+            color:#2c2c2c;
+        }
+        #chatInput {
+            flex-grow: 1;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            padding: 0.5rem 1rem;
+            outline: none;
+        }
+        #sendMessageBtn {
+            background: #128C7E;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            margin-left: 0.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+
+
+
+
+/* Agrega esto a tu archivo CSS o en un tag <style> */
+.stats-card {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+.stats-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(var(--accent-rgb, 74, 222, 128), 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.stats-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, 
+        transparent, 
+        var(--accent-color, #4ade80), 
+        transparent
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.stats-card:hover::before {
+    opacity: 1;
+}
+
+
+/* Agrega esto a tu CSS */
+.lazy-image {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.lazy-image.loaded {
+    opacity: 1;
+}
+
+/* Placeholder mientras carga */
+.lazy-image:not([src]) {
+    background: linear-gradient(90deg, #2a2a2a 0%, #333 50%, #2a2a2a 100%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}

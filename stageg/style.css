@@ -1,0 +1,557 @@
+/* Estilos generales del cuerpo de la página */
+body {
+      font-family: lato,sans-serif;
+      max-width: 100%;
+      margin: 0 auto;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; 
+      background: #151515;
+    }
+/* SECCION---------------- */
+
+ /* Estilos del navbar */
+        .navbar {
+            background-color: #151515;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            z-index: 2; /* Asegura que el navbar esté delante de los demás elementos */
+        }
+
+        /* Estilos del logotipo */
+        .logo img {
+            width: 100px; /* Ajusta el ancho según el tamaño de tu logotipo */
+            height: auto;
+        }
+
+        /* Estilos del menú */
+        .menu {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            margin-left: 5px;
+        }
+
+        .menu a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 7px 10px;
+            border-radius: 4px;
+        }
+
+        .menu a:hover {
+            background-color: #75653c;
+            color: white;
+        }
+
+        /* Estilos para dispositivos móviles */
+        @media only screen and (max-width: 768px) {
+            .menu {
+                display: none; /* Ocultar el menú en pantallas pequeñas */
+            }
+
+            .menu.open {
+                display: flex; /* Mostrar el menú al hacer clic en el ícono */
+                flex-direction: column;
+                background-color: #2f2f2f;
+                position: absolute;
+                top: 70px; /* Ajusta la posición del menú desplegable */
+                right: 20px;
+                z-index: 1; /* Asegura que el menú desplegable esté delante de los demás elementos */
+            }
+
+            .menu.open li {
+                margin: 5px 0;
+            }
+        }
+
+        .menu-toggle {
+            display: none; /* Ocultar el ícono de hamburguesa en pantallas grandes */
+        }
+
+        /* Estilos para el ícono de hamburguesa */
+        @media only screen and (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+                cursor: pointer;
+            }
+        }
+
+/* Estilos CSS para el bloque hero */
+.hero {
+    background-image: url('img/fondo2.jpg'); /* Reemplaza 'img/fondo.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover; /* La imagen se ajusta para cubrir todo el bloque */
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff; /* Color del texto en el bloque hero */
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo con opacidad */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Estilos CSS para el botón */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Estilos CSS para el bloque hero en dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .hero {
+        background-size: cover; /* La imagen se ajusta para cubrir todo el bloque */
+        padding: 50px 0; /* Ajusta el espacio interno para dispositivos móviles */
+    }
+
+    .hero h1 {
+        font-size: 24px; /* Reduce el tamaño del título para dispositivos móviles */
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 16px; /* Reduce el tamaño del texto para dispositivos móviles */
+    }
+
+    /* Estilos CSS para el botón en dispositivos móviles */
+    .btn {
+        padding: 10px 20px; /* Ajusta el tamaño del botón para dispositivos móviles */
+        font-size: 14px; /* Reduce el tamaño del texto del botón para dispositivos móviles */
+    }
+}
+
+
+
+/* Estilos CSS para la sección de servicios */
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas con el mismo ancho */
+    gap: 20px; /* Espacio entre las tarjetas */
+    margin: 20px; /* Margen alrededor del grid */
+}
+
+/* Estilos CSS para cada tarjeta de servicio */
+.service {
+    background-color: #151515; /* Color de fondo de la tarjeta */
+    border: 1px solid #e9cb78; /* Borde de la tarjeta */
+    border-radius: 10px;
+    padding: 20px; /* Espacio interno de la tarjeta */
+    text-align: center;
+}
+
+/* Estilos CSS para los iconos */
+.service i {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #e9cb78; /* Color del icono */
+}
+
+/* Estilos CSS para los títulos */
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Estilos CSS para los párrafos */
+.service p {
+    font-size: 16px;
+    color: #fff; /* Color del texto */
+}
+
+/* Media Query para pantallas más pequeñas (por ejemplo, smartphones) */
+@media (max-width: 768px) {
+    .services {
+        grid-template-columns: repeat(1, 1fr); /* Una columna para pantallas más pequeñas */
+    }
+
+    .service {
+        padding: 15px; /* Ajustar el espacio interno para pantallas más pequeñas */
+    }
+
+    .service i {
+        font-size: 24px; /* Reducir el tamaño del icono para pantallas más pequeñas */
+    }
+
+    .service h3 {
+        font-size: 18px; /* Reducir el tamaño del título para pantallas más pequeñas */
+    }
+
+    .service p {
+        font-size: 14px; /* Reducir el tamaño del texto para pantallas más pequeñas */
+    }
+}
+
+/* Estilos para el bloque Our Work */
+        .our-work {
+            text-align: center;
+            padding: 5px 0;
+        }
+
+        /* Estilos para el encabezado h2 */
+        .our-work h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #e9cb78;
+        }
+
+/* Estilos básicos del Slide */
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+            overflow: hidden; /* Evita que el slide desborde en pantallas pequeñas */
+        }
+
+        .slide {
+            display: none;
+            position: relative;
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Estilos para las flechas de cambio */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 40px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            z-index: 1; /* Coloca las flechas por encima del slide */
+        }
+
+        .prev {
+            left: 0; /* Ubicar la flecha en el lado izquierdo */
+            margin-top: -22px; /* Ajustar la posición verticalmente */
+            border-radius: 3px 0 0 3px; /* Esquina redondeada en el lado izquierdo */
+        }
+
+        .next {
+            right: 0; /* Ubicar la flecha en el lado derecho */
+            margin-top: -22px; /* Ajustar la posición verticalmente */
+            border-radius: 0 3px 3px 0; /* Esquina redondeada en el lado derecho */
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Estilos para mostrar la imagen activa */
+        .active {
+            display: block;
+        }
+
+        /* Estilos para dispositivos móviles */
+        @media only screen and (max-width: 768px) {
+            .slide {
+                display: block; /* Mostrar cada slide en pantallas pequeñas */
+            }
+
+            .prev, .next {
+                display: none; /* Ocultar las flechas en pantallas pequeñas */
+            }
+        }
+
+       /* Estilos para el contenedor principal */
+.about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+/* Estilos para la columna de la foto */
+.about-us .photo {
+    flex: 1; /* Ocupa el 50% del ancho total */
+    text-align: center;
+}
+
+/* Estilos para la columna de texto */
+.about-us .text {
+    flex: 1; /* Ocupa el 50% del ancho total */
+    padding: 0 20px; /* Espacio alrededor del texto */
+    color: #fff;
+}
+
+/* Estilos para la imagen */
+.about-us img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .about-us {
+        flex-direction: column; /* Cambia a una disposición de columna en pantallas más estrechas */
+        text-align: center;
+    }
+
+    .about-us .photo,
+    .about-us .text {
+        flex: none; /* Elimina la flexibilidad, para que cada elemento ocupe todo el ancho */
+        padding: 0; /* Elimina el espacio alrededor del texto */
+    }
+
+    .about-us img {
+        max-width: 100%; /* Asegura que la imagen se ajuste al ancho de la pantalla */
+        height: auto;
+    }
+}
+
+
+
+/* Estilos generales para la sección */
+.contacts {
+    text-align: center;
+    background-color: #151515;
+    padding: 20px 0;
+    margin: 20px;
+}
+
+/* Estilos para el título */
+.contacts h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor del grid */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Estilos para cada columna */
+.contact-column {
+    background-color: #151515;
+    border: 1px solid #e9cb78;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para los iconos */
+.contact-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Estilos para el texto de contacto */
+.contact-text {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr; /* Cambia a una sola columna en dispositivos móviles */
+    }
+
+    .contact-column {
+        margin-bottom: 20px;
+    }
+}
+
+ .footer {
+            background-color: #454545;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+
+        /* Estilos del bloque de enlaces verticales */
+        .footer-links {
+            flex: 0 1 200px; /* Ajusta el ancho del bloque de enlaces */
+            margin-top: 20px; /* Añadir un espacio superior para separar de otros bloques */
+        }
+
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: #323232;
+            text-decoration: none;
+        }
+
+
+        .footer-map iframe {
+            width: 100%;
+            height: 200px; /* Ajusta la altura del mapa */
+            border: none;
+        }
+
+        /* Estilos para dispositivos móviles */
+        @media only screen and (max-width: 768px) {
+            .footer {
+                flex-direction: column; /* Cambiar la dirección a vertical */
+            }
+
+            .footer-logo,
+            .footer-links,
+            .footer-map {
+                flex: none; /* Elimina el flex para que los bloques tengan ancho 100% */
+            }
+        }
+
+/* Estilos para el botón flotante de WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    right: 20px; /* Ajusta la distancia desde la derecha */
+    background-color: #fff; /* Color de fondo de WhatsApp */
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+/* Estilos para el enlace de WhatsApp */
+.whatsapp-button a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para el icono de WhatsApp */
+.whatsapp-button img {
+    width: 24px; /* Ajusta el tamaño del icono según sea necesario */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+/* Estilos para el mensaje de WhatsApp */
+.whatsapp-button span {
+    font-weight: bold;
+}
+
+/* Estilos para el enlace de WhatsApp al pasar el mouse */
+.whatsapp-button a:hover {
+    background-color: #fff; /* Cambia el color al pasar el mouse */
+}
+
+/* FORMULARIO */
+
+.container {
+    text-align: center; /* Centra horizontalmente el contenido */
+    
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff; /* Cambia el color de la letra a blanco */
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%; /* Anchura máxima del formulario */
+    max-width: 400px; /* Ajusta el ancho máximo del campo de entrada */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilo base del aviso de cookies */
+.cookie-notice {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    display: none; /* Inicialmente oculto */
+    transition: all 0.3s; /* Transición suave */
+}
+
+.cookie-notice p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Estilo del botón de aceptar */
+#aceptar-cookies {
+    background-color: #e9cb78;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilo del botón de aceptar al pasar el mouse */
+#aceptar-cookies:hover {
+    background-color: #ffd700;
+}

@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Edevis Raga — Especialista en Landing Pages y Meta Ads para negocios hispanos en Estados Unidos y Latinoamérica. Páginas web que convierten + campañas de Facebook e Instagram que generan ventas reales.">
+    <meta name="keywords" content="landing page negocios hispanos USA, Meta Ads español Estados Unidos, Facebook Ads hispano, desarrollo web médicos hispanós, marketing digital comunidad hispana">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property='og:type' content='website'>
+    <meta property='og:title' content='Edevis Raga — Landing Pages & Meta Ads para Negocios Hispanos en USA'>
+    <meta property='og:image' content='https://edevisraga.com/img/portada.jpg'>
+    <meta property='og:description' content='Especialista en Landing Pages que convierten y campañas de Meta Ads en español para negocios en Latinoamérica y hispanos en Estados Unidos.'>
+    <meta property='og:url' content='https://edevisraga.com/'>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- CSS PRINCIPAL -->
+    <link rel="stylesheet" href="css/style-v2.css">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://edevisraga.com"/>
+
+    <title>Edevis Raga | Landing Pages & Meta Ads para Negocios</title>
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="antialiased">
+
+<!-- Mobile Menu Overlay -->
+<div id="mobile-overlay" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-[100] hidden transition-opacity duration-300"></div>
+
+<!-- Mobile Menu Sidebar -->
+<div id="mobile-menu" class="fixed top-0 right-0 h-full w-80 bg-[#232323] shadow-2xl z-[110] transform translate-x-full transition-transform duration-300 ease-in-out">
+    <div class="p-6 border-b border-gray-700 flex justify-between items-center">
+        <div class="flex items-center">
+            <img loading="lazy" src="img/logo2.png" alt="Logo Edevis Raga" class="h-8 w-auto">
+            <span class="ml-3 text-white font-medium">Menú</span>
+        </div>
+        <button id="mobile-close-button" class="text-gray-400 hover:text-white transition-colors duration-200 focus:outline-none">
+            <i class="fas fa-times text-2xl"></i>
+        </button>
+    </div>
+    <div class="overflow-y-auto h-[calc(100%-80px)] px-6 py-4">
+        <nav class="space-y-1">
+            <a href="#hero" class="block py-4 text-gray-300 hover:text-accent hover:bg-gray-800 transition-colors duration-200 rounded-lg px-4">Inicio</a>
+            <a href="#services" class="block py-4 text-gray-300 hover:text-accent hover:bg-gray-800 transition-colors duration-200 rounded-lg px-4">Servicios</a>
+            <a href="#results" class="block py-4 text-gray-300 hover:text-accent hover:bg-gray-800 transition-colors duration-200 rounded-lg px-4">Resultados</a>
+            <a href="#about" class="block py-4 text-gray-300 hover:text-accent hover:bg-gray-800 transition-colors duration-200 rounded-lg px-4">Sobre Mí</a>
+            <a href="#testimonials" class="block py-4 text-gray-300 hover:text-accent hover:bg-gray-800 transition-colors duration-200 rounded-lg px-4">Testimonios</a>
+            <a href="portafolio.html" class="block py-4 text-gray-300 hover:text-accent hover:bg-gray-800 transition-colors duration-200 rounded-lg px-4">Portafolio</a>
+            <a href="#contact" class="block py-4 text-gray-300 hover:text-accent hover:bg-gray-800 transition-colors duration-200 rounded-lg px-4">Contacto</a>
+        </nav>
+    </div>
+</div>
+
+<!-- Header -->
+<header class="bg-darker/90 backdrop-blur-sm fixed top-0 left-0 right-0 z-[50] shadow-lg">
+    <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+        <a href="#" class="flex items-center">
+            <img loading="lazy" src="img/logo2.png" alt="Logo Edevis Raga" class="h-10 w-auto">
+        </a>
+        <nav class="hidden md:flex space-x-8 items-center">
+            <a href="#hero" class="hover:text-accent transition-colors duration-300">Inicio</a>
+            <a href="#services" class="hover:text-accent transition-colors duration-300">Servicios</a>
+            <a href="#results" class="hover:text-accent transition-colors duration-300">Resultados</a>
+            <a href="#about" class="hover:text-accent transition-colors duration-300">Sobre Mí</a>
+            <a href="#testimonials" class="hover:text-accent transition-colors duration-300">Testimonios</a>
+            <a href="#projects" class="hover:text-accent transition-colors duration-300">Portafolio</a>
+            <a href="#contact" class="bg-primary text-white font-bold px-5 py-2 rounded-full hover:bg-secondary transition-all duration-300">Hablemos</a>
+        </nav>
+        <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
+            <i id="menu-icon" class="fas fa-bars text-2xl"></i>
+        </button>
+    </div>
+</header>
+
+<style>
+#mobile-menu { box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5); }
+#mobile-overlay { transition: opacity 0.3s ease; }
+.rotate-180 { transform: rotate(180deg); }
+body.menu-open { overflow: hidden; }
+
+/* ============================================
+   RESPONSIVE FIXES — Mobile First
+   ============================================ */
+
+/* Stats cards: respiración y centrado correcto */
+.stats-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    padding: 1.75rem 1.25rem;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.stats-card:hover {
+    transform: translateY(-4px);
+}
+
+/* En móvil: una sola columna para que no se vean apretadas */
+@media (max-width: 640px) {
+    #stats .grid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+    .stats-card {
+        padding: 1.5rem 1.25rem;
+    }
+    /* Hero: control de tamaños en móvil */
+    #hero h1 {
+        font-size: 2.25rem !important;
+        line-height: 1.15 !important;
+    }
+    #hero p {
+        font-size: 1rem !important;
+    }
+}
+
+/* Evitar desbordamiento de textos largos (emails, etc.) */
+a, p, span, div {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Inputs y form: que no se desborden nunca */
+input, textarea, select {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Captcha: alineación limpia en móvil */
+#captcha-display {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    letter-spacing: 0.1em;
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#captcha-input {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+/* Form inputs styling consistente */
+#contact-form input,
+#contact-form textarea,
+#contact-form select {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+#contact-form input:focus,
+#contact-form textarea:focus,
+#contact-form select:focus {
+    outline: none;
+    border-color: var(--accent, #f59e0b);
+}
+
+/* Tarjetas de contacto directo: iconos y texto bien alineados */
+.contact-card-icon {
+    flex-shrink: 0;
+    width: 2.5rem;
+    text-align: center;
+}
+
+/* Asegurar que las cajas de contacto no desborden su contenido */
+#contact a[href^="mailto"] .text-white,
+#contact a[href^="mailto"] {
+    min-width: 0;
+}
+#contact a .text-white {
+    word-break: break-all;
+}
+
+/* Prevenir scroll horizontal en toda la página */
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+/* Case study: métricas en móvil 2x2 limpias */
+@media (max-width: 640px) {
+    #results .grid-cols-2.md\:grid-cols-4 > div {
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+}
+</style>
+
+<main>
+
+<!-- ===== Hero Section ===== -->
+<section id="hero" class="min-h-screen flex items-center relative overflow-hidden">
+    <div class="absolute inset-0 bg-darker">
+        <img src="img/background.png" alt="Background Hero" class="w-full h-full object-cover opacity-30">
+        <div class="absolute inset-0 bg-gradient-to-b from-darker/80 via-darker/60 to-darker"></div>
+    </div>
+    <div class="absolute inset-0 overflow-hidden">
+        <div class="absolute top-1/4 left-1/4 w-4 h-4 bg-accent rounded-full opacity-20 animate-pulse"></div>
+        <div class="absolute top-3/4 right-1/3 w-3 h-3 bg-primary rounded-full opacity-30 animate-bounce"></div>
+        <div class="absolute bottom-1/3 left-1/3 w-2 h-2 bg-accent rounded-full opacity-40 animate-ping"></div>
+    </div>
+
+    <div class="container mx-auto px-6 text-center relative z-10">
+        <div class="fade-in-up">
+            <!-- Badge -->
+            <div class="inline-block bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-semibold mb-6 border border-accent/30">
+            Especialista en Landing Pages & Meta Ads para Negocios
+            </div>
+
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight" style="font-family: 'Poppins', sans-serif;">
+                Tu Negocio <span class="text-accent block md:inline">Merece una Web que Venda</span>
+            </h1>
+
+            <p class="mt-6 text-lg md:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                Diseño <strong class="text-white">Landing Pages que convierten</strong> y gestiono campañas de <strong class="text-white">Meta Ads en español</strong> para médicos, bufetes, coaches, iglesias y profesionales.
+            </p>
+
+            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contact" class="inline-block bg-primary text-white font-bold rounded-full py-4 px-8 hover:bg-secondary transition-all duration-300 shadow-lg transform hover:scale-105">
+                    Quiero más clientes →
+                </a>
+                <a href="#results" class="inline-block border-2 border-accent text-accent font-bold rounded-full py-4 px-8 hover:bg-accent hover:text-black transition-all duration-300 transform hover:scale-105">
+                    Ver Resultados Reales
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Stats Section ===== -->
+<section id="stats" class="py-16 md:py-20 bg-darker/80 backdrop-blur-sm">
+    <div class="container mx-auto px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12 fade-in-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                    Números que <span class="text-accent">Respaldan el Trabajo</span>
+                </h2>
+                <p class="text-gray-400 max-w-2xl mx-auto text-lg">
+                    18 años construyendo presencias digitales para negocios en Estados Unidos y Latinoamérica
+                </p>
+            </div>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+                <div class="stats-card fade-in-up" data-delay="0">
+                    <div class="relative">
+                        <div class="text-4xl md:text-5xl lg:text-6xl font-bold text-accent mb-2">
+                            <span class="counter" data-target="200">0</span>+
+                        </div>
+                        <div class="text-gray-300 text-lg font-medium mb-1">Proyectos Entregados</div>
+                        <p class="text-gray-500 text-sm">Webs, ads y diseño implementados con éxito</p>
+                    </div>
+                    <div class="absolute -top-2 -right-2 w-16 h-16 bg-accent/10 rounded-full blur-lg"></div>
+                </div>
+                <div class="stats-card fade-in-up" data-delay="100">
+                    <div class="relative">
+                        <div class="text-4xl md:text-5xl lg:text-6xl font-bold text-accent mb-2">
+                            <span class="counter" data-target="18">0</span>+
+                        </div>
+                        <div class="text-gray-300 text-lg font-medium mb-1">Años de Experiencia</div>
+                        <p class="text-gray-500 text-sm">En el mercado digital desde 2007</p>
+                    </div>
+                    <div class="absolute -bottom-2 -left-2 w-16 h-16 bg-accent/10 rounded-full blur-lg"></div>
+                </div>
+                <div class="stats-card fade-in-up" data-delay="200">
+                    <div class="relative">
+                        <div class="text-4xl md:text-5xl lg:text-6xl font-bold text-accent mb-2">
+                            🇺🇸
+                        </div>
+                        <div class="text-gray-300 text-lg font-medium mb-1">Clientes en USA</div>
+                        <p class="text-gray-500 text-sm">Texas, Florida, New York, Indiana y más</p>
+                    </div>
+                    <div class="absolute -top-2 -left-2 w-16 h-16 bg-accent/10 rounded-full blur-lg"></div>
+                </div>
+                <div class="stats-card fade-in-up" data-delay="300">
+                    <div class="relative">
+                        <div class="text-4xl md:text-5xl lg:text-6xl font-bold text-accent mb-2">
+                            100%
+                        </div>
+                        <div class="text-gray-300 text-lg font-medium mb-1">En Español</div>
+                        <p class="text-gray-500 text-sm">Comunicación y estrategia en tu idioma</p>
+                    </div>
+                    <div class="absolute -bottom-2 -right-2 w-16 h-16 bg-accent/10 rounded-full blur-lg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Services Section ===== -->
+<section id="services" class="py-20 bg-sidebar-bg">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12 fade-in-up">
+            <h2 class="text-3xl md:text-4xl font-bold">Lo que Hago</h2>
+            <div class="w-24 h-1 bg-accent mx-auto mt-2 rounded"></div>
+            <p class="text-gray-400 mt-4 max-w-2xl mx-auto">Dos servicios enfocados en un solo objetivo: que tu negocio consiga más clientes</p>
+        </div>
+
+        <!-- Servicios principales -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+
+            <!-- Service Card 1: Landing Page - PRINCIPAL -->
+            <div class="bg-darker p-8 rounded-lg shadow-xl hover:shadow-primary/30 transition-shadow duration-300 transform hover:-translate-y-2 fade-in-up flex flex-col h-full border-2 border-accent relative">
+                <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                    <span class="bg-accent text-black text-sm font-bold px-4 py-1 rounded-full">MÁS POPULAR</span>
+                </div>
+                <div class="text-4xl text-accent mb-4"><i class="fas fa-laptop-code"></i></div>
+                <h3 class="text-2xl font-bold mb-2">Landing Page Profesional</h3>
+                <p class="text-gray-400 mb-4 text-sm">Para médicos, coaches, restaurantes, iglesias y negocios</p>
+                <ul class="text-gray-400 text-left space-y-2 flex-grow">
+                    <li>✓ Diseño profesional en español e inglés</li>
+                    <li>✓ Optimizada para convertir visitantes en clientes</li>
+                    <li>✓ 4 Menús</li>
+                    <li>✓ Dominio .com + Hosting 1 año incluido</li>
+                    <li>✓ Formulario de contacto + ChatBot WhatsApp</li>
+                    <li>✓ SEO inicial para Google</li>
+                    <li>✓ Diseño 100% móvil responsive</li>
+                    <li>✓ Entrega en 5-7 días hábiles</li>
+                </ul>
+                <div class="mt-6 pt-6 border-t border-gray-700">
+                    <div class="text-3xl font-bold text-accent mb-1">desde $500 USD</div>
+                    <p class="text-gray-500 text-xs mb-4">50$ al mes de mantenimiento.</p>
+                    <a href="https://wa.link/kgcshu" target="_blank" class="bg-accent text-black font-bold py-3 px-6 rounded-lg w-full inline-block text-center hover:bg-opacity-90 transition-all">
+                        Solicitar Ahora →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service Card 2: Meta Ads -->
+            <div class="bg-darker p-8 rounded-lg shadow-xl hover:shadow-primary/30 transition-shadow duration-300 transform hover:-translate-y-2 fade-in-up flex flex-col h-full">
+                <div class="text-4xl text-accent mb-4"><i class="fab fa-meta"></i></div>
+                <h3 class="text-2xl font-bold mb-2">Gestión de Meta Ads</h3>
+                <p class="text-gray-400 mb-4 text-sm">Campañas de Facebook e Instagram</p>
+                <ul class="text-gray-400 text-left space-y-2 flex-grow">
+                    <li>✓ Estrategia de campaña personalizada</li>
+                    <li>✓ Configuración del Pixel y eventos de conversión</li>
+                    <li>✓ Copy de anuncios en español que convierte</li>
+                    <li>✓ Segmentación por ciudad, idioma y audiencia</li>
+                    <li>✓ Optimización hacia compras y leads reales</li>
+                    <li>✓ Retargeting para recuperar prospectos</li>
+                    <li>✓ Reportes semanales de resultados</li>
+                    <li>✓ Comunicación directa y en español</li>
+                </ul>
+                <div class="mt-6 pt-6 border-t border-gray-700">
+                    <div class="text-3xl font-bold text-accent mb-1">desde $250/mes USD</div>
+                    <p class="text-gray-500 text-xs mb-4">Gestión mensual + estrategia incluida</p>
+                    <a href="#contact" class="bg-primary text-white font-bold py-3 px-6 rounded-lg w-full inline-block text-center hover:bg-secondary transition-all">
+                        Consultar Disponibilidad →
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Servicios secundarios -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div id="seo" class="bg-darker/50 border border-gray-700 p-6 rounded-lg fade-in-up flex items-start gap-4">
+                <div class="text-2xl text-accent mt-1"><i class="fas fa-search"></i></div>
+                <div>
+                    <h4 class="text-lg font-bold mb-1">SEO Local</h4>
+                    <p class="text-gray-400 text-sm">Google My Business, auditoría SEO y posicionamiento para que tu negocio aparezca en búsquedas locales en USA.</p>
+                    <a href="#contact" class="text-accent text-sm hover:underline mt-2 inline-block">Consultar →</a>
+                </div>
+            </div>
+            <div class="bg-darker/50 border border-gray-700 p-6 rounded-lg fade-in-up flex items-start gap-4">
+                <div class="text-2xl text-accent mt-1"><i class="fas fa-palette"></i></div>
+                <div>
+                    <h4 class="text-lg font-bold mb-1">Diseño Gráfico</h4>
+                    <p class="text-gray-400 text-sm">Identidad visual, branding, flyers y materiales de marketing para tu negocio hispano en USA y Latinoamérica.</p>
+                    <a href="https://www.behance.net/edevis18a165" target="_blank" class="text-accent text-sm hover:underline mt-2 inline-block">Ver Portafolio →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Case Study / Results Section ===== -->
+<section id="results" class="py-20 bg-darker">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12 fade-in-up">
+            <h2 class="text-3xl md:text-4xl font-bold">Resultados Reales</h2>
+            <div class="w-24 h-1 bg-accent mx-auto mt-2 rounded"></div>
+            <p class="text-gray-400 mt-4 max-w-2xl mx-auto">No promesas. Casos reales con datos verificables de campañas activas.</p>
+        </div>
+
+        <!-- Case Study Card -->
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-sidebar-bg rounded-2xl overflow-hidden shadow-2xl border border-accent/20 fade-in-up">
+                <!-- Header del caso -->
+                <div class="bg-gradient-to-r from-accent/20 to-primary/20 p-6 border-b border-gray-700">
+                    <div class="flex items-center gap-3 mb-2">
+                        <span class="bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">✓ CLIENTE ACTIVO</span>
+                        <span class="text-gray-400 text-sm">Ministerio cristiano hispano · USA</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white">Ebook Ministerial — Comunidad Hispana Cristiana en EE.UU.</h3>
+                    <p class="text-gray-400 mt-1 text-sm">Landing page + pixel de Meta + campañas de Facebook e Instagram</p>
+                </div>
+
+                <!-- Métricas -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-0 border-b border-gray-700">
+                    <div class="p-6 text-center border-r border-gray-700">
+                        <div class="text-3xl font-bold text-accent">$40</div>
+                        <div class="text-sm text-gray-400 mt-1">Inversión inicial</div>
+                    </div>
+                    <div class="p-6 text-center border-r border-gray-700">
+                        <div class="text-3xl font-bold text-accent">9</div>
+                        <div class="text-sm text-gray-400 mt-1">Ventas confirmadas</div>
+                    </div>
+                    <div class="p-6 text-center border-r border-gray-700">
+                        <div class="text-3xl font-bold text-accent">3.4x</div>
+                        <div class="text-sm text-gray-400 mt-1">ROAS retargeting</div>
+                    </div>
+                    <div class="p-6 text-center">
+                        <div class="text-3xl font-bold text-accent">5.7%</div>
+                        <div class="text-sm text-gray-400 mt-1">CTR promedio</div>
+                    </div>
+                </div>
+
+                <!-- Detalles -->
+                <div class="p-8">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="font-bold text-white mb-3 flex items-center gap-2">
+                                <i class="fas fa-check-circle text-accent"></i> Lo que hicimos
+                            </h4>
+                            <ul class="text-gray-400 text-sm space-y-2">
+                                <li>→ Landing page optimizada para conversión</li>
+                                <li>→ Pixel de Meta con EMQ 8.3/10 (excelente)</li>
+                                <li>→ Campañas Purchase optimizadas hacia compra</li>
+                                <li>→ Retargeting multi-país con CPM reducido</li>
+                                <li>→ Copy en español para comunidad hispana cristiana</li>
+                                <li>→ Segmentación por ciudades hispanas en USA</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white mb-3 flex items-center gap-2">
+                                <i class="fas fa-map-marker-alt text-accent"></i> Compradores confirmados en USA
+                            </h4>
+                            <ul class="text-gray-400 text-sm space-y-2">
+                                <li>📍 Bronx, New York</li>
+                                <li>📍 Austell, Georgia</li>
+                                <li>📍 Elkhart, Indiana (libro + 2 bumps)</li>
+                                <li>📍 Miami, Florida (retargeting)</li>
+                                <li class="text-accent font-medium mt-2">→ 100% de las ventas: comunidad hispana en USA</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-6 p-4 bg-accent/10 rounded-lg border border-accent/20">
+                        <p class="text-sm text-gray-300 italic">"La campaña de retargeting recuperó compradores que no habían completado su compra. Una sola venta recuperada generó un ROAS de 3.4x — por cada $1 invertido, se recuperaron $3.41."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-8">
+                <a href="#contact" class="inline-block bg-primary text-white font-bold rounded-full py-4 px-10 hover:bg-secondary transition-all duration-300 shadow-lg transform hover:scale-105">
+                    Quiero resultados así para mi negocio →
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== About Me Section ===== -->
+<section id="about" class="py-20 bg-sidebar-bg">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12 fade-in-up">
+            <h2 class="text-3xl md:text-4xl font-bold">Sobre Mí</h2>
+            <div class="w-24 h-1 bg-accent mx-auto mt-2 rounded"></div>
+        </div>
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/3 flex justify-center fade-in-up">
+                <img loading="lazy" src="img/foto1.png" alt="Foto de perfil de Edevis Raga" class="profile-image w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-2xl border-4 border-accent">
+            </div>
+            <div class="w-full md:w-2/3 text-center md:text-left fade-in-up">
+                <h3 class="text-2xl font-semibold text-accent">¡Hola! Soy Edevis Raga</h3>
+                <p class="mt-4 text-gray-300 leading-relaxed">
+                    Soy comunicador digital con más de <strong class="text-white">18 años de experiencia</strong> y una especialización clara: ayudo a <strong class="text-white">negocios en Latinoamérica y Estados Unidos</strong> a conseguir más clientes con Landing Pages profesionales y campañas de Meta Ads en español.
+                </p>
+                <p class="mt-4 text-gray-300 leading-relaxed">
+                    He trabajado con negocios, emisoras, fotógrafos, ministerios y empresas de servicios en <strong class="text-white">Houston TX, Santiado de Chile, Perú, Venezuela</strong>. Entiendo la comunidad hispana en USA — y sé cómo comunicarle en su idioma, con su cultura y con mensajes que resuenen.
+                </p>
+                <p class="mt-4 text-gray-300 leading-relaxed">
+                    Mi diferencial: no solo diseño páginas bonitas — <strong class="text-white">instalo el pixel de Meta, configuro los eventos de conversión y gestiono las campañas</strong> para que cada dólar invertido en publicidad trabaje de la manera más eficiente posible.
+                </p>
+                <div class="mt-6 flex justify-center md:justify-start space-x-4">
+                    <a href="https://wa.me/5804246538309" target="_blank" class="text-2xl hover:text-primary transition-colors"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/edevisr" target="_blank" class="text-2xl hover:text-primary transition-colors"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/edevisr" target="_blank" class="text-2xl hover:text-primary transition-colors"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Portfolio Web Projects Section ===== -->
+<section id="projects" class="py-20 bg-darker">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold">Proyectos Web</h2>
+            <div class="w-24 h-1 bg-accent mx-auto mt-2 rounded"></div>
+            <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Proyectos reales para clientes en Estados Unidos y Latinoamérica.</p>
+        </div>
+        <div class="relative">
+            <div id="projects-slider" class="overflow-hidden">
+                <div id="slider-track" class="flex transition-transform duration-300 ease-in-out">
+                    <!-- Project Card 1: USA -->
+                    <div class="project-card flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 p-4">
+                        <div class="bg-sidebar-bg rounded-lg shadow-xl overflow-hidden h-full flex flex-col">
+                            <img loading="lazy" src="img/stageg.jpg" alt="StageG Photos Houston" class="w-full h-48 object-cover">
+                            <div class="p-6 flex flex-col flex-grow">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <span class="text-xs bg-accent/20 text-accent px-2 py-1 rounded-full">🇺🇸 Houston, TX</span>
+                                </div>
+                                <h3 class="text-xl font-bold mb-2 text-white">StageG Photos</h3>
+                                <p class="text-gray-400 mb-4 flex-grow">Empresa de fotografía para eventos en Houston, Texas. Landing page + galería + contacto.</p>
+                                <a href="./stageg" target="_blank" class="mt-auto text-center bg-primary text-white font-bold rounded-full py-2 px-6 hover:bg-secondary transition-all duration-300 transform hover:scale-105">
+                                    Visitar Sitio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 2: USA -->
+                    <div class="project-card flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 p-4">
+                        <div class="bg-sidebar-bg rounded-lg shadow-xl overflow-hidden h-full flex flex-col">
+                            <img loading="lazy" src="img/makri.jpg" alt="MakriSystem" class="w-full h-48 object-cover">
+                            <div class="p-6 flex flex-col flex-grow">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <span class="text-xs bg-accent/20 text-accent px-2 py-1 rounded-full">🌎 Venezuela</span>
+                                </div>
+                                <h3 class="text-xl font-bold mb-2 text-white">MakriSystem</h3>
+                                <p class="text-gray-400 mb-4 flex-grow">Empresa de outsourcing y Atención al Cliente. Sitio corporativo completo.</p>
+                                <a href="https://makrisystem.com/" target="_blank" class="mt-auto text-center bg-primary text-white font-bold rounded-full py-2 px-6 hover:bg-secondary transition-all duration-300 transform hover:scale-105">
+                                    Visitar Sitio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="project-card flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 p-4">
+                        <div class="bg-sidebar-bg rounded-lg shadow-xl overflow-hidden h-full flex flex-col">
+                            <img loading="lazy" src="img/futurafm.jpg" alt="Futura FM" class="w-full h-48 object-cover">
+                            <div class="p-6 flex flex-col flex-grow">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <span class="text-xs bg-accent/20 text-accent px-2 py-1 rounded-full">🌎 Venezuela</span>
+                                </div>
+                                <h3 class="text-xl font-bold mb-2 text-white">Futura 104.7 Fm</h3>
+                                <p class="text-gray-400 mb-4 flex-grow">Emisora de radio FM con aplicación y reproductor online integrado.</p>
+                                <a href="https://futurafm.gob.ve" target="_blank" class="mt-auto text-center bg-primary text-white font-bold rounded-full py-2 px-6 hover:bg-secondary transition-all duration-300 transform hover:scale-105">
+                                    Visitar Sitio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 4 -->
+                    <div class="project-card flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 p-4">
+                        <div class="bg-sidebar-bg rounded-lg shadow-xl overflow-hidden h-full flex flex-col">
+                            <img loading="lazy" src="img/dabar.jpg" alt="Dabar" class="w-full h-48 object-cover">
+                            <div class="p-6 flex flex-col flex-grow">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <span class="text-xs bg-accent/20 text-accent px-2 py-1 rounded-full">🇺🇸 Homestead, USA</span>
+                                </div>
+                                <h3 class="text-xl font-bold mb-2 text-white">DABAR</h3>
+                                <p class="text-gray-400 mb-4 flex-grow">Ministerio Profético - Ebooks publicado en Hotmart + Landing Page y Pixel Meta</p>
+                                <a href="https://dabarministerio.github.io/ebook-dabar" target="_blank" class="mt-auto text-center bg-primary text-white font-bold rounded-full py-2 px-6 hover:bg-secondary transition-all duration-300 transform hover:scale-105">
+                                    Visitar Sitio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+ <!-- Project Card 5 -->
+                    <div class="project-card flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 p-4">
+                        <div class="bg-sidebar-bg rounded-lg shadow-xl overflow-hidden h-full flex flex-col">
+                            <img loading="lazy" src="img/vidaactiva.jpg" alt="Vidaactiva" class="w-full h-48 object-cover">
+                            <div class="p-6 flex flex-col flex-grow">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <span class="text-xs bg-accent/20 text-accent px-2 py-1 rounded-full">🌎 Venezuela</span>
+                                </div>
+                                <h3 class="text-xl font-bold mb-2 text-white">Vidaactiva</h3>
+                                <p class="text-gray-400 mb-4 flex-grow">Tienda Landing Page con Checkout a Whatsapp. Enfocada en suplementos naturales.</p>
+                                <a href="https://vidaactiva.click" target="_blank" class="mt-auto text-center bg-primary text-white font-bold rounded-full py-2 px-6 hover:bg-secondary transition-all duration-300 transform hover:scale-105">
+                                    Visitar Sitio
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <button id="prev-slide" class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-darker/50 text-white p-3 rounded-full hover:bg-primary transition-colors z-10 hidden md:block">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button id="next-slide" class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-darker/50 text-white p-3 rounded-full hover:bg-primary transition-colors z-10 hidden md:block">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Portfolio Gráfico ===== -->
+<section id="portfolio" class="py-20 bg-sidebar-bg">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12 fade-in-up">
+            <h2 class="text-3xl md:text-4xl font-bold">Portafolio Gráfico</h2>
+            <div class="w-24 h-1 bg-accent mx-auto mt-2 rounded"></div>
+            <p class="text-gray-400 mt-4 max-w-2xl mx-auto">Una selección de trabajos de diseño e identidad visual para clientes en USA y Latinoamérica</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="group relative bg-darker rounded-lg overflow-hidden shadow-xl hover:shadow-primary/30 transition-all duration-300 fade-in-up">
+                <div class="overflow-hidden">
+                    <img src="img/design/eleonor-low.jpg" data-src="img/design/eleonor.jpg" alt="Eleonor Shop" width="400" height="240" loading="lazy" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500 lazy-image">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-white">Eleonor Shop</h3>
+                    <p class="text-gray-400 text-sm mt-1">Chile 🇨🇱</p>
+                </div>
+                <div class="absolute inset-0 bg-accent/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <a href="https://www.behance.net/edevis18a165?log_shim_removal=1" class="bg-black text-white font-bold py-2 px-4 rounded-lg hover:bg-opacity-80 transition-all">Ver Detalles</a>
+                </div>
+            </div>
+            <div class="group relative bg-darker rounded-lg overflow-hidden shadow-xl hover:shadow-primary/30 transition-all duration-300 fade-in-up">
+                <div class="overflow-hidden">
+                    <img src="img/design/makri-low.jpg" data-src="img/design/makri.jpg" alt="Makrisystem" width="400" height="240" loading="lazy" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500 lazy-image">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-white">Makrisystem</h3>
+                    <p class="text-gray-400 text-sm mt-1">Venezuela 🇻🇪</p>
+                </div>
+                <div class="absolute inset-0 bg-accent/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <a href="https://www.behance.net/edevis18a165?log_shim_removal=1" class="bg-black text-white font-bold py-2 px-4 rounded-lg hover:bg-opacity-80 transition-all">Ver Detalles</a>
+                </div>
+            </div>
+            <div class="group relative bg-darker rounded-lg overflow-hidden shadow-xl hover:shadow-primary/30 transition-all duration-300 fade-in-up">
+                <div class="overflow-hidden">
+                    <img src="img/design/hass-low.webp" data-src="img/design/hass.webp" alt="Premium Hass USA" width="400" height="240" loading="lazy" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500 lazy-image">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-white">Premium Hass</h3>
+                    <p class="text-gray-400 text-sm mt-1">Estados Unidos 🇺🇸</p>
+                </div>
+                <div class="absolute inset-0 bg-accent/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <a href="https://www.behance.net/edevis18a165?log_shim_removal=1" class="bg-black text-white font-bold py-2 px-4 rounded-lg hover:bg-opacity-80 transition-all">Ver Detalles</a>
+                </div>
+            </div>
+            <div class="group relative bg-darker rounded-lg overflow-hidden shadow-xl hover:shadow-primary/30 transition-all duration-300 fade-in-up">
+                <div class="overflow-hidden">
+                    <img src="img/design/junmy-low.jpg" data-src="img/design/junmy.jpg" alt="Junmy Nails USA" width="400" height="240" loading="lazy" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500 lazy-image">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-white">Junmy Nails</h3>
+                    <p class="text-gray-400 text-sm mt-1">Estados Unidos 🇺🇸</p>
+                </div>
+                <div class="absolute inset-0 bg-accent/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <a href="https://www.behance.net/edevis18a165?log_shim_removal=1" class="bg-black text-white font-bold py-2 px-4 rounded-lg hover:bg-opacity-80 transition-all">Ver Detalles</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-12 fade-in-up">
+            <a href="https://www.behance.net/edevis18a165?log_shim_removal=1" target="_blank" class="bg-primary text-white font-bold py-3 px-8 rounded-lg inline-block text-center hover:bg-opacity-90 transition-all">
+                Ver Más en Behance →
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Testimonials Section ===== -->
+<section id="testimonials" class="py-20 bg-darker">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12 fade-in-up">
+            <h2 class="text-3xl md:text-4xl font-bold">Lo que Dicen Mis Clientes</h2>
+            <div class="w-24 h-1 bg-accent mx-auto mt-2 rounded"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-sidebar-bg p-8 rounded-lg shadow-xl text-center fade-in-up">
+                <div class="text-yellow-400 mb-4">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="italic text-gray-300 mb-6">"El trabajo de Edevis fue impecable. Entendió perfectamente mi concepto y realizó un trabajo muy bueno. ¡Recomendado!"</p>
+                <img loading="lazy" src="img/luigi.png" alt="Luis Linares" class="w-20 h-20 rounded-full mx-auto mb-2 object-cover">
+                <h4 class="font-bold text-lg text-white">Luis Linares</h4>
+                <p class="text-sm text-gray-400">CEO Luigi Pizzería</p>
+            </div>
+            <div class="bg-sidebar-bg p-8 rounded-lg shadow-xl text-center fade-in-up">
+                <div class="text-yellow-400 mb-4">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="italic text-gray-300 mb-6">"Quedé muy contenta con el trabajo que realizó con la nueva imagen y el branding de mi negocio. 100% recomendado."</p>
+                <img loading="lazy" src="img/junmy.jpg" alt="Junmy Nails" class="w-20 h-20 rounded-full mx-auto mb-2 object-cover">
+                <h4 class="font-bold text-lg text-white">Junmy Nails</h4>
+                <p class="text-sm text-gray-400">CEO Founder · Estados Unidos 🇺🇸</p>
+            </div>
+            <div class="bg-sidebar-bg p-8 rounded-lg shadow-xl text-center fade-in-up">
+                <div class="text-yellow-400 mb-4">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="italic text-gray-300 mb-6">"Gracias a su trabajo quedamos muy satisfechos con la nueva imagen de nuestra empresa. Profesional y puntual."</p>
+                <img loading="lazy" src="img/spt.jpg" alt="George Moussa" class="w-20 h-20 rounded-full mx-auto mb-2 object-cover">
+                <h4 class="font-bold text-lg text-white">George Moussa</h4>
+                <p class="text-sm text-gray-400">Shield Pro · Texas 🇺🇸</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Contact Section ===== -->
+<section id="contact" class="py-20 bg-sidebar-bg">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12 fade-in-up">
+            <h2 class="text-3xl md:text-4xl font-bold">Hablemos de Tu Proyecto</h2>
+            <div class="w-24 h-1 bg-accent mx-auto mt-2 rounded"></div>
+            <p class="mt-4 text-gray-400 max-w-2xl mx-auto">¿Tienes un negocios y necesitas más clientes? Cuéntame tu proyecto y te respondo en menos de 24 horas.</p>
+        </div>
+        <div class="bg-darker rounded-lg shadow-2xl p-8 md:p-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="fade-in-up">
+                    <form id="contact-form" novalidate>
+                        <div class="mb-5">
+                            <label for="name" class="block mb-2 text-sm font-medium text-gray-300">Nombre Completo <span class="text-error">*</span></label>
+                            <input type="text" id="name" name="name" class="block w-full p-3 rounded-md transition-colors" placeholder="Juan García" required>
+                        </div>
+                        <div class="mb-5">
+                            <label for="email" class="block mb-2 text-sm font-medium text-gray-300">Correo Electrónico <span class="text-error">*</span></label>
+                            <input type="email" id="email" name="email" class="block w-full p-3 rounded-md transition-colors" placeholder="tu@correo.com" required>
+                        </div>
+                        <div class="mb-5">
+                            <label for="phone" class="block mb-2 text-sm font-medium text-gray-300">Teléfono / WhatsApp <span class="text-error">*</span></label>
+                            <input type="tel" id="phone" name="phone" class="block w-full p-3 rounded-md transition-colors" placeholder="+1 (555) 123-4567" required>
+                        </div>
+                        <div class="mb-5">
+                            <label for="country" class="block mb-2 text-sm font-medium text-gray-300">País <span class="text-error">*</span></label>
+                            <select id="country" name="country" class="block w-full p-3 rounded-md transition-colors" required>
+                                <option value="">Selecciona tu país</option>
+                                <option value="US">🇺🇸 Estados Unidos</option>
+                                <option value="MX">🇲🇽 México</option>
+                                <option value="CO">🇨🇴 Colombia</option>
+                                <option value="AR">🇦🇷 Argentina</option>
+                                <option value="PR">🇵🇷 Puerto Rico</option>
+                                <option value="DO">🇩🇴 República Dominicana</option>
+                                <option value="CL">🇨🇱 Chile</option>
+                                <option value="PE">🇵🇪 Perú</option>
+                                <option value="VE">🇻🇪 Venezuela</option>
+                                <option value="GT">🇬🇹 Guatemala</option>
+                                <option value="HN">🇭🇳 Honduras</option>
+                                <option value="SV">🇸🇻 El Salvador</option>
+                                <option value="CR">🇨🇷 Costa Rica</option>
+                                <option value="PA">🇵🇦 Panamá</option>
+                                <option value="EC">🇪🇨 Ecuador</option>
+                                <option value="BO">🇧🇴 Bolivia</option>
+                                <option value="PY">🇵🇾 Paraguay</option>
+                                <option value="UY">🇺🇾 Uruguay</option>
+                                <option value="ES">🇪🇸 España</option>
+                                <option value="OT">Otro País</option>
+                            </select>
+                        </div>
+                        <div class="mb-5">
+                            <label for="message" class="block mb-2 text-sm font-medium text-gray-300">Cuéntame sobre tu negocio y qué necesitas <span class="text-error">*</span></label>
+                            <textarea id="message" name="message" rows="4" class="block w-full p-3 rounded-md transition-colors" placeholder="Tengo un negocio y necesito una landing page + anuncios en Facebook..." required></textarea>
+                        </div>
+                        <div class="mb-6">
+                            <label for="captcha-input" class="block mb-2 text-sm font-medium text-gray-300">Resuelve la suma <span class="text-error">*</span></label>
+                            <div class="flex items-stretch gap-3">
+                                <div id="captcha-display" class="flex-1 p-3 rounded-md text-center font-bold text-2xl">
+                                    <span id="num1"></span> + <span id="num2"></span>
+                                </div>
+                                <input type="number" id="captcha-input" name="captcha" class="w-24 flex-shrink-0 p-3 rounded-md text-center text-xl font-bold transition-colors" placeholder="?" required>
+                            </div>
+                            <p id="captcha-error" class="text-red-400 text-sm mt-2 hidden">Respuesta incorrecta. Inténtalo de nuevo.</p>
+                        </div>
+                        <button type="submit" id="submit-button" class="w-full bg-primary text-white font-bold py-4 px-6 rounded-lg hover:bg-secondary transition-all duration-300 transform hover:scale-105">
+                            Enviar Mensaje →
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Columna derecha: info de contacto directo -->
+                <div class="fade-in-up">
+                    <h3 class="text-xl font-bold text-white mb-6">¿Prefieres contactarme directo?</h3>
+                    <div class="space-y-4 mb-8">
+                        <a href="https://wa.me/5804246538309" target="_blank" class="flex items-center gap-4 p-4 bg-green-500/10 border border-green-500/30 rounded-lg hover:bg-green-500/20 transition-all">
+                            <i class="fab fa-whatsapp text-green-400 text-2xl contact-card-icon"></i>
+                            <div class="min-w-0">
+                                <div class="text-white font-medium">WhatsApp</div>
+                                <div class="text-gray-400 text-sm">Respondo en menos de 1 hora</div>
+                            </div>
+                        </a>
+                        <a href="mailto:edeviswebmaster@gmail.com" class="flex items-center gap-4 p-4 bg-accent/10 border border-accent/30 rounded-lg hover:bg-accent/20 transition-all">
+                            <i class="fas fa-envelope text-accent text-2xl contact-card-icon"></i>
+                            <div class="min-w-0">
+                                <div class="text-white font-medium text-sm break-all">edeviswebmaster@gmail.com</div>
+                                <div class="text-gray-400 text-sm">Respuesta en menos de 24 horas</div>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/edevisr" target="_blank" class="flex items-center gap-4 p-4 bg-pink-500/10 border border-pink-500/30 rounded-lg hover:bg-pink-500/20 transition-all">
+                            <i class="fab fa-instagram text-pink-400 text-2xl contact-card-icon"></i>
+                            <div class="min-w-0">
+                                <div class="text-white font-medium">@edevisr</div>
+                                <div class="text-gray-400 text-sm">Instagram — DM abierto</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- ¿Para quién trabajo? -->
+                    <div class="p-6 bg-accent/10 border border-accent/20 rounded-xl">
+                        <h4 class="font-bold text-accent mb-3">¿Para quién trabajo?</h4>
+                        <ul class="text-gray-400 text-sm space-y-2">
+                            <li>🏥 Médicos y clínicas</li>
+                            <li>🍽️ Restaurantes y negocios de comida</li>
+                            <li>⛪ Ministerios e iglesias</li>
+                            <li>💼 Coaches, consultores y profesionales</li>
+                            <li>🏠 Agentes de bienes raíces</li>
+                            <li>💇 Salones de belleza y spas</li>
+                            <li>📦 Pequeñas empresas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="bg-darker py-12 border-t border-gray-800">
+    <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
+            <div class="text-center md:text-left fade-in-up">
+                <img loading="lazy" src="img/logo2.png" alt="Edevis Raga Logo" class="h-12 w-auto mx-auto md:mx-0 mb-4">
+                <p class="text-gray-400 text-sm leading-relaxed">Landing Pages & Meta Ads para negocios en Latinoamérica y Estado Unidos. En español, con resultados reales.</p>
+                <div class="flex justify-center md:justify-start space-x-4 mt-4">
+                    <a href="https://wa.me/5804246538309" target="_blank" class="text-gray-400 hover:text-accent text-xl transition-colors"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/edevisr" target="_blank" class="text-gray-400 hover:text-accent text-xl transition-colors"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/edevisr" target="_blank" class="text-gray-400 hover:text-accent text-xl transition-colors"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.behance.net/edevis18a165" target="_blank" class="text-gray-400 hover:text-accent text-xl transition-colors"><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+            <div class="text-center md:text-left fade-in-up">
+                <h3 class="text-lg font-bold text-white mb-4">Servicios</h3>
+                <ul class="space-y-2">
+                    <li><a href="#services" class="text-gray-400 hover:text-accent transition-colors text-sm">Landing Pages</a></li>
+                    <li><a href="#services" class="text-gray-400 hover:text-accent transition-colors text-sm">Gestión de Meta Ads</a></li>
+                    <li><a href="#seo" class="text-gray-400 hover:text-accent transition-colors text-sm">SEO Local</a></li>
+                    <li><a href="#portfolio" class="text-gray-400 hover:text-accent transition-colors text-sm">Diseño Gráfico</a></li>
+                    <li><a href="#projects" class="text-gray-400 hover:text-accent transition-colors text-sm">Portafolio</a></li>
+                </ul>
+            </div>
+            <div class="text-center md:text-left fade-in-up">
+                <h3 class="text-lg font-bold text-white mb-4">Contacto</h3>
+                <div class="space-y-3">
+                    <div class="flex items-center justify-center md:justify-start text-gray-400 text-sm">
+                        <i class="fab fa-whatsapp text-accent mr-3"></i>
+                        <a href="https://wa.me/5804246538309">+58 0424-6538309</a>
+                    </div>
+                    <div class="flex items-center justify-center md:justify-start text-gray-400 text-sm">
+                        <i class="fas fa-envelope text-accent mr-3"></i>
+                        <a href="mailto:edeviswebmaster@gmail.com">edeviswebmaster@gmail.com</a>
+                    </div>
+                    <div class="flex items-center justify-center md:justify-start text-gray-400 text-sm">
+                        <i class="fas fa-clock text-accent mr-3"></i>
+                        <span>Lun - Vie: 9:00 - 18:00 (EST)</span>
+                    </div>
+                    <div class="flex items-center justify-center md:justify-start text-gray-400 text-sm">
+                        <i class="fas fa-globe text-accent mr-3"></i>
+                        <span>Atendemos clientes en USA y Latinoamérica</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 text-center">
+            <p class="text-gray-400 text-sm">
+                &copy; <span id="year"></span> Edevis Raga — Landing Pages & Meta Ads para Negocios. Todos los derechos reservados.
+            </p>
+        </div>
+    </div>
+</footer>
+
+<!-- WhatsApp Widget -->
+<div class="fixed bottom-5 right-5 z-50">
+    <div id="chatContainer" class="chat-container">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <div class="profile-pic-container">
+                    <img src="img/foto.jpg" alt="Edevis En Linea" class="profile-pic">
+                    <span class="online-indicator"></span>
+                </div>
+                <div>
+                    <span class="font-semibold block">Edevis</span>
+                    <span class="text-xs text-gray-200">En línea</span>
+                </div>
+            </div>
+            <button id="closeChatBtn" class="close-btn">&times;</button>
+        </div>
+        <div id="chatMessages" class="chat-messages"></div>
+        <div class="chat-input">
+            <input type="text" id="chatInput" placeholder="Escribe un mensaje...">
+            <button id="sendMessageBtn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <div id="whatsapp-widget" class="flex items-end cursor-pointer">
+        <div id="whatsapp-notification" class="notification-bubble mr-4 p-3 bg-white rounded-lg shadow-lg transition-opacity duration-300">
+            <p class="text-sm text-gray-700">¿Necesitas ayuda?</p>
+            <div class="absolute -right-2 top-1/2 -translate-y-1/2 w-0 h-0 border-t-8 border-t-transparent border-b-8 border-b-transparent border-l-8 border-l-white"></div>
+        </div>
+        <div class="relative">
+            <span id="whatsapp-badge" class="absolute top-0 right-0 z-10 flex h-6 w-6 items-center justify-center rounded-full bg-red-500 text-xs font-bold text-white transition-opacity duration-300 transform translate-x-1/4 -translate-y-1/4">1</span>
+            <button id="whatsapp-button" class="flex items-center justify-center w-16 h-16 bg-green-500 rounded-full shadow-lg hover:bg-green-600 transition-transform duration-300 transform hover:scale-110">
+                <i class="fa-solid fa-headset text-white text-4xl"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<script src="js/ws.js"></script>
+
+<!-- Scripts del slider -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const slider = document.getElementById('projects-slider');
+    const track = document.getElementById('slider-track');
+    const nextButton = document.getElementById('next-slide');
+    const prevButton = document.getElementById('prev-slide');
+    const cards = document.querySelectorAll('.project-card');
+    const links = track ? track.querySelectorAll('a') : [];
+
+    if (!slider || !track || !nextButton || !prevButton) return;
+
+    let currentIndex = 0;
+    let startX = 0;
+    let currentTranslate = 0;
+    let prevTranslate = 0;
+    let isDragging = false;
+    let hasDragged = false;
+    let animationID;
+
+    const getCardWidth = () => cards.length > 0 ? cards[0].getBoundingClientRect().width : 0;
+
+    const setPositionByIndex = () => {
+        const cardWidth = getCardWidth();
+        if (cardWidth === 0) return;
+        currentTranslate = currentIndex * -cardWidth;
+        prevTranslate = currentTranslate;
+        track.style.transform = `translateX(${currentTranslate}px)`;
+    };
+
+    const dragStart = (e) => {
+        isDragging = true;
+        hasDragged = false;
+        startX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+        cancelAnimationFrame(animationID);
+        track.classList.add('dragging');
+    };
+
+    const dragMove = (e) => {
+        if (!isDragging) return;
+        const currentX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+        const diff = currentX - startX;
+        if (Math.abs(diff) > 5) hasDragged = true;
+        currentTranslate = prevTranslate + diff;
+        track.style.transform = `translateX(${currentTranslate}px)`;
+    };
+
+    const dragEnd = () => {
+        if (!isDragging) return;
+        isDragging = false;
+        cancelAnimationFrame(animationID);
+        const movedBy = currentTranslate - prevTranslate;
+        if (movedBy < -50 && currentIndex < cards.length - 1) currentIndex++;
+        if (movedBy > 50 && currentIndex > 0) currentIndex--;
+        setPositionByIndex();
+        track.classList.remove('dragging');
+    };
+
+    links.forEach((link) => {
+        link.addEventListener('click', (e) => { if (hasDragged) { e.preventDefault(); e.stopPropagation(); } });
+    });
+
+    slider.addEventListener('mousedown', dragStart);
+    slider.addEventListener('mouseup', dragEnd);
+    slider.addEventListener('mouseleave', dragEnd);
+    slider.addEventListener('mousemove', dragMove);
+    slider.addEventListener('touchstart', dragStart, { passive: true });
+    slider.addEventListener('touchend', dragEnd);
+    slider.addEventListener('touchmove', dragMove, { passive: true });
+
+    nextButton.addEventListener('click', () => {
+        const cardWidth = getCardWidth();
+        if (cardWidth === 0) return;
+        const visibleCards = Math.floor(slider.clientWidth / cardWidth);
+        if (currentIndex < cards.length - visibleCards) { currentIndex++; setPositionByIndex(); }
+    });
+
+    prevButton.addEventListener('click', () => {
+        if (currentIndex > 0) { currentIndex--; setPositionByIndex(); }
+    });
+
+    window.addEventListener('resize', setPositionByIndex);
+    setPositionByIndex();
+});
+</script>
+
+<!-- Contador animado -->
+<script>
+function animateCounters() {
+    const counters = document.querySelectorAll('.counter');
+    const speed = 200;
+    counters.forEach(counter => {
+        const updateCount = () => {
+            const target = parseInt(counter.getAttribute('data-target'));
+            const count = parseInt(counter.innerText);
+            const increment = Math.ceil(target / speed);
+            if (count < target) { counter.innerText = count + increment; setTimeout(updateCount, 1); }
+            else { counter.innerText = target; }
+        };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => { if (entry.isIntersecting) { updateCount(); observer.unobserve(entry.target); } });
+        }, { threshold: 0.5 });
+        observer.observe(counter);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    animateCounters();
+    document.querySelectorAll('.fade-in-up').forEach(el => {
+        const delay = el.getAttribute('data-delay') || 0;
+        el.style.transitionDelay = `${delay}ms`;
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+});
+</script>
+
+<!-- Lazy Load -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const lazyImages = document.querySelectorAll('.lazy-image');
+    if ('IntersectionObserver' in window) {
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    const src = img.getAttribute('data-src');
+                    if (src) {
+                        const preloadImage = new Image();
+                        preloadImage.src = src;
+                        preloadImage.onload = () => { img.src = src; img.classList.add('loaded'); img.removeAttribute('data-src'); };
+                    }
+                    observer.unobserve(img);
+                }
+            });
+        }, { rootMargin: '50px 0px', threshold: 0.01 });
+        lazyImages.forEach(img => imageObserver.observe(img));
+    } else {
+        lazyImages.forEach(img => { const src = img.getAttribute('data-src'); if (src) img.src = src; });
+    }
+});
+</script>
+
+<!-- Mobile Menu -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileCloseButton = document.getElementById('mobile-close-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileOverlay = document.getElementById('mobile-overlay');
+    const menuIcon = document.getElementById('menu-icon');
+
+    const openMenu = () => {
+        mobileMenu.classList.remove('translate-x-full');
+        mobileOverlay.classList.remove('hidden');
+        document.body.classList.add('menu-open');
+        menuIcon.classList.replace('fa-bars', 'fa-times');
+    };
+    const closeMenu = () => {
+        mobileMenu.classList.add('translate-x-full');
+        mobileOverlay.classList.add('hidden');
+        document.body.classList.remove('menu-open');
+        menuIcon.classList.replace('fa-times', 'fa-bars');
+    };
+
+    if (mobileMenuButton) mobileMenuButton.addEventListener('click', openMenu);
+    if (mobileCloseButton) mobileCloseButton.addEventListener('click', closeMenu);
+    if (mobileOverlay) mobileOverlay.addEventListener('click', closeMenu);
+    document.querySelectorAll('#mobile-menu a').forEach(link => link.addEventListener('click', closeMenu));
+});
+</script>
+
+<!-- Captcha + Form -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const num1El = document.getElementById('num1');
+    const num2El = document.getElementById('num2');
+    let n1 = 0, n2 = 0;
+    if (num1El && num2El) {
+        n1 = Math.floor(Math.random() * 10) + 1;
+        n2 = Math.floor(Math.random() * 10) + 1;
+        num1El.textContent = n1;
+        num2El.textContent = n2;
+    }
+
+    const form = document.getElementById('contact-form');
+    if (form) {
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const captchaInput = parseInt(document.getElementById('captcha-input').value);
+            const captchaError = document.getElementById('captcha-error');
+            if (captchaInput !== n1 + n2) {
+                captchaError.classList.remove('hidden');
+                return;
+            }
+            captchaError.classList.add('hidden');
+            const submitBtn = document.getElementById('submit-button');
+            submitBtn.textContent = '¡Mensaje enviado! Te respondo pronto.';
+            submitBtn.disabled = true;
+            submitBtn.classList.add('opacity-75');
+        });
+    }
+});
+</script>
+
+</body>
+</html>
