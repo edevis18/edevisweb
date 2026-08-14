@@ -1,0 +1,16 @@
+{
+  "name": "Edevis Raga — Landing Pages Profesionales",
+  "short_name": "Edevis Raga",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090b10",
+  "theme_color": "#090b10",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/assets/images/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ]
+}
