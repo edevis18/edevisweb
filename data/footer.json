@@ -1,0 +1,31 @@
+{
+  "summary": "Landing pages profesionales, rápidas y diseñadas estratégicamente para convertir visitas en oportunidades comerciales.",
+  "columns": [
+    {
+      "title": "Servicio",
+      "links": [
+        { "label": "Creación de landing pages", "url": "/landing-pages/" },
+        { "label": "Precios", "url": "/precios-landing-page/" },
+        { "label": "Landing pages bilingües", "url": "/landing-pages/bilingues/" },
+        { "label": "Para captar clientes", "url": "/landing-pages/para-captar-clientes/" }
+      ]
+    },
+    {
+      "title": "Recursos",
+      "links": [
+        { "label": "Portafolio", "url": "/portafolio/" },
+        { "label": "Casos de éxito", "url": "/casos-de-exito/" },
+        { "label": "Blog", "url": "/blog/" },
+        { "label": "Sobre Edevis", "url": "/sobre-mi/" }
+      ]
+    },
+    {
+      "title": "Información",
+      "links": [
+        { "label": "Contacto", "url": "/contacto/" },
+        { "label": "Política de privacidad", "url": "/politica-de-privacidad/" },
+        { "label": "Términos de servicio", "url": "/terminos-de-servicio/" }
+      ]
+    }
+  ]
+}

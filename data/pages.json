@@ -1,0 +1,278 @@
+[
+  {
+    "path": "/landing-pages/",
+    "title": "Creación de Landing Pages Profesionales | Edevis Raga",
+    "description": "Diseño y desarrollo de landing pages profesionales, rápidas, adaptadas a móviles y orientadas a convertir visitas en clientes.",
+    "eyebrow": "Servicio especializado",
+    "h1": "Creación de Landing Pages Profesionales que Guían a la Acción",
+    "lead": "Diseño una página enfocada en una oferta, una audiencia y un objetivo claro: conseguir contactos, reservas, solicitudes o ventas sin distraer al visitante.",
+    "problemTitle": "Una landing page no es una web recortada",
+    "problemText": "Es una herramienta comercial con una jerarquía precisa. Cada bloque debe responder una objeción, generar confianza y acercar al usuario a la acción. Por eso el proyecto comienza con estrategia y contenido, no con una plantilla genérica.",
+    "benefits": [
+      { "title": "Mensaje inmediato", "text": "El visitante entiende en segundos qué ofreces, para quién es y por qué debería interesarle." },
+      { "title": "Menos distracciones", "text": "La navegación, el contenido y los llamados a la acción se concentran en un objetivo medible." },
+      { "title": "Experiencia móvil", "text": "La estructura se diseña primero para teléfonos, donde ocurre gran parte de la decisión." },
+      { "title": "Base medible", "text": "Queda preparada para Analytics, eventos, formularios, WhatsApp y futuras campañas." }
+    ],
+    "deliverables": ["Análisis de oferta y audiencia", "Mapa de contenido y jerarquía", "Diseño visual personalizado", "Desarrollo HTML optimizado", "Versión responsive mobile-first", "Formulario y contacto por WhatsApp", "SEO técnico inicial", "Publicación y revisión final"],
+    "faqs": [
+      { "q": "¿Qué diferencia una landing page de una página web tradicional?", "a": "Una landing page concentra todo el recorrido en una oferta y una conversión principal. Un sitio tradicional distribuye la información en varias páginas y puede tener múltiples objetivos." },
+      { "q": "¿Puedo usarla sin publicidad pagada?", "a": "Sí. Puede recibir visitas desde redes sociales, enlaces directos, correo, directorios, contenido orgánico o códigos QR. También queda lista para campañas cuando decidas utilizarlas." },
+      { "q": "¿La página será completamente mía?", "a": "Sí. Recibes el proyecto publicado y los archivos acordados. No se construye sobre una plataforma que te obligue a mantener una suscripción para conservar el diseño." },
+      { "q": "¿Cuánto tarda el desarrollo?", "a": "Una landing estándar suele tomar entre cinco y diez días hábiles después de recibir la información necesaria. Proyectos bilingües o con integraciones especiales requieren más tiempo." }
+    ]
+  },
+  {
+    "path": "/landing-pages/para-medicos/",
+    "title": "Landing Pages para Médicos y Consultorios | Edevis Raga",
+    "description": "Landing pages para médicos, especialistas y consultorios que necesitan presentar sus servicios, generar confianza y facilitar solicitudes de cita.",
+    "eyebrow": "Landing pages para profesionales de la salud",
+    "h1": "Landing Pages para Médicos que Inspiran Confianza y Facilitan Citas",
+    "lead": "Presenta tu especialidad, experiencia y servicios con claridad para que el paciente encuentre respuestas y pueda solicitar una cita sin recorrer una web complicada.",
+    "problemTitle": "El paciente necesita confianza antes de contactar",
+    "problemText": "En salud, una página llamativa no es suficiente. La información debe ser comprensible, responsable y fácil de consultar desde el teléfono. La estructura evita promesas exageradas y prioriza credenciales, especialidad, atención, ubicación o modalidad y próximos pasos.",
+    "benefits": [
+      { "title": "Especialidad clara", "text": "Explica a quién atiendes, qué condiciones o necesidades abordas y cómo es tu consulta." },
+      { "title": "Autoridad profesional", "text": "Organiza formación, experiencia, asociaciones y elementos de confianza sin saturar." },
+      { "title": "Solicitud de cita", "text": "Integra WhatsApp, llamada, formulario o agenda según tu proceso real de atención." },
+      { "title": "Privacidad cuidada", "text": "Los formularios solicitan solamente los datos necesarios y evitan preguntas clínicas sensibles." }
+    ],
+    "deliverables": ["Presentación de especialidad", "Perfil y credenciales", "Servicios o tratamientos informativos", "Preguntas frecuentes de pacientes", "Solicitud de cita", "Mapa y horarios opcionales", "Diseño móvil accesible", "SEO técnico y datos estructurados"],
+    "faqs": [
+      { "q": "¿Puede incluir un botón para agendar citas?", "a": "Sí. Puede conectarse con WhatsApp, llamada, correo, formulario o una herramienta de agenda que ya utilices." },
+      { "q": "¿Sirve para una clínica con varios especialistas?", "a": "Sí, aunque una clínica con múltiples especialidades puede necesitar una arquitectura más amplia. Primero se define si una landing única cubre el objetivo o conviene un sitio multipágina." },
+      { "q": "¿Puedo explicar procedimientos médicos?", "a": "Sí, con contenido informativo, lenguaje responsable y revisión del profesional. La página no debe prometer resultados ni sustituir una evaluación médica." },
+      { "q": "¿Se puede hacer bilingüe?", "a": "Sí. Cada idioma se construye como una versión rastreable y revisada, no como una traducción automática superpuesta." }
+    ]
+  },
+  {
+    "path": "/landing-pages/para-abogados/",
+    "title": "Landing Pages para Abogados y Bufetes | Edevis Raga",
+    "description": "Landing pages profesionales para abogados y bufetes que desean explicar sus áreas de práctica y convertir búsquedas en consultas calificadas.",
+    "eyebrow": "Landing pages para servicios legales",
+    "h1": "Landing Pages para Abogados que Convierten Interés en Consultas",
+    "lead": "Una estructura profesional para comunicar áreas de práctica, experiencia y forma de trabajo, facilitando que el prospecto identifique si puedes ayudarlo.",
+    "problemTitle": "Una consulta legal comienza con claridad",
+    "problemText": "Quien busca ayuda jurídica necesita saber rápidamente qué tipo de casos atiendes, en qué jurisdicción trabajas y cuál es el siguiente paso. La página organiza esa información sin lenguaje innecesariamente complejo ni garantías de resultados.",
+    "benefits": [
+      { "title": "Casos mejor orientados", "text": "La página filtra consultas al explicar con precisión las áreas de práctica y el tipo de cliente." },
+      { "title": "Confianza profesional", "text": "Presenta experiencia, admisiones, idiomas y metodología de atención de forma sobria." },
+      { "title": "Contacto inmediato", "text": "Facilita llamadas, WhatsApp o solicitudes de evaluación desde cualquier dispositivo." },
+      { "title": "Mensaje responsable", "text": "Incluye avisos necesarios y evita promesas o afirmaciones que puedan generar expectativas incorrectas." }
+    ],
+    "deliverables": ["Propuesta de valor jurídica", "Áreas de práctica", "Perfil profesional", "Proceso de consulta", "Formulario de precontacto", "Aviso legal", "Diseño responsive", "SEO técnico inicial"],
+    "faqs": [
+      { "q": "¿Puede enfocarse en una sola área de práctica?", "a": "Sí. De hecho, una landing dedicada a inmigración, familia, accidentes u otra área suele comunicar mejor que una página que intenta cubrir todos los servicios." },
+      { "q": "¿El formulario crea una relación abogado-cliente?", "a": "No. Se incorpora un aviso claro indicando que el envío de información no constituye una relación profesional ni garantiza la aceptación del caso." },
+      { "q": "¿Puede recibir consultas en dos idiomas?", "a": "Sí. Puede construirse una versión independiente en cada idioma y dirigir cada formulario al equipo correspondiente." },
+      { "q": "¿La landing sustituye el sitio del bufete?", "a": "Puede funcionar sola para una campaña o servicio específico. Si el bufete necesita numerosas áreas, perfiles y recursos, se recomienda complementarla con un sitio completo." }
+    ]
+  },
+  {
+    "path": "/landing-pages/para-coaches-consultores/",
+    "title": "Landing Pages para Coaches y Consultores | Edevis Raga",
+    "description": "Landing pages para coaches y consultores que necesitan explicar su método, diferenciar su servicio y conseguir llamadas o solicitudes calificadas.",
+    "eyebrow": "Landing pages para expertos",
+    "h1": "Landing Pages para Coaches y Consultores que Venden una Transformación Clara",
+    "lead": "Convierte conocimiento y experiencia en una oferta comprensible, con un recorrido que lleva al prospecto desde su problema actual hasta una llamada o solicitud.",
+    "problemTitle": "Tu experiencia debe convertirse en una oferta concreta",
+    "problemText": "Muchos servicios de consultoría se explican con conceptos amplios. La landing traduce el método en resultados esperables, proceso, alcance y criterios para saber quién es un buen cliente, sin recurrir a promesas imposibles.",
+    "benefits": [
+      { "title": "Oferta específica", "text": "Define el problema que resuelves, el perfil ideal y el resultado que persigue el programa." },
+      { "title": "Método visible", "text": "Presenta fases, sesiones o entregables para reducir incertidumbre antes de la llamada." },
+      { "title": "Prueba relevante", "text": "Integra testimonios, experiencia, recursos o resultados con contexto verificable." },
+      { "title": "Agenda calificada", "text": "El formulario puede filtrar necesidades antes de reservar una conversación." }
+    ],
+    "deliverables": ["Definición de oferta", "Perfil de cliente ideal", "Explicación del método", "Beneficios y entregables", "Testimonios", "Formulario de aplicación", "Integración de agenda", "Medición de conversiones"],
+    "faqs": [
+      { "q": "¿Puede conectarse con Calendly u otra agenda?", "a": "Sí. La página puede dirigir a la agenda o incorporarla dentro del recorrido cuando sea conveniente." },
+      { "q": "¿Necesito tener listo todo el texto?", "a": "No. Se parte de una entrevista y del material existente para organizar el mensaje. La aprobación final del contenido siempre corresponde al cliente." },
+      { "q": "¿Sirve para vender directamente un programa?", "a": "Sí. Puede integrar un checkout externo o dirigir a una llamada de aplicación, dependiendo del precio y complejidad de la oferta." },
+      { "q": "¿Puedo incluir un recurso gratuito?", "a": "Sí. Una guía, clase o diagnóstico puede funcionar como conversión principal o como primer paso antes de presentar la oferta." }
+    ]
+  },
+  {
+    "path": "/landing-pages/para-iglesias-ministerios/",
+    "title": "Landing Pages para Iglesias y Ministerios | Edevis Raga",
+    "description": "Landing pages para iglesias, ministerios y proyectos cristianos que desean comunicar su misión, eventos, recursos o campañas con claridad.",
+    "eyebrow": "Experiencia en proyectos cristianos",
+    "h1": "Landing Pages para Iglesias y Ministerios con un Mensaje Claro y Accesible",
+    "lead": "Presenta una misión, evento, recurso o iniciativa en una página fácil de compartir, diseñada para orientar a la comunidad hacia una acción concreta.",
+    "problemTitle": "El mensaje merece una estructura que facilite participar",
+    "problemText": "Una iniciativa ministerial puede perder alcance cuando la información queda dispersa entre publicaciones y mensajes. La landing reúne propósito, fechas, recursos, preguntas y acciones en un enlace único que funciona desde cualquier dispositivo.",
+    "benefits": [
+      { "title": "Información centralizada", "text": "Horarios, propósito, ubicación, transmisión o materiales permanecen disponibles en un solo lugar." },
+      { "title": "Fácil de compartir", "text": "Un enlace claro para redes, WhatsApp, correo, códigos QR o anuncios." },
+      { "title": "Identidad coherente", "text": "El diseño respeta la línea visual y el tono pastoral o institucional del ministerio." },
+      { "title": "Acción definida", "text": "Registro, descarga, compra, donación o contacto según el objetivo real de la iniciativa." }
+    ],
+    "deliverables": ["Presentación de misión", "Información del evento o recurso", "Registro o formulario", "Integración de video", "Enlaces de participación", "Diseño móvil", "Medición básica", "Publicación y soporte inicial"],
+    "faqs": [
+      { "q": "¿Puede usarse para un evento?", "a": "Sí. Puede incluir programa, conferencistas, ubicación, preguntas frecuentes y registro." },
+      { "q": "¿Puede vender libros o recursos digitales?", "a": "Sí. La página puede conectarse a Hotmart, PayPal, Stripe u otra plataforma de pago externa disponible para el proyecto." },
+      { "q": "¿Se puede insertar una transmisión?", "a": "Sí. Es posible integrar YouTube, Vimeo u otra plataforma sin cargar el video completo al servidor de la landing." },
+      { "q": "¿Trabajas con ministerios fuera de Venezuela?", "a": "Sí. Todo el proceso puede realizarse a distancia para proyectos de cualquier país." }
+    ]
+  },
+  {
+    "path": "/landing-pages/para-autores-ebooks/",
+    "title": "Landing Pages para Autores y Venta de Ebooks | Edevis Raga",
+    "description": "Landing pages para autores, ebooks y libros digitales con sinopsis, beneficios, prueba social y conexión a plataformas de pago.",
+    "eyebrow": "Landing pages editoriales",
+    "h1": "Landing Pages para Autores y Ebooks que Convierten Lectores en Compradores",
+    "lead": "Presenta tu libro con una narrativa visual clara, una promesa editorial responsable y un camino simple desde el interés hasta la compra.",
+    "problemTitle": "Publicar un libro no garantiza que el lector comprenda su valor",
+    "problemText": "La landing conecta portada, problema, contenido, autor y testimonios en una historia de venta coherente. También permite medir clics, interés y compras cuando la plataforma externa ofrece esa integración.",
+    "benefits": [
+      { "title": "Libro bien presentado", "text": "Portada, sinopsis, temas, capítulos y beneficios organizados para lectura rápida." },
+      { "title": "Autor con credibilidad", "text": "Biografía, experiencia y propósito editorial conectados con la obra." },
+      { "title": "Compra sin fricción", "text": "Enlace directo a Hotmart, Amazon, PayPal, Stripe u otro checkout." },
+      { "title": "Preparada para lanzar", "text": "Incluye medición, preguntas frecuentes y bloques reutilizables para promociones." }
+    ],
+    "deliverables": ["Concepto editorial", "Presentación del libro", "Sinopsis comercial", "Biografía del autor", "Muestra o capítulos", "Testimonios", "Integración de checkout", "Medición de eventos"],
+    "faqs": [
+      { "q": "¿La landing entrega el ebook automáticamente?", "a": "La entrega puede quedar a cargo de Hotmart, Amazon u otra plataforma. También puede diseñarse un flujo independiente si el proyecto dispone del servicio de correo y almacenamiento necesario." },
+      { "q": "¿Puede incluir varios libros?", "a": "Sí, aunque una obra principal por landing suele producir un mensaje más fuerte. Para un catálogo completo conviene crear una página editorial adicional." },
+      { "q": "¿Necesito tener la portada terminada?", "a": "Es recomendable, pero el proyecto puede comenzar con la estructura mientras se completa el material editorial." },
+      { "q": "¿Puede medir compras?", "a": "Depende de las integraciones permitidas por el checkout. Siempre se pueden medir los clics de salida y, cuando la plataforma lo permite, registrar la compra confirmada." }
+    ]
+  },
+  {
+    "path": "/landing-pages/para-emprendedores/",
+    "title": "Landing Pages para Emprendedores | Edevis Raga",
+    "description": "Landing pages para emprendedores que necesitan validar una oferta, presentar un servicio y conseguir sus primeros clientes con una inversión controlada.",
+    "eyebrow": "Una presencia enfocada para comenzar",
+    "h1": "Landing Pages para Emprendedores que Necesitan Vender con Claridad",
+    "lead": "Lanza tu servicio o producto con una página profesional y concreta, sin construir desde el primer día un sitio complejo que todavía no necesitas.",
+    "problemTitle": "Comenzar con una oferta clara reduce costos y decisiones innecesarias",
+    "problemText": "Una landing ayuda a validar el mensaje, recopilar contactos y aprender qué preguntas tiene el mercado. Se construye con una base escalable para que puedas mejorarla cuando existan datos reales.",
+    "benefits": [
+      { "title": "Salida rápida", "text": "Una estructura concreta permite publicar antes y empezar a recibir retroalimentación." },
+      { "title": "Inversión enfocada", "text": "El presupuesto se concentra en la oferta principal y en una experiencia profesional." },
+      { "title": "Fácil de medir", "text": "Registra clics, formularios y acciones para evaluar el interés real." },
+      { "title": "Preparada para crecer", "text": "El dominio, contenido y activos pueden evolucionar con el negocio." }
+    ],
+    "deliverables": ["Definición de oferta", "Mensaje principal", "Beneficios", "Sección de confianza", "Formulario o WhatsApp", "Responsive móvil", "Analítica básica", "Publicación"],
+    "faqs": [
+      { "q": "¿Es suficiente para iniciar un negocio?", "a": "Es suficiente cuando existe una oferta principal y el objetivo es captar contactos o validar demanda. Negocios con catálogos, cuentas de usuario o múltiples servicios pueden requerir otra solución." },
+      { "q": "¿Puedo comenzar sin logo?", "a": "Sí. Se puede trabajar con una presentación tipográfica limpia mientras se desarrolla una identidad más completa." },
+      { "q": "¿Incluye dominio?", "a": "El alcance puede incluir configuración de dominio y publicación. La titularidad debe quedar siempre a nombre del cliente." },
+      { "q": "¿Puedo modificarla después?", "a": "Sí. El contenido y las secciones pueden actualizarse conforme cambien la oferta o los resultados." }
+    ]
+  },
+  {
+    "path": "/landing-pages/para-captar-clientes/",
+    "title": "Landing Page para Captar Clientes | Edevis Raga",
+    "description": "Diseño de landing pages para captar clientes y convertir visitas en solicitudes mediante mensajes claros, prueba de confianza y llamados a la acción.",
+    "eyebrow": "Generación de oportunidades",
+    "h1": "Una Landing Page para Captar Clientes, no Solo para Recibir Visitas",
+    "lead": "Convierte el interés en una acción concreta mediante una oferta comprensible, señales de confianza y un formulario diseñado para el proceso comercial.",
+    "problemTitle": "Más tráfico no resuelve un mensaje confuso",
+    "problemText": "Antes de buscar miles de visitas, la página debe explicar por qué alguien debería contactarte. Se identifican objeciones, evidencia disponible y el nivel de información necesario para que la solicitud sea útil.",
+    "benefits": [
+      { "title": "Propuesta concreta", "text": "Conecta el problema del prospecto con una solución y un siguiente paso visible." },
+      { "title": "Leads más útiles", "text": "Los campos del formulario ayudan a conocer necesidad, contexto y urgencia sin crear fricción excesiva." },
+      { "title": "Confianza antes del contacto", "text": "Casos, proceso, experiencia y preguntas frecuentes reducen dudas repetitivas." },
+      { "title": "Conversión medible", "text": "Cada acción importante queda preparada para ser registrada en Analytics." }
+    ],
+    "deliverables": ["Análisis de conversión", "Oferta principal", "Jerarquía de mensajes", "Prueba social", "Formulario calificado", "WhatsApp opcional", "Eventos de analítica", "Optimización móvil"],
+    "faqs": [
+      { "q": "¿Garantiza una cantidad de clientes?", "a": "No. La landing mejora la claridad y el recorrido de conversión, pero los resultados también dependen de la oferta, precio, reputación, fuente y calidad del tráfico." },
+      { "q": "¿Cuántos campos debe tener el formulario?", "a": "Solo los necesarios para decidir el siguiente paso. Servicios simples requieren pocos datos; procesos de venta consultiva pueden necesitar una calificación mayor." },
+      { "q": "¿Puede enviar la información por correo?", "a": "Sí, utilizando un servicio de formularios compatible con sitios estáticos o el sistema de correo disponible en el alojamiento." },
+      { "q": "¿Se pueden medir los clics de WhatsApp?", "a": "Sí. Se configura un evento específico para distinguirlos de otros clics de navegación." }
+    ]
+  },
+  {
+    "path": "/landing-pages/para-whatsapp/",
+    "title": "Landing Page con WhatsApp para Negocios | Edevis Raga",
+    "description": "Landing pages con WhatsApp, mensajes predeterminados y estructura de conversión para facilitar consultas desde dispositivos móviles.",
+    "eyebrow": "Contacto directo y medible",
+    "h1": "Landing Pages con WhatsApp para Convertir Interés en Conversaciones",
+    "lead": "Presenta primero la información que el prospecto necesita y permite que continúe la conversación en WhatsApp con un mensaje contextualizado.",
+    "problemTitle": "Un botón flotante no sustituye una estrategia",
+    "problemText": "WhatsApp funciona mejor cuando la persona llega con contexto: ya entendió la oferta, revisó preguntas comunes y sabe qué información enviar. La landing prepara esa conversación y permite medir qué llamados a la acción funcionan.",
+    "benefits": [
+      { "title": "Mensaje predeterminado", "text": "El clic puede abrir una conversación con un texto inicial relacionado con la oferta consultada." },
+      { "title": "Menos preguntas repetidas", "text": "La página responde precio orientativo, alcance, proceso y tiempos antes del contacto." },
+      { "title": "Experiencia móvil", "text": "Botones accesibles, visibles y ubicados en momentos naturales del recorrido." },
+      { "title": "Clics medibles", "text": "Analytics registra cuántas personas iniciaron el contacto y desde qué bloque." }
+    ],
+    "deliverables": ["Botones contextuales", "Mensaje inicial configurable", "CTA móvil fijo opcional", "Preguntas frecuentes", "Datos de atención", "Eventos de clic", "Diseño responsive", "Pruebas en dispositivos"],
+    "faqs": [
+      { "q": "¿El número queda visible para robots?", "a": "Se puede utilizar un enlace directo y aplicar medidas básicas contra recolección automática, aunque ningún dato publicado en una web puede considerarse completamente privado." },
+      { "q": "¿Puede usar WhatsApp Business?", "a": "Sí. El enlace funciona con WhatsApp y WhatsApp Business según la aplicación instalada por el visitante." },
+      { "q": "¿Puedo cambiar el mensaje inicial?", "a": "Sí. Queda centralizado en la configuración para actualizarlo sin modificar toda la página." },
+      { "q": "¿El chat se atiende automáticamente?", "a": "La landing abre la conversación. Las respuestas automáticas o bots deben configurarse dentro de WhatsApp Business o mediante una plataforma compatible." }
+    ]
+  },
+  {
+    "path": "/landing-pages/para-vender-servicios/",
+    "title": "Landing Page para Vender Servicios Profesionales | Edevis Raga",
+    "description": "Landing pages para vender servicios profesionales explicando propuesta, proceso, resultados y próximos pasos con una estructura clara.",
+    "eyebrow": "Servicios explicados con claridad",
+    "h1": "Landing Pages para Vender Servicios sin Depender de Explicaciones Eternas",
+    "lead": "Una página que organiza lo que haces, a quién ayudas, cómo trabajas y qué necesita el prospecto para tomar el siguiente paso.",
+    "problemTitle": "Los servicios intangibles necesitan hacer visible su valor",
+    "problemText": "Cuando el cliente no puede tocar el producto, evalúa claridad, experiencia, proceso y riesgo. La landing transforma esos elementos en una presentación comercial que trabaja antes de la llamada.",
+    "benefits": [
+      { "title": "Alcance comprensible", "text": "Define qué está incluido, qué no y cómo se desarrolla el servicio." },
+      { "title": "Proceso predecible", "text": "Explica fases, tiempos y participación del cliente para disminuir incertidumbre." },
+      { "title": "Valor respaldado", "text": "Integra resultados, casos, experiencia y entregables con contexto." },
+      { "title": "Siguiente paso claro", "text": "Solicitud, diagnóstico, reserva o compra según la complejidad de la decisión." }
+    ],
+    "deliverables": ["Propuesta de valor", "Descripción de servicio", "Proceso", "Entregables", "Casos o testimonios", "Preguntas frecuentes", "CTA principal", "Analítica"],
+    "faqs": [
+      { "q": "¿Debo publicar el precio?", "a": "Depende del servicio. Un precio inicial ayuda a filtrar; una solución muy personalizada puede mostrar rangos o explicar cómo se calcula la propuesta." },
+      { "q": "¿Puede incluir varios planes?", "a": "Sí, siempre que sean fáciles de comparar y no conviertan la decisión en una lista confusa de características." },
+      { "q": "¿Necesito testimonios?", "a": "Ayudan, pero pueden sustituirse temporalmente con experiencia, proceso, muestras o una garantía de alcance responsable. Nunca se inventan testimonios." },
+      { "q": "¿Sirve para servicios B2B?", "a": "Sí. En B2B la página puede orientar a una reunión y recopilar información de empresa, necesidad y plazo." }
+    ]
+  },
+  {
+    "path": "/landing-pages/para-campanas-publicitarias/",
+    "title": "Landing Pages para Campañas Publicitarias | Edevis Raga",
+    "description": "Diseño de landing pages para campañas publicitarias, con mensaje alineado al anuncio, carga rápida y medición de conversiones.",
+    "eyebrow": "Página de destino para campañas",
+    "h1": "Landing Pages para Campañas Publicitarias con Mensaje y Medición Alineados",
+    "lead": "Recibe el tráfico de anuncios en una página rápida y coherente con la promesa que motivó el clic, preparada para registrar las acciones importantes.",
+    "problemTitle": "El anuncio y la página deben continuar la misma conversación",
+    "problemText": "Enviar tráfico a una home general obliga al visitante a buscar la información. Una landing dedicada mantiene el mensaje, elimina opciones innecesarias y permite evaluar la conversión de una oferta concreta.",
+    "benefits": [
+      { "title": "Continuidad del mensaje", "text": "Titular, oferta y elementos visuales corresponden con la creatividad o enlace de origen." },
+      { "title": "Carga rápida", "text": "Menos dependencias, imágenes optimizadas y recursos prioritarios para conexiones móviles." },
+      { "title": "Eventos definidos", "text": "Clic, formulario, llamada, WhatsApp o compra quedan preparados para medición." },
+      { "title": "Iteración sencilla", "text": "La estructura permite ajustar titulares, prueba y llamadas a la acción con datos." }
+    ],
+    "deliverables": ["Análisis de campaña", "Mensaje alineado", "Oferta y CTA", "Formulario o checkout", "Etiquetas de analítica", "Pixel opcional", "Optimización móvil", "Pruebas de conversión"],
+    "faqs": [
+      { "q": "¿Incluye la administración de anuncios?", "a": "No. El servicio se concentra en diseñar y desarrollar la página de destino. Puede coordinarse la instalación técnica de etiquetas entregadas por el responsable de la campaña." },
+      { "q": "¿Puede duplicarse para varias ofertas?", "a": "Sí. Cada oferta o audiencia importante puede tener una variante, evitando que todas compitan en una página genérica." },
+      { "q": "¿Instalas Meta Pixel o Google Ads?", "a": "Se pueden instalar etiquetas y eventos cuando el cliente proporciona los accesos o identificadores necesarios. La gestión publicitaria no forma parte del servicio." },
+      { "q": "¿Puedo hacer pruebas A/B?", "a": "La página puede prepararse para una herramienta de experimentación o duplicarse en variantes controladas, siempre cuidando la canonicalización." }
+    ]
+  },
+  {
+    "path": "/landing-pages/bilingues/",
+    "title": "Landing Pages Bilingües en Español e Inglés | Edevis Raga",
+    "description": "Landing pages bilingües en español e inglés con URLs independientes, navegación clara y configuración SEO internacional.",
+    "eyebrow": "Una experiencia correcta en cada idioma",
+    "h1": "Landing Pages Bilingües para Atender Mercados en Español e Inglés",
+    "lead": "Construye una versión real para cada idioma, con URLs rastreables y una experiencia que no dependa de traducciones automáticas superpuestas.",
+    "problemTitle": "Traducir palabras no siempre traduce intención",
+    "problemText": "Una oferta puede necesitar ejemplos, expresiones y llamados a la acción diferentes para cada audiencia. La estructura bilingüe conserva consistencia de marca, pero permite adaptar el contenido y señalar a Google la relación entre versiones.",
+    "benefits": [
+      { "title": "URLs independientes", "text": "Cada idioma tiene una dirección clara que puede compartirse e indexarse por separado." },
+      { "title": "SEO internacional", "text": "Canonical y hreflang ayudan a relacionar las versiones y evitar duplicaciones incorrectas." },
+      { "title": "Cambio accesible", "text": "El selector de idioma permanece visible y conserva la página equivalente cuando existe." },
+      { "title": "Contenido adaptable", "text": "No obliga a usar una traducción literal cuando el mercado requiere otro enfoque." }
+    ],
+    "deliverables": ["Arquitectura por idioma", "Selector de idioma", "Metadatos independientes", "Etiquetas hreflang", "Revisión de navegación", "Formularios localizados", "Diseño consistente", "Sitemap internacional"],
+    "faqs": [
+      { "q": "¿Utilizas traducción automática?", "a": "No como versión final. El cliente debe proporcionar o aprobar una traducción profesional adecuada a su audiencia." },
+      { "q": "¿Cada idioma puede tener un formulario distinto?", "a": "Sí. Puede dirigir consultas a diferentes correos, equipos o mensajes según la operación del negocio." },
+      { "q": "¿Es necesario comprar otro dominio?", "a": "No. Normalmente se utilizan carpetas como /es/ y /en/ dentro del mismo dominio." },
+      { "q": "¿Puedo comenzar con un idioma?", "a": "Sí. La arquitectura puede prepararse para añadir la segunda versión posteriormente sin reconstruir todo el proyecto." }
+    ]
+  }
+]

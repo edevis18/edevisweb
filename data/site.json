@@ -1,0 +1,32 @@
+{
+  "name": "Edevis Raga",
+  "legalName": "Edevis Raga",
+  "siteUrl": "https://edevisraga.com",
+  "tagline": "Landing Pages Profesionales",
+  "description": "Diseño y desarrollo landing pages profesionales, rápidas y orientadas a convertir visitas en clientes para empresas, profesionales y emprendedores.",
+  "language": "es",
+  "locale": "es_ES",
+  "logo": "/assets/images/logo.webp",
+  "profileImage": "/assets/images/edevis-raga.webp",
+  "ogImage": "/assets/images/og-edevis-raga.webp",
+  "email": "edeviswebmaster@gmail.com",
+  "whatsappNumber": "5804246538309",
+  "whatsappUrl": "https://wa.me/5804246538309",
+  "availability": "Atención remota para clientes de cualquier parte del mundo",
+  "experienceYears": 18,
+  "projectsDelivered": 200,
+  "social": {
+    "instagram": "https://www.instagram.com/edevisr",
+    "facebook": "https://www.facebook.com/edevisr",
+    "behance": "https://www.behance.net/edevis18a165"
+  },
+  "analyticsId": "G-1L26MF66LZ",
+  "theme": {
+    "primary": "#e86b0f",
+    "primaryDark": "#b84408",
+    "accent": "#ffb000",
+    "background": "#090b10",
+    "surface": "#121722",
+    "text": "#f8fafc"
+  }
+}

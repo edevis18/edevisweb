@@ -1,0 +1,47 @@
+[
+  {
+    "name": "DABAR — Editorial cristiana",
+    "category": "Landing page para autores y ebooks",
+    "summary": "Estructura de venta para una colección editorial dirigida a la comunidad cristiana hispana, con checkout, medición y recorrido de conversión.",
+    "image": "/assets/images/project-dabar.webp",
+    "imageAlt": "Landing page de DABAR para la venta de ebooks cristianos",
+    "result": "9 ventas confirmadas con una inversión inicial de 40 USD",
+    "url": "/casos-de-exito/dabar-landing-page-ebooks/"
+  },
+  {
+    "name": "StageG Photos",
+    "category": "Landing page para servicios de eventos",
+    "summary": "Presentación profesional de servicios de photobooth con propuesta clara, galería visual y contacto directo para contrataciones.",
+    "image": "/assets/images/project-stageg.webp",
+    "imageAlt": "Diseño de landing page para StageG Photos",
+    "result": "Servicio presentado para el mercado de Houston",
+    "url": "/portafolio/#stageg"
+  },
+  {
+    "name": "Makrisystem",
+    "category": "Web corporativa y captación B2B",
+    "summary": "Presencia corporativa bilingüe para servicios de outsourcing, con arquitectura clara, confianza y formularios comerciales.",
+    "image": "/assets/images/project-makri.webp",
+    "imageAlt": "Proyecto web corporativo Makrisystem",
+    "result": "Propuesta dirigida a empresas de Norteamérica y Europa",
+    "url": "/portafolio/#makrisystem"
+  },
+  {
+    "name": "Futura 104.7 FM",
+    "category": "Landing page para medio de comunicación",
+    "summary": "Proyecto digital para una emisora con identidad visual, acceso a programación y presencia adaptable a dispositivos móviles.",
+    "image": "/assets/images/project-futurafm.webp",
+    "imageAlt": "Proyecto web de Futura 104.7 FM",
+    "result": "Experiencia optimizada para audiencia móvil",
+    "url": "/portafolio/#futura"
+  },
+  {
+    "name": "Vida Activa",
+    "category": "Landing page para productos de bienestar",
+    "summary": "Presentación visual de suplementos y productos disponibles con enfoque directo en beneficios, confianza y contacto.",
+    "image": "/assets/images/project-vidaactiva.webp",
+    "imageAlt": "Proyecto web Vida Activa para suplementos",
+    "result": "Catálogo visual orientado a conversión",
+    "url": "/portafolio/#vida-activa"
+  }
+]
