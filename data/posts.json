@@ -538,5 +538,50 @@
       { "q": "¿Todos los profesionales necesitan la misma estructura?", "a": "No. Confianza, regulación, ciclo de venta y tipo de conversión cambian según el sector." }
     ],
     "relatedPage": "/portafolio/"
+  },
+  {
+    "slug": "como-aparecer-en-las-serps-de-google",
+    "title": "Cómo aparecer en las SERPs de Google: guía práctica para tu web",
+    "description": "Aprende cómo aparecer en las SERPs de Google con una web rastreable, contenido útil, SEO técnico y una estrategia realista.",
+    "keyword": "cómo aparecer en las SERPs de Google",
+    "published": "2026-08-29",
+    "updated": "2026-08-29",
+    "readTime": "8 min",
+    "intro": "Aparecer en las SERPs de Google no consiste en repetir una palabra clave muchas veces ni en prometer posiciones rápidas. Se trata de ayudar a Google a rastrear tu web, entender su contenido y mostrarla cuando responde mejor a una búsqueda.",
+    "sections": [
+      {
+        "heading": "Qué significa aparecer en las SERPs",
+        "paragraphs": [
+          "Las SERPs son las páginas de resultados que Google muestra después de una búsqueda. Una web puede aparecer como resultado orgánico, fragmento destacado, resultado local, imagen o respuesta enriquecida, según la intención y el contenido disponible.",
+          "No todas las búsquedas tienen el mismo valor. Conviene priorizar consultas relacionadas con lo que vendes, la zona donde trabajas y las preguntas que tus clientes hacen antes de contactarte. Recibir visitas que nunca podrían convertirse no es una estrategia SEO completa."
+        ]
+      },
+      {
+        "heading": "Haz que Google pueda rastrear e indexar tu web",
+        "paragraphs": [
+          "Antes de optimizar textos, comprueba que Google pueda acceder a las páginas importantes. Revisa el archivo robots.txt, el sitemap, los códigos de respuesta, los enlaces internos y la etiqueta canonical. Una página bloqueada o inaccesible no podrá competir aunque tenga buen contenido.",
+          "Google puede descubrir una URL mediante enlaces, pero Search Console permite comprobar si fue rastreada, indexada y afectada por algún problema. Solicitar una indexación puntual sirve para avisar de una página nueva, no para forzar una posición."
+        ]
+      },
+      {
+        "heading": "Crea contenido que responda una intención concreta",
+        "paragraphs": [
+          "Cada página debe tener un tema principal, un título claro y contenido suficiente para resolver la necesidad del usuario. Explica conceptos, compara alternativas, muestra ejemplos y responde objeciones con información propia y verificable.",
+          "Evita crear muchas páginas casi iguales cambiando únicamente una ciudad o una palabra clave. Una arquitectura más pequeña, clara y conectada suele ser más útil que publicar textos repetitivos sin una diferencia real."
+        ]
+      },
+      {
+        "heading": "Mejora la experiencia y las señales de confianza",
+        "paragraphs": [
+          "La web debe funcionar bien en móvil, cargar con agilidad, ser legible y permitir que el visitante complete la acción principal. La experiencia de página no sustituye a la relevancia, pero una página lenta o difícil de usar puede desperdiciar tanto el tráfico orgánico como el de campañas.",
+          "Muestra quién está detrás del contenido, cómo contactarte, qué experiencia tienes y qué límites tiene tu oferta. En temas sensibles, la precisión, las fuentes y la responsabilidad pesan más que una promesa llamativa."
+        ]
+      }
+    ],
+    "faqs": [
+      { "q": "¿Cuánto tarda una web en aparecer en Google?", "a": "No existe un plazo fijo. Google puede descubrir una página en días o tardar más, y aparecer en los resultados no garantiza una posición concreta." },
+      { "q": "¿Pagar anuncios hace que mi web suba en los resultados orgánicos?", "a": "No. Los anuncios y los resultados orgánicos son sistemas distintos. La publicidad puede generar tráfico y datos, pero no compra posiciones orgánicas." }
+    ],
+    "relatedPage": "/landing-pages/"
   }
 ]

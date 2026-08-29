@@ -50,7 +50,7 @@ await writeRoute('/casos-de-exito/dabar-landing-page-ebooks/', renderDabarCase(c
 await writeRoute('/sobre-mi/', renderAbout(ctx));
 await writeRoute('/contacto/', renderContact(ctx));
 await writeRoute('/blog/', renderBlogIndex(ctx));
-for (const post of posts) await writeRoute(`/blog/${post.slug}/`, renderPost(ctx, post));
+for (const post of posts) await writeRoute(post.url || `/blog/${post.slug}/`, renderPost(ctx, post));
 await writeRoute('/politica-de-privacidad/', renderLegal(ctx, 'privacy'));
 await writeRoute('/terminos-de-servicio/', renderLegal(ctx, 'terms'));
 await writeRoute('/404.html', render404(ctx));
@@ -65,14 +65,15 @@ const routePaths = [
   '/sobre-mi/',
   '/contacto/',
   '/blog/',
-  ...posts.map((post) => `/blog/${post.slug}/`),
+  ...posts.map((post) => post.url || `/blog/${post.slug}/`),
   '/politica-de-privacidad/',
   '/terminos-de-servicio/'
 ];
+const postDates = new Map(posts.map((post) => [post.url || `/blog/${post.slug}/`, post.updated]));
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${routePaths.map((path) => `  <url><loc>${site.siteUrl}${path}</loc><lastmod>2026-08-13</lastmod></url>`).join('\n')}
+${routePaths.map((path) => `  <url><loc>${site.siteUrl}${path}</loc><lastmod>${postDates.get(path) || '2026-08-29'}</lastmod></url>`).join('\n')}
 </urlset>\n`;
 await writeFile(join(root, 'sitemap.xml'), sitemap, 'utf8');
 
