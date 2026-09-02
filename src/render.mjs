@@ -183,7 +183,6 @@ export function renderHome(ctx) {
       </div>
       <div class="hero-visual personal-portrait reveal">
         <div class="portrait-frame"><img src="${site.profileImage}" width="900" height="1125" fetchpriority="high" decoding="async" alt="Edevis Raga, programador y asesor de marca"></div>
-        <div class="portrait-note portrait-note-top"><strong>${site.experienceYears}+ años</strong><span>entre tecnología, diseño y publicidad</span></div>
         <div class="portrait-note portrait-note-bottom"><strong>200+ proyectos</strong><span>construidos y entregados</span></div>
       </div>
     </div>
