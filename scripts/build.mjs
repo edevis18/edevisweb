@@ -12,6 +12,10 @@ import {
   renderPricing,
   renderAbout,
   renderContact,
+  renderCoursesHub,
+  renderCourse,
+  renderAdditionalServicesHub,
+  renderAdditionalService,
   renderLegal,
   render404
 } from '../src/render.mjs';
@@ -19,14 +23,15 @@ import {
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const load = async (name) => JSON.parse(await readFile(join(root, 'data', name), 'utf8'));
 
-const [site, navigation, footerData, pages, posts, portfolio, testimonials] = await Promise.all([
+const [site, navigation, footerData, pages, posts, portfolio, testimonials, offerings] = await Promise.all([
   load('site.json'),
   load('navigation.json'),
   load('footer.json'),
   load('pages.json'),
   load('posts.json'),
   load('portfolio.json'),
-  load('testimonials.json')
+  load('testimonials.json'),
+  load('offerings.json')
 ]);
 
 const ctx = { site, navigation, footerData, pages, posts, portfolio, testimonials };
@@ -55,6 +60,24 @@ function legacyRedirectHtml(fromSlug, targetPath) {
 </head><body><main><h1>Este contenido ahora forma parte de una guía más completa</h1><p>He consolidado este artículo para evitar contenido repetido y mantener una sola guía de mayor valor.</p><p><a href="${targetPath}">Ir a la guía actualizada</a></p></main></body></html>`;
 }
 
+function relativePrefix(path) {
+  if (path === '/' || path.endsWith('.html')) return path === '/' ? './' : './';
+  const depth = path.split('/').filter(Boolean).length;
+  return '../'.repeat(depth);
+}
+
+function makeLocalPathsRelative(html, path) {
+  const prefix = relativePrefix(path);
+  const convert = (value) => {
+    if (!value.startsWith('/')) return value;
+    if (value === '/') return prefix;
+    return prefix + value.slice(1);
+  };
+  return html
+    .replace(/(href|src|action)="(\/[^"]*)"/g, (_, attr, value) => `${attr}="${convert(value)}"`)
+    .replace(/(content="0;url=)(\/[^"]*)"/g, (_, start, value) => `${start}${convert(value)}"`);
+}
+
 async function writeRoute(path, html) {
   const destination = path === '/'
     ? join(root, 'index.html')
@@ -62,7 +85,7 @@ async function writeRoute(path, html) {
       ? join(root, path.slice(1))
       : join(root, path.slice(1), 'index.html');
   await mkdir(dirname(destination), { recursive: true });
-  await writeFile(destination, html, 'utf8');
+  await writeFile(destination, makeLocalPathsRelative(html, path), 'utf8');
 }
 
 await writeRoute('/', renderHome(ctx));
@@ -73,6 +96,10 @@ await writeRoute('/casos-de-exito/', renderCases(ctx));
 await writeRoute('/casos-de-exito/dabar-landing-page-ebooks/', renderDabarCase(ctx));
 await writeRoute('/sobre-mi/', renderAbout(ctx));
 await writeRoute('/contacto/', renderContact(ctx));
+await writeRoute('/cursos-gratis/', renderCoursesHub(ctx, offerings.courses));
+for (const course of offerings.courses) await writeRoute(`/cursos-gratis/${course.slug}/`, renderCourse(ctx, course));
+await writeRoute('/servicios-adicionales/', renderAdditionalServicesHub(ctx, offerings.services));
+for (const service of offerings.services) await writeRoute(`/servicios-adicionales/${service.slug}/`, renderAdditionalService(ctx, service));
 await writeRoute('/blog/', renderBlogIndex(ctx));
 for (const post of posts) await writeRoute(`/blog/${post.slug}/`, renderPost(ctx, post));
 for (const [slug, target] of Object.entries(legacyBlogRedirects)) await writeRoute(`/blog/${slug}/`, legacyRedirectHtml(slug, target));
@@ -89,6 +116,10 @@ const routePaths = [
   '/casos-de-exito/dabar-landing-page-ebooks/',
   '/sobre-mi/',
   '/contacto/',
+  '/cursos-gratis/',
+  ...offerings.courses.map((course) => `/cursos-gratis/${course.slug}/`),
+  '/servicios-adicionales/',
+  ...offerings.services.map((service) => `/servicios-adicionales/${service.slug}/`),
   '/blog/',
   ...posts.map((post) => `/blog/${post.slug}/`),
   '/politica-de-privacidad/',
@@ -106,12 +137,12 @@ await writeFile(join(root, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: $
 const manifest = {
   name: 'Edevis Raga — Desarrollo Web, Marca y Marketing',
   short_name: 'Edevis Raga',
-  start_url: '/',
+  start_url: './',
   display: 'standalone',
   background_color: '#ffffff',
   theme_color: '#7407b8',
   lang: 'es',
-  icons: [{ src: '/assets/images/favicon.png', sizes: '64x64', type: 'image/png' }]
+  icons: [{ src: 'assets/images/favicon.png', sizes: '64x64', type: 'image/png' }]
 };
 await writeFile(join(root, 'manifest.webmanifest'), JSON.stringify(manifest, null, 2), 'utf8');
 

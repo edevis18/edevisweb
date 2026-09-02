@@ -6,7 +6,9 @@
     "image": "/assets/images/project-dabar.webp",
     "imageAlt": "Landing page de DABAR para la venta de ebooks cristianos",
     "result": "9 ventas confirmadas con una inversión inicial de 40 USD",
-    "url": "/casos-de-exito/dabar-landing-page-ebooks/"
+    "url": "/casos-de-exito/dabar-landing-page-ebooks/",
+    "externalUrl": "https://linktr.ee/dabar_ministerio",
+    "externalLabel": "Visitar DABAR"
   },
   {
     "name": "StageG Photos",
@@ -24,7 +26,9 @@
     "image": "/assets/images/project-makri.webp",
     "imageAlt": "Proyecto web corporativo Makrisystem",
     "result": "Propuesta dirigida a empresas de Norteamérica y Europa",
-    "url": "/portafolio/#makrisystem"
+    "url": "/portafolio/#makrisystem",
+    "externalUrl": "https://makrisystem.com/",
+    "externalLabel": "Visitar makrisystem.com"
   },
   {
     "name": "Futura 104.7 FM",
@@ -33,7 +37,9 @@
     "image": "/assets/images/project-futurafm.webp",
     "imageAlt": "Proyecto web de Futura 104.7 FM",
     "result": "Experiencia optimizada para audiencia móvil",
-    "url": "/portafolio/#futura"
+    "url": "/portafolio/#futura",
+    "externalUrl": "https://futurafm.gob.ve/",
+    "externalLabel": "Visitar futurafm.gob.ve"
   },
   {
     "name": "Vida Activa",
@@ -42,6 +48,8 @@
     "image": "/assets/images/project-vidaactiva.webp",
     "imageAlt": "Proyecto web Vida Activa para suplementos",
     "result": "Catálogo visual orientado a conversión",
-    "url": "/portafolio/#vida-activa"
+    "url": "/portafolio/#vida-activa",
+    "externalUrl": "https://vidaactiva.click/",
+    "externalLabel": "Visitar vidaactiva.click"
   }
 ]

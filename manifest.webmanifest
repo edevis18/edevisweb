@@ -1,14 +1,14 @@
 {
   "name": "Edevis Raga — Desarrollo Web, Marca y Marketing",
   "short_name": "Edevis Raga",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#7407b8",
   "lang": "es",
   "icons": [
     {
-      "src": "/assets/images/favicon.png",
+      "src": "assets/images/favicon.png",
       "sizes": "64x64",
       "type": "image/png"
     }

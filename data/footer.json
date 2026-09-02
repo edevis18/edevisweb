@@ -4,27 +4,60 @@
     {
       "title": "Servicios",
       "links": [
-        { "label": "Desarrollo web", "url": "/#servicios" },
-        { "label": "Landing pages", "url": "/landing-pages/" },
-        { "label": "Landing pages bilingües", "url": "/landing-pages/bilingues/" },
-        { "label": "Precios de landing page", "url": "/precios-landing-page/" }
+        {
+          "label": "Desarrollo web",
+          "url": "/#servicios"
+        },
+        {
+          "label": "Landing pages",
+          "url": "/landing-pages/"
+        },
+        {
+          "label": "Diseño gráfico",
+          "url": "/servicios-adicionales/diseno-grafico/"
+        },
+        {
+          "label": "Publicidad digital",
+          "url": "/servicios-adicionales/publicidad-digital/"
+        }
       ]
     },
     {
       "title": "Explora",
       "links": [
-        { "label": "Sobre mí", "url": "/sobre-mi/" },
-        { "label": "Proyectos", "url": "/portafolio/" },
-        { "label": "Caso DABAR", "url": "/casos-de-exito/dabar-landing-page-ebooks/" },
-        { "label": "Blog", "url": "/blog/" }
+        {
+          "label": "Sobre mí",
+          "url": "/sobre-mi/"
+        },
+        {
+          "label": "Proyectos",
+          "url": "/portafolio/"
+        },
+        {
+          "label": "Cursos gratis",
+          "url": "/cursos-gratis/"
+        },
+        {
+          "label": "Blog",
+          "url": "/blog/"
+        }
       ]
     },
     {
       "title": "Información",
       "links": [
-        { "label": "Contacto", "url": "/contacto/" },
-        { "label": "Política de privacidad", "url": "/politica-de-privacidad/" },
-        { "label": "Términos de servicio", "url": "/terminos-de-servicio/" }
+        {
+          "label": "Contacto",
+          "url": "/contacto/"
+        },
+        {
+          "label": "Política de privacidad",
+          "url": "/politica-de-privacidad/"
+        },
+        {
+          "label": "Términos de servicio",
+          "url": "/terminos-de-servicio/"
+        }
       ]
     }
   ]

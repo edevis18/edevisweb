@@ -1,0 +1,246 @@
+{
+  "courses": [
+    {
+      "slug": "chatgpt",
+      "title": "Curso Gratis de ChatGPT",
+      "eyebrow": "Curso gratis · Inteligencia artificial",
+      "lead": "Te enseño una forma práctica de usar ChatGPT para pensar mejor tus instrucciones, trabajar con más contexto y obtener respuestas realmente útiles.",
+      "introTitle": "No se trata de escribir prompts complicados",
+      "introText": "La diferencia suele estar en explicar bien el objetivo, aportar contexto y pedir un resultado concreto. En este curso parto de esa base para que puedas usar ChatGPT en tareas reales sin depender de fórmulas mágicas.",
+      "items": [
+        [
+          "01",
+          "Dale contexto",
+          "Explica quién eres, qué estás intentando resolver y qué información debe tener en cuenta antes de responder."
+        ],
+        [
+          "02",
+          "Define el resultado",
+          "Pide un formato concreto: una explicación, una tabla, una revisión, ideas comparadas o un plan de trabajo."
+        ],
+        [
+          "03",
+          "Trabaja por etapas",
+          "En tareas grandes, separa investigación, estructura, redacción y revisión para mantener el control del resultado."
+        ],
+        [
+          "04",
+          "Revisa y verifica",
+          "Usa la IA como apoyo. Cuando una respuesta dependa de datos actuales o decisiones importantes, contrasta la información."
+        ]
+      ],
+      "checkTitle": "Qué practicarás",
+      "checks": [
+        "Cómo dar contexto sin escribir de más",
+        "Cómo pedir formatos de salida claros",
+        "Cómo mejorar una respuesta en varias rondas",
+        "Cómo usar ChatGPT para estudiar, escribir y organizar ideas",
+        "Cuándo verificar información antes de utilizarla"
+      ],
+      "closingTitle": "Empieza con una tarea real",
+      "closingText": "Elige algo que ya tengas que hacer hoy. Explica el objetivo, agrega el contexto indispensable y pide una primera versión. Luego corrige la dirección con una segunda instrucción. Ese ciclo vale más que memorizar cientos de prompts."
+    },
+    {
+      "slug": "html-basico",
+      "title": "Curso Gratis de HTML Básico",
+      "eyebrow": "Curso gratis · Desarrollo web",
+      "lead": "Aprende la estructura esencial de una página web y entiende para qué sirven las etiquetas que vas a utilizar desde el primer archivo HTML.",
+      "introTitle": "HTML es la estructura de la web",
+      "introText": "Antes de pensar en efectos o frameworks, conviene entender cómo se organiza un documento. Aquí te muestro las piezas fundamentales para crear una página sencilla, semántica y fácil de continuar mejorando.",
+      "items": [
+        [
+          "01",
+          "Documento y estructura",
+          "Comprende html, head y body, y por qué cada parte del documento tiene una función distinta."
+        ],
+        [
+          "02",
+          "Texto con sentido",
+          "Usa títulos, párrafos y listas manteniendo una jerarquía clara para personas y buscadores."
+        ],
+        [
+          "03",
+          "Enlaces e imágenes",
+          "Aprende a conectar páginas, abrir recursos externos e incorporar imágenes con texto alternativo."
+        ],
+        [
+          "04",
+          "HTML semántico",
+          "Organiza header, main, section, article y footer para que el contenido sea más fácil de entender y mantener."
+        ]
+      ],
+      "checkTitle": "Tu primera práctica",
+      "checks": [
+        "Crear un index.html desde cero",
+        "Agregar un H1 y varios bloques de contenido",
+        "Crear un enlace interno y uno externo",
+        "Insertar una imagen con atributo alt",
+        "Separar el contenido en header, main y footer"
+      ],
+      "closingTitle": "Lo importante es entender la base",
+      "closingText": "Cuando dominas la estructura, CSS y JavaScript dejan de sentirse como piezas sueltas. Construye primero una página sencilla y válida; después podrás añadir diseño e interacción con mucha más claridad."
+    }
+  ],
+  "services": [
+    {
+      "slug": "diseno-grafico",
+      "title": "Diseño Gráfico",
+      "eyebrow": "Servicio adicional · Diseño",
+      "lead": "Te ayudo a convertir una idea, promoción o mensaje en una pieza visual clara y coherente con tu marca.",
+      "introTitle": "Diseño para comunicar, no para llenar espacio",
+      "introText": "Antes de diseñar reviso qué necesitas decir, dónde se va a publicar y qué acción esperas de la persona que lo vea. A partir de ahí defino jerarquía, composición y recursos visuales.",
+      "items": [
+        [
+          "01",
+          "Piezas para redes",
+          "Posts, historias, portadas y formatos promocionales adaptados al canal."
+        ],
+        [
+          "02",
+          "Material comercial",
+          "Flyers, piezas informativas y recursos para presentar productos o servicios."
+        ],
+        [
+          "03",
+          "Coherencia visual",
+          "Uso de tipografía, color y composición alineados con la identidad que ya tienes."
+        ],
+        [
+          "04",
+          "Formatos listos",
+          "Entrego las piezas preparadas para el medio acordado y con las dimensiones correctas."
+        ]
+      ],
+      "checkTitle": "Puedo ayudarte con",
+      "checks": [
+        "Contenido para Instagram y redes sociales",
+        "Flyers y promociones",
+        "Piezas para campañas publicitarias",
+        "Portadas y recursos visuales",
+        "Adaptaciones de formatos"
+      ],
+      "closingTitle": "¿Necesitas una pieza concreta?",
+      "closingText": "Cuéntame qué quieres comunicar, en qué canal se publicará y qué material tienes disponible. Con eso puedo decirte cómo lo plantearía."
+    },
+    {
+      "slug": "anuncios-ads",
+      "title": "Anuncios Ads",
+      "eyebrow": "Servicio adicional · Campañas",
+      "lead": "Creo y organizo campañas publicitarias digitales con un objetivo claro, una oferta comprensible y medición desde el inicio.",
+      "introTitle": "Un anuncio necesita algo más que presupuesto",
+      "introText": "La campaña funciona mejor cuando anuncio, audiencia, oferta y destino cuentan la misma historia. Reviso esas piezas antes de pensar en escalar inversión.",
+      "items": [
+        [
+          "01",
+          "Objetivo",
+          "Defino contigo qué acción queremos conseguir antes de crear la campaña."
+        ],
+        [
+          "02",
+          "Creatividades",
+          "Organizo mensajes y piezas pensadas para captar atención sin perder claridad."
+        ],
+        [
+          "03",
+          "Segmentación",
+          "Planteo públicos y ubicaciones según el mercado y la información disponible."
+        ],
+        [
+          "04",
+          "Medición",
+          "Reviso señales útiles para saber qué ajustar y qué conviene mantener."
+        ]
+      ],
+      "checkTitle": "El trabajo puede incluir",
+      "checks": [
+        "Estructura de campaña",
+        "Revisión de oferta y destino",
+        "Piezas y copies publicitarios",
+        "Configuración de públicos",
+        "Seguimiento y optimización"
+      ],
+      "closingTitle": "La campaña debe empezar por una meta concreta",
+      "closingText": "Si ya estás invirtiendo o quieres comenzar, dime qué vendes, a quién quieres llegar y qué resultado estás buscando."
+    },
+    {
+      "slug": "publicidad-digital",
+      "title": "Publicidad Digital",
+      "eyebrow": "Servicio adicional · Estrategia",
+      "lead": "Te ayudo a ordenar cómo presentar tu negocio en digital para que contenido, presencia web y acciones promocionales trabajen en la misma dirección.",
+      "introTitle": "No todo se resuelve con publicar más",
+      "introText": "Primero reviso qué estás ofreciendo, cómo lo estás comunicando y dónde se pierde la atención. Después definimos qué canales y piezas tienen sentido para tu objetivo.",
+      "items": [
+        [
+          "01",
+          "Mensaje",
+          "Aterrizamos una propuesta fácil de entender para la audiencia que quieres atraer."
+        ],
+        [
+          "02",
+          "Canales",
+          "Elegimos dónde tiene sentido aparecer según el tipo de negocio y la etapa del cliente."
+        ],
+        [
+          "03",
+          "Contenido",
+          "Organizamos piezas y llamados a la acción con una intención específica."
+        ],
+        [
+          "04",
+          "Conversión",
+          "Conectamos la publicidad con una página, WhatsApp u otro siguiente paso medible."
+        ]
+      ],
+      "checkTitle": "Áreas que puedo revisar contigo",
+      "checks": [
+        "Propuesta y comunicación",
+        "Presencia digital",
+        "Campañas y contenidos",
+        "Landing pages de apoyo",
+        "Medición de acciones"
+      ],
+      "closingTitle": "Quiero que cada acción tenga una razón",
+      "closingText": "Si tu publicidad se siente dispersa, podemos revisar el recorrido completo y priorizar los cambios que tengan más sentido."
+    },
+    {
+      "slug": "music-manager",
+      "title": "Music Manager",
+      "eyebrow": "Servicio adicional · Proyectos musicales",
+      "lead": "Acompaño proyectos musicales a organizar mejor su presencia digital, materiales de lanzamiento y comunicación alrededor de cada etapa.",
+      "introTitle": "Una canción también necesita una presentación coherente",
+      "introText": "Puedo ayudarte a ordenar la parte digital del proyecto para que imagen, enlaces, contenidos y campañas comuniquen de forma consistente cuando llegue el momento de publicar o promocionar.",
+      "items": [
+        [
+          "01",
+          "Presencia digital",
+          "Reviso cómo se presenta el proyecto y qué puntos de contacto necesita ordenar."
+        ],
+        [
+          "02",
+          "Lanzamientos",
+          "Organizo materiales y comunicación alrededor de una salida musical concreta."
+        ],
+        [
+          "03",
+          "Contenido",
+          "Planteo una línea práctica de piezas que acompañe la promoción sin perder identidad."
+        ],
+        [
+          "04",
+          "Campañas",
+          "Conecto el lanzamiento con acciones publicitarias cuando el objetivo lo justifica."
+        ]
+      ],
+      "checkTitle": "Puedo ayudarte a organizar",
+      "checks": [
+        "Identidad y presentación digital",
+        "Materiales de lanzamiento",
+        "Enlaces y puntos de contacto",
+        "Contenido promocional",
+        "Campañas digitales de apoyo"
+      ],
+      "closingTitle": "Cuéntame en qué etapa está tu proyecto musical",
+      "closingText": "Con el contexto correcto puedo ayudarte a definir qué hace falta ordenar antes de comenzar a mover una canción, lanzamiento o propuesta artística."
+    }
+  ]
+}

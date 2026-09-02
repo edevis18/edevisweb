@@ -1,10 +1,71 @@
 {
   "items": [
-    { "label": "Inicio", "url": "/", "icon": "home" },
-    { "label": "Sobre mí", "url": "/sobre-mi/", "icon": "user" },
-    { "label": "Servicios", "url": "/#servicios", "icon": "target" },
-    { "label": "Proyectos", "url": "/portafolio/", "icon": "briefcase" },
-    { "label": "Blog", "url": "/blog/", "icon": "book" }
+    {
+      "label": "Inicio",
+      "url": "/",
+      "icon": "home"
+    },
+    {
+      "label": "Sobre mí",
+      "url": "/sobre-mi/",
+      "icon": "user"
+    },
+    {
+      "label": "Servicios",
+      "url": "/#servicios",
+      "icon": "target"
+    },
+    {
+      "label": "Proyectos",
+      "url": "/portafolio/",
+      "icon": "briefcase"
+    },
+    {
+      "label": "Cursos Gratis",
+      "url": "/cursos-gratis/",
+      "icon": "book",
+      "children": [
+        {
+          "label": "Curso ChatGPT",
+          "url": "/cursos-gratis/chatgpt/"
+        },
+        {
+          "label": "Curso HTML Básico",
+          "url": "/cursos-gratis/html-basico/"
+        }
+      ]
+    },
+    {
+      "label": "Servicios Adicionales",
+      "url": "/servicios-adicionales/",
+      "icon": "plus",
+      "children": [
+        {
+          "label": "Diseño Gráfico",
+          "url": "/servicios-adicionales/diseno-grafico/"
+        },
+        {
+          "label": "Anuncios Ads",
+          "url": "/servicios-adicionales/anuncios-ads/"
+        },
+        {
+          "label": "Publicidad Digital",
+          "url": "/servicios-adicionales/publicidad-digital/"
+        },
+        {
+          "label": "Music Manager",
+          "url": "/servicios-adicionales/music-manager/"
+        }
+      ]
+    },
+    {
+      "label": "Blog",
+      "url": "/blog/",
+      "icon": "book"
+    }
   ],
-  "cta": { "label": "Hablemos", "url": "/contacto/" }
+  "cta": {
+    "label": "Hablemos",
+    "url": "/contacto/"
+  }
 }

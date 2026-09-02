@@ -1,43 +1,78 @@
 # Edevis Raga — Marca personal y servicios digitales
 
-Sitio estático optimizado para GitHub Pages. La versión 2026 reposiciona la página principal alrededor de la marca personal de Edevis Raga y mantiene las páginas especializadas de landing pages como activos SEO/comerciales.
+Sitio estático 2026 orientado a marca personal, rendimiento y lectura cómoda. Mantiene una arquitectura ligera en HTML, CSS y JavaScript sin frameworks frontend ni fuentes externas pesadas.
 
 ## Identidad visual
 
 - Fondo principal: `#ffffff`
 - Color primario: `#7407b8`
 - Color secundario: `#ffbf13`
-- Sistema visual blanco-first, con morado para identidad y amarillo como acento.
-- Fotografías optimizadas en WebP y sin dependencias visuales pesadas.
+- Tipografía base de lectura: `20px`
+- Menú y botones con peso regular, evitando el uso excesivo de negritas.
+
+## Navegación
+
+La navegación principal incluye:
+
+- Inicio
+- Sobre mí
+- Servicios
+- Proyectos
+- Cursos Gratis
+  - Curso ChatGPT
+  - Curso HTML Básico
+- Servicios Adicionales
+  - Diseño Gráfico
+  - Anuncios Ads
+  - Publicidad Digital
+  - Music Manager
+- Blog
+- Hablemos
+
+## Portafolio
+
+Los proyectos con presencia pública incluyen enlaces directos:
+
+- DABAR: `https://linktr.ee/dabar_ministerio`
+- Makrisystem: `https://makrisystem.com/`
+- Futura 104.7 FM: `https://futurafm.gob.ve/`
+- Vida Activa: `https://vidaactiva.click/`
+
+El caso de éxito de DABAR mantiene el enlace al proyecto y su página interna de caso.
 
 ## Contenido editable
 
 - `data/site.json`: identidad, contacto, redes, Analytics y datos globales.
-- `data/navigation.json`: navegación principal.
+- `data/navigation.json`: navegación principal y dropdowns.
 - `data/footer.json`: contenido del footer.
 - `data/pages.json`: páginas SEO de landing pages.
 - `data/posts.json`: 3 artículos pilares del blog.
-- `data/portfolio.json`: proyectos reales mostrados en el sitio.
+- `data/portfolio.json`: proyectos y enlaces externos.
+- `data/offerings.json`: cursos gratuitos y servicios adicionales.
 - `data/testimonials.json`: testimonios.
 
 ## Blog y SEO
 
-El blog visible e indexable se consolidó en tres guías de mayor profundidad. Las URLs antiguas se conservan únicamente como redirecciones `noindex,follow` hacia la guía más relacionada para no dejar enlaces rotos ni mantener artículos débiles compitiendo entre sí. El sitemap incluye únicamente las tres guías principales.
+El blog visible e indexable se mantiene consolidado en tres guías principales. Las URLs antiguas permanecen como redirecciones `noindex,follow` hacia las guías relacionadas.
 
-## Generar el sitio
+## Generar y validar
 
 ```bash
 npm run build
 npm run check
 ```
 
-## Publicación en GitHub Pages
+El generador convierte las rutas internas a rutas relativas. Esto permite probar el proyecto dentro de una subcarpeta como:
 
-1. Sube el contenido de esta carpeta a la raíz del repositorio.
-2. Conserva `CNAME` para `edevisraga.com`.
-3. Publica desde GitHub Pages / GitHub Actions según la configuración actual del repositorio.
-4. Después de publicar, vuelve a enviar `sitemap.xml` en Google Search Console.
+```text
+http://localhost/edevis/
+```
 
-## Rendimiento
+sin perder CSS, JavaScript, imágenes o navegación, y también funciona publicado en la raíz de `edevisraga.com`.
 
-El proyecto no utiliza framework frontend, Tailwind CDN ni fuentes externas. Las animaciones se realizan con CSS e `IntersectionObserver`. La fotografía principal está optimizada y el resto de imágenes cargan de forma diferida cuando corresponde.
+## Publicación
+
+1. Sube el contenido de esta carpeta a la raíz del hosting o repositorio.
+2. Conserva `CNAME` si utilizas GitHub Pages.
+3. Publica el sitio.
+4. Revisa `sitemap.xml` en Google Search Console después de cambios de URLs o contenido.

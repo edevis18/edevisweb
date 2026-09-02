@@ -1,5 +1,5 @@
 import { readFile, readdir, stat } from 'node:fs/promises';
-import { join, relative, extname } from 'node:path';
+import { join, relative, extname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 
@@ -29,13 +29,13 @@ for (const file of htmlFiles) {
   if (html.includes('cdn.tailwindcss.com')) errors.push(`${label}: utiliza Tailwind CDN`);
   if (html.includes('AI Arbitrage Bot')) errors.push(`${label}: conserva contenido ajeno`);
 
-  const localRefs = [...html.matchAll(/(?:href|src)="(\/[^"]+)"/g)].map((match) => match[1]);
-  for (const ref of localRefs) {
+  const refs = [...html.matchAll(/(?:href|src|action)="([^"]+)"/g)].map((match) => match[1]);
+  for (const ref of refs) {
+    if (/^(?:https?:|mailto:|tel:|data:|#)/i.test(ref)) continue;
     const clean = ref.split('#')[0].split('?')[0];
-    if (!clean || clean === '/') continue;
-    const target = extname(clean)
-      ? join(root, clean.slice(1))
-      : join(root, clean.slice(1), 'index.html');
+    if (!clean) continue;
+    const base = clean.startsWith('/') ? join(root, clean.slice(1)) : resolve(dirname(file), clean);
+    const target = extname(clean) ? base : join(base, 'index.html');
     try { await stat(target); } catch { errors.push(`${label}: referencia inexistente ${ref}`); }
   }
 }

@@ -393,3 +393,18 @@
     transition: none;
   }
 }
+
+/* Readability compatibility: the main generated portfolio uses ../assets/css/styles.css. */
+.portfolio-intro .portfolio-summary,
+.portfolio-page-status,
+.portfolio-page-status strong,
+.portfolio-card-number,
+.portfolio-card-meta span,
+.portfolio-card-content > p,
+.portfolio-card-result,
+.portfolio-card-actions .button,
+.portfolio-pagination button,
+.portfolio-pagination-note {
+  font-size: 20px;
+  font-weight: 400;
+}

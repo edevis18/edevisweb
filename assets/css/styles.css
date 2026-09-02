@@ -488,3 +488,213 @@ p { color: var(--muted); }
   .article-author { grid-template-columns: 1fr; }
   .article-author img { width: 110px; height: 138px; }
 }
+
+/* =========================================================
+   Readability + fresh typography pass · 2026-09
+   Base reading size: 20px. Navigation and buttons stay light.
+   ========================================================= */
+html { font-size: 20px; }
+body {
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 400;
+  letter-spacing: -.006em;
+}
+
+/* Keep the hierarchy expressive without turning the interface into bold text. */
+h1, h2, h3 { font-weight: 650; }
+strong, b { font-weight: 600; }
+body p { font-size: clamp(20px, 1.45vw, 23px) !important; line-height: 1.72; }
+body li { font-size: 20px; line-height: 1.65; }
+body small { font-size: 20px !important; line-height: 1.55; }
+
+/* Header: larger, calmer and easier to scan. */
+.site-header .container { width: min(calc(100% - 1.5rem), 1320px); }
+.header-inner { height: 88px; gap: 1rem; }
+.brand { gap: .55rem; }
+.brand img { width: 52px; height: 36px; }
+.brand strong { font-size: 20px !important; font-weight: 600; letter-spacing: -.015em; }
+.brand small { display: none; }
+.desktop-nav { gap: .05rem; }
+.nav-item > a {
+  padding: .8rem .58rem;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  letter-spacing: -.01em;
+  white-space: nowrap;
+}
+.chevron { font-size: 20px !important; font-weight: 400; }
+.nav-dropdown {
+  width: 320px;
+  padding: .55rem;
+  border-radius: 18px;
+}
+.nav-dropdown a {
+  padding: .72rem .82rem;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  line-height: 1.35;
+}
+.mobile-menu { width: min(92vw, 430px); }
+.mobile-menu .nav-item > a,
+.mobile-menu .nav-dropdown a {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+.mobile-menu > p { font-size: 20px !important; }
+
+/* Buttons and links: no heavy bold. */
+.button,
+.button-small,
+.header-cta,
+.mobile-menu-cta,
+.floating-contact,
+.text-link {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  letter-spacing: -.01em;
+}
+.button { min-height: 56px; padding: .85rem 1.25rem; }
+.button-small { min-height: 50px; padding: .65rem 1rem; }
+.text-link { line-height: 1.45; }
+.floating-contact { min-height: 56px; }
+
+/* Small labels are now readable rather than decorative micro-copy. */
+.eyebrow,
+.hero-trust,
+.post-meta,
+.breadcrumbs,
+.article-meta,
+.article-meta span,
+.project-body > span,
+.project-body small,
+.article-card small,
+.testimonial-card figcaption span,
+.stats-grid span,
+.portrait-note strong,
+.portrait-note span,
+.story-pills span,
+.method-item > span,
+.about-image > span,
+.about-values span,
+.contact-form label > span,
+.form-status,
+.contact-option small,
+.availability span,
+.post-aside strong,
+.post-aside ol,
+.post-aside ol li,
+.popular-label,
+.pricing-card > div > span,
+.pricing-card > div > strong small,
+.pricing-card li,
+.pricing-notes p,
+.footer-brand > p,
+.footer-grid h2,
+.footer-grid li,
+.footer-bottom p,
+.social-links a,
+.case-metrics span,
+.mini-metrics span,
+.check-item,
+.process-card p,
+.feature-card p,
+.benefit-row p,
+.deliverable p,
+.faq-item p,
+.article-author p,
+.portfolio-summary,
+.portfolio-page-status,
+.portfolio-card-meta span,
+.portfolio-card-content > p,
+.portfolio-card-result,
+.portfolio-card-actions .button,
+.portfolio-pagination-note {
+  font-size: 20px !important;
+}
+
+.eyebrow { font-weight: 500 !important; letter-spacing: .08em; text-transform: uppercase; }
+.project-body > span,
+.article-meta span,
+.portfolio-card-meta span { font-weight: 500 !important; }
+.method-item > span,
+.popular-label,
+.social-links a { font-weight: 500 !important; }
+
+/* Body copy needs breathing room at the new scale. */
+.section-heading > p,
+.sticky-copy > p,
+.inner-hero p,
+.about-copy > p,
+.story-copy p,
+.article-prose p,
+.post-content p { max-width: 820px; }
+.feature-card,
+.process-card,
+.project-card,
+.testimonial-card,
+.article-card { padding-bottom: .2rem; }
+.project-body { padding: 1.45rem; }
+.project-actions { display: flex; flex-wrap: wrap; gap: .7rem 1.1rem; align-items: center; margin-top: 1rem; }
+.project-actions .text-link { margin-top: 0; }
+.project-external { color: var(--primary-dark); }
+
+/* Forms should be as readable as the rest of the site. */
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  font-size: 20px !important;
+  line-height: 1.5;
+}
+.contact-form input,
+.contact-form select { min-height: 58px; }
+
+/* Footer remains quiet, but no longer tiny. */
+.site-footer { line-height: 1.6; }
+.footer-grid h2 { font-weight: 600; text-transform: none; letter-spacing: 0; }
+.footer-grid li { line-height: 1.55; }
+.footer-bottom { align-items: center; }
+
+/* New course / additional service hubs. */
+.card-grid .feature-card h2 { font-size: clamp(1.55rem, 2.5vw, 2.1rem); }
+.card-grid .feature-card .text-link { margin-top: auto; }
+
+@media (max-width: 1240px) {
+  .desktop-nav, .header-cta { display: none; }
+  .menu-toggle { display: block; margin-left: auto; }
+}
+
+@media (max-width: 760px) {
+  html { font-size: 20px; }
+  body p { font-size: 20px !important; }
+  .header-inner { height: 76px; }
+  .brand strong { font-size: 20px !important; }
+  .mobile-menu .nav-dropdown { margin-left: .35rem; padding-left: .55rem; border-left: 2px solid rgba(116,7,184,.12); }
+  .mobile-menu .nav-dropdown a { padding: .7rem .65rem; }
+  .project-actions { display: grid; align-items: stretch; }
+  .footer-bottom { display: grid; gap: .8rem; }
+}
+
+/* Final weight/readability normalization for labels that used to be micro-copy. */
+.deliverable > span,
+.process-card > span,
+.testimonial-card blockquote,
+.mini-nav,
+.mini-content span,
+.mini-content button,
+.metric-card strong,
+.metric-card small {
+  font-size: 20px !important;
+}
+.deliverable > span,
+.process-card > span,
+.faq-item summary,
+.contact-form label > span,
+.about-image > span,
+.article-meta span,
+.metric-card strong,
+.mini-content span,
+.mini-content button {
+  font-weight: 500 !important;
+}
+.testimonial-card blockquote { line-height: 1.65; }
