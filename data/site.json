@@ -2,17 +2,18 @@
   "name": "Edevis Raga",
   "legalName": "Edevis Raga",
   "siteUrl": "https://edevisraga.com",
-  "tagline": "Landing Pages Profesionales",
-  "description": "Diseño y desarrollo landing pages profesionales, rápidas y orientadas a convertir visitas en clientes para empresas, profesionales y emprendedores.",
+  "tagline": "Desarrollo Web · Marca · Marketing",
+  "description": "Soy Edevis Raga. Ayudo a negocios, profesionales y marcas a construir una presencia digital clara, rápida y orientada a generar oportunidades mediante desarrollo web, landing pages, marca y marketing digital.",
   "language": "es",
   "locale": "es_ES",
-  "logo": "/assets/images/logo.webp",
-  "profileImage": "/assets/images/edevis-raga.webp",
-  "ogImage": "/assets/images/og-edevis-raga.webp",
+  "logo": "/assets/images/logo-purple.webp",
+  "profileImage": "/assets/images/edevis-raga-hero.webp",
+  "aboutImage": "/assets/images/edevis-raga-about.webp",
+  "ogImage": "/assets/images/og-edevis-raga-2026.webp",
   "email": "edeviswebmaster@gmail.com",
   "whatsappNumber": "5804246538309",
   "whatsappUrl": "https://wa.me/5804246538309",
-  "availability": "Atención remota para clientes de cualquier parte del mundo",
+  "availability": "Trabajo de forma remota con clientes de cualquier parte del mundo",
   "experienceYears": 18,
   "projectsDelivered": 200,
   "social": {
@@ -22,11 +23,11 @@
   },
   "analyticsId": "G-1L26MF66LZ",
   "theme": {
-    "primary": "#e86b0f",
-    "primaryDark": "#b84408",
-    "accent": "#ffb000",
-    "background": "#090b10",
-    "surface": "#121722",
-    "text": "#f8fafc"
+    "primary": "#7407b8",
+    "primaryDark": "#570589",
+    "accent": "#ffbf13",
+    "background": "#ffffff",
+    "surface": "#ffffff",
+    "text": "#201825"
   }
 }

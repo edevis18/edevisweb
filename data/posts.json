@@ -1,587 +1,323 @@
 [
   {
-    "slug": "cuanto-cuesta-crear-landing-page-profesional",
-    "title": "¿Cuánto cuesta crear una landing page profesional?",
-    "description": "Conoce qué factores determinan el precio de una landing page profesional, qué debería incluir una propuesta y cómo comparar opciones.",
-    "keyword": "cuánto cuesta crear una landing page profesional",
-    "published": "2026-08-13",
-    "updated": "2026-08-13",
-    "readTime": "7 min",
-    "intro": "El precio de una landing page no depende solamente de cuántas secciones aparecen en pantalla. La estrategia, el contenido, las integraciones, la calidad del desarrollo y el nivel de personalización cambian significativamente el alcance.",
-    "sections": [
-      {
-        "heading": "Qué estás comprando realmente",
-        "paragraphs": [
-          "Una landing profesional reúne análisis de la oferta, organización del mensaje, diseño visual, desarrollo responsive, optimización de recursos, configuración de conversiones y publicación. Cuando una propuesta solo habla de colores y cantidad de bloques, probablemente está dejando fuera la parte estratégica.",
-          "El objetivo no debería ser llenar una página, sino reducir las dudas que impiden al visitante solicitar información, reservar, comprar o iniciar una conversación."
-        ]
-      },
-      {
-        "heading": "Factores que modifican el precio",
-        "paragraphs": [
-          "Una página basada en contenido ya preparado requiere menos trabajo que un proyecto donde también se debe ordenar la oferta y redactar el mensaje. Una versión bilingüe, un calculador, una integración de agenda o un checkout añaden horas de implementación y pruebas.",
-          "También influyen la cantidad de variantes, el diseño personalizado, las animaciones, la analítica, el formulario, el alojamiento y el soporte posterior. Pedir un precio sin explicar el objetivo produce cotizaciones difíciles de comparar."
-        ]
-      },
-      {
-        "heading": "Qué debería incluir una propuesta clara",
-        "paragraphs": [
-          "La propuesta debe indicar entregables, número de revisiones, responsabilidades del cliente, plazo estimado, propiedad de los archivos, integraciones, condiciones de publicación y costos recurrentes. También debe aclarar qué no está incluido.",
-          "Un precio inicial visible sirve como referencia, pero el valor final debe responder al proyecto. Una landing para validar un servicio no tiene el mismo alcance que una página bilingüe conectada a un sistema comercial."
-        ]
-      },
-      {
-        "heading": "Cómo decidir sin elegir únicamente lo más barato",
-        "paragraphs": [
-          "Revisa proyectos reales, velocidad, experiencia móvil, claridad del proceso y capacidad para explicar decisiones. Pregunta cómo se medirá la acción principal y qué sucederá si necesitas modificar el contenido.",
-          "La opción más económica puede ser adecuada para una validación sencilla. El problema aparece cuando no incluye elementos esenciales y obliga a reconstruir el proyecto poco después."
-        ]
-      }
-    ],
-    "faqs": [
-      { "q": "¿El dominio y el alojamiento forman parte del precio?", "a": "Depende de la propuesta. Deben aparecer separados y quedar registrados a nombre del cliente cuando sean incluidos." },
-      { "q": "¿Una landing tiene mensualidad?", "a": "El diseño no necesariamente. El dominio, alojamiento, formularios o herramientas externas pueden tener costos periódicos." }
-    ],
-    "relatedPage": "/precios-landing-page/"
-  },
-  {
     "slug": "que-debe-tener-landing-page-para-captar-clientes",
-    "title": "¿Qué debe tener una landing page para captar clientes?",
-    "description": "Elementos fundamentales de una landing page para captar clientes: propuesta, confianza, beneficios, formulario, CTA y medición.",
-    "keyword": "qué debe tener una landing page para captar clientes",
+    "title": "¿Qué debe tener una landing page para convertir visitas en clientes?",
+    "description": "Guía completa para entender qué necesita una landing page que busca captar clientes: propuesta de valor, estructura, confianza, CTA, formularios, velocidad y medición.",
+    "keyword": "qué debe tener una landing page para convertir visitas en clientes",
     "published": "2026-08-13",
-    "updated": "2026-08-13",
-    "readTime": "8 min",
-    "intro": "Una landing que capta clientes no depende de un botón grande ni de una frase llamativa. Necesita responder las preguntas correctas en el orden adecuado y facilitar una acción que también sea útil para el negocio.",
+    "updated": "2026-09-01",
+    "readTime": "14 min",
+    "intro": "Una landing page no convierte porque tenga un diseño llamativo o un botón grande. Convierte mejor cuando ayuda a una persona a entender rápidamente qué ofreces, por qué puede confiar en ti y cuál es el siguiente paso. En esta guía explico cómo pienso esa estructura cuando trabajo una página orientada a captar oportunidades reales, sin fórmulas mágicas ni promesas de resultados garantizados.",
     "sections": [
       {
-        "heading": "Una promesa específica en el primer bloque",
+        "heading": "1. Empieza por una propuesta que se entienda en segundos",
         "paragraphs": [
-          "El visitante debe identificar rápidamente qué ofreces, a quién ayudas y cuál es el resultado buscado. Frases como “soluciones innovadoras” o “llevamos tu negocio al siguiente nivel” podrían pertenecer a cualquier empresa y no ayudan a decidir.",
-          "El titular debe complementarse con una explicación breve, una acción visible y una señal de confianza. No es necesario explicar todo en el hero, pero sí dar una razón para continuar."
+          "El primer bloque tiene una tarea muy concreta: reducir la confusión. Cuando alguien llega desde Google, Instagram, un anuncio, un correo o un enlace de WhatsApp, no debería tener que interpretar frases genéricas para descubrir qué haces. El titular necesita expresar el servicio, el problema que resuelves o el resultado que persigue el cliente con palabras que suenen naturales para esa persona.",
+          "Yo suelo trabajar el hero con cuatro piezas: un titular específico, una explicación breve, un llamado a la acción visible y una señal de confianza. No intento meter toda la información arriba. Lo importante es que el visitante comprenda por qué vale la pena seguir leyendo y qué puede hacer si ya está listo para hablar contigo.",
+          "Evito frases como “soluciones innovadoras” o “llevamos tu negocio al siguiente nivel” cuando no explican nada concreto. Pueden sonar bien, pero sirven para casi cualquier empresa. Una propuesta útil debe poder diferenciar tu oferta de otra en pocos segundos."
         ]
       },
       {
-        "heading": "Beneficios conectados con problemas reales",
+        "heading": "2. Ordena el contenido según las dudas del cliente",
         "paragraphs": [
-          "Una lista de funciones describe el servicio desde la perspectiva del proveedor. Los beneficios traducen esas funciones a cambios que el cliente comprende. Lo ideal es combinar ambos: explicar qué incluye y por qué importa.",
-          "La página también debe reconocer límites. Una promesa realista genera más confianza que afirmar resultados garantizados que dependen de precio, tráfico, reputación y seguimiento comercial."
+          "Una landing page funciona mejor cuando la secuencia responde preguntas en el mismo orden en que aparecen en la mente del visitante. Primero entiende la oferta. Después quiere saber si esa oferta es para él, qué incluye, cómo funciona, cuánto riesgo existe y qué debe hacer para continuar.",
+          "Por eso no organizo una landing pensando solamente en “secciones bonitas”. Pienso en una conversación. El hero abre esa conversación; los beneficios conectan con el problema; el proceso reduce incertidumbre; las pruebas generan confianza; las preguntas frecuentes resuelven objeciones y el CTA aparece cuando existe suficiente contexto.",
+          "El orden puede cambiar según el negocio. Una consulta médica necesita confianza profesional antes que precio. Un servicio B2B puede necesitar proceso y experiencia. Un ebook puede necesitar mostrar contenido, autor y beneficios antes del checkout. La estructura debe responder a la decisión real, no a una plantilla."
         ]
       },
       {
-        "heading": "Pruebas y reducción de riesgo",
+        "heading": "3. Habla de beneficios sin esconder lo que realmente entregas",
         "paragraphs": [
-          "Casos de éxito, proyectos, metodología, experiencia y testimonios con contexto ayudan a disminuir incertidumbre. Si el negocio todavía no tiene testimonios, puede mostrar muestras, proceso, certificaciones o una demostración concreta.",
-          "Las preguntas frecuentes deben responder objeciones reales sobre precio, tiempo, funcionamiento, propiedad y soporte. No deberían utilizarse para repetir palabras clave sin aportar información."
+          "Muchos sitios caen en uno de dos extremos. Algunos hablan únicamente de características: cantidad de sesiones, páginas, módulos o archivos. Otros solo prometen beneficios abstractos. Yo prefiero conectar ambas cosas. Explico qué recibe la persona y por qué eso importa.",
+          "Si ofreces una consultoría de cuatro sesiones, por ejemplo, el dato “cuatro sesiones” es útil, pero no basta. También necesitas explicar qué se trabaja en esas sesiones y qué debería quedar más claro al terminar. Si vendes una landing page, no alcanza con decir “responsive, rápida y moderna”; conviene explicar cómo esas decisiones ayudan a que el visitante entienda la oferta y pueda actuar desde el teléfono.",
+          "Esta combinación también evita exageraciones. Una página puede mejorar claridad, experiencia y medición, pero no puede garantizar ventas por sí sola. El tráfico, el precio, la reputación, la oferta y el seguimiento comercial también influyen."
         ]
       },
       {
-        "heading": "Formulario y medición",
+        "heading": "4. Construye confianza con pruebas que tengan contexto",
         "paragraphs": [
-          "Cada campo adicional reduce la probabilidad de envío, pero eliminar toda calificación puede llenar la bandeja de solicitudes inútiles. La cantidad correcta depende del siguiente paso comercial.",
-          "El envío del formulario, el clic de WhatsApp, la llamada y otros eventos deben medirse por separado. Sin esa información es difícil saber si la página necesita más tráfico o una mejor propuesta."
+          "La confianza no se obtiene poniendo cinco estrellas sin explicar de dónde salen. Testimonios, proyectos, resultados, trayectoria, certificaciones, proceso y datos pueden ayudar, pero deben ser verificables y relevantes para la decisión.",
+          "Cuando muestro un proyecto intento explicar qué necesitaba, qué trabajé y qué resultado o aprendizaje existe. Si tengo una cifra, la acompaño con contexto: periodo, inversión o alcance. Si no existe un resultado cuantificable, prefiero mostrar calidad de ejecución antes que inventar una métrica.",
+          "También cuenta la transparencia. Aclarar plazos, qué está incluido, qué depende del cliente o qué no puedes prometer reduce fricción. Una landing no necesita parecer perfecta; necesita transmitir que detrás hay una persona o empresa capaz de cumplir lo que ofrece."
+        ]
+      },
+      {
+        "heading": "5. Diseña el llamado a la acción alrededor del siguiente paso real",
+        "paragraphs": [
+          "El CTA debe representar el paso que de verdad quieres que ocurra. “Comprar ahora” tiene sentido si el visitante puede completar una compra. “Solicitar una llamada” funciona si después existe un proceso de agenda. “Escríbeme por WhatsApp” es útil cuando realmente atiendes ese canal.",
+          "Repetir el mismo CTA varias veces no es un problema. De hecho, puede ser conveniente después de secciones importantes. Lo que suele perjudicar es ofrecer demasiadas acciones principales que compiten entre sí: descargar, llamar, visitar Instagram, abrir cinco servicios, suscribirse y comprar al mismo tiempo.",
+          "Yo defino una acción principal y, cuando hace falta, una secundaria de menor peso. Esto hace que el diseño sea más limpio y que la medición sea mucho más sencilla."
+        ]
+      },
+      {
+        "heading": "6. Pide solo la información que necesitas para continuar",
+        "paragraphs": [
+          "Cada campo adicional en un formulario introduce fricción, pero un formulario demasiado corto también puede generar contactos sin contexto. La cantidad correcta depende de lo que harás después del envío.",
+          "Para un servicio profesional, nombre, correo o teléfono y una breve descripción del proyecto suelen ser una buena base. Si necesitas presupuesto, fecha, ubicación o tipo de servicio para filtrar correctamente, puedes pedirlos siempre que tengan una razón clara.",
+          "Evito solicitar datos sensibles en una landing pública cuando no son necesarios. En sectores como salud o servicios legales, el primer contacto debe pedir lo mínimo y dejar la información sensible para canales y procesos adecuados."
+        ]
+      },
+      {
+        "heading": "7. Velocidad y experiencia móvil forman parte de la conversión",
+        "paragraphs": [
+          "Una página puede tener un copy excelente y perder oportunidades si tarda demasiado, salta mientras carga o es incómoda desde el teléfono. Por eso considero el rendimiento parte del trabajo de conversión, no un detalle técnico separado.",
+          "Optimizo imágenes, reduzco JavaScript innecesario, declaro dimensiones para evitar saltos visuales y procuro que el contenido principal aparezca rápido. También reviso botones, formularios, tamaños de texto, espacios y áreas táctiles en pantallas pequeñas.",
+          "Mobile-first no significa hacer una versión reducida de escritorio. Significa pensar primero en la situación más probable: una persona usando el teléfono, quizá con conexión móvil, que necesita decidir rápido si continúa o se va."
+        ]
+      },
+      {
+        "heading": "8. Mide acciones concretas antes de rediseñar por intuición",
+        "paragraphs": [
+          "Sin medición es fácil culpar al diseño cuando el problema está en otra parte. Como mínimo conviene distinguir visitas, clics principales, envíos de formulario, clics a WhatsApp, llamadas y compras cuando aplique.",
+          "Si muchas personas llegan pero nadie hace clic, revisaría primero mensaje, oferta y confianza. Si hacen clic pero el formulario no se completa, revisaría fricción. Si llegan contactos pero ninguno compra, puede que el problema esté después de la landing, en el proceso comercial o en la calificación.",
+          "Una landing buena no es una pieza que se publica y se olvida. Es una base que permite aprender. Los cambios deberían responder a datos, conversaciones con clientes y objetivos del negocio."
+        ]
+      },
+      {
+        "heading": "9. Una lista práctica antes de publicar",
+        "paragraphs": [
+          "Antes de publicar reviso si el titular explica la oferta, si el CTA principal es evidente, si el contenido responde objeciones, si los testimonios o proyectos tienen contexto, si el formulario funciona y si la versión móvil se puede recorrer sin esfuerzo.",
+          "También compruebo enlaces, metadatos, título SEO, descripción, canonical, imágenes sociales, eventos de analítica, favicon, política de privacidad y que no haya recursos pesados cargando sin necesidad. Son detalles que no siempre se ven, pero forman parte de una implementación profesional.",
+          "Si tu landing cumple estas condiciones, ya tienes una base mucho más útil que una página construida solo alrededor de tendencias visuales. Después toca observar qué ocurre con tráfico real y mejorar desde ahí."
         ]
       }
     ],
     "faqs": [
-      { "q": "¿Cuántos llamados a la acción debe tener?", "a": "Puede repetir el mismo CTA en distintos momentos. Lo importante es no competir con varias acciones principales diferentes." },
-      { "q": "¿Debe incluir precios?", "a": "Cuando el precio es estable, ayuda a calificar. En servicios personalizados pueden utilizarse rangos o un precio inicial." }
+      {
+        "q": "¿Cuántas secciones debe tener una landing page?",
+        "a": "No existe un número correcto. Debe tener las secciones necesarias para explicar la oferta, resolver objeciones y llevar a una acción sin repetir información."
+      },
+      {
+        "q": "¿Es mejor usar formulario o WhatsApp?",
+        "a": "Depende del proceso comercial. WhatsApp reduce fricción; un formulario puede calificar mejor. En algunos proyectos conviene utilizar ambos con una jerarquía clara."
+      },
+      {
+        "q": "¿Una landing page necesita menú?",
+        "a": "No siempre. Si el objetivo es una campaña o una oferta concreta, un menú amplio puede distraer. En otros casos una navegación mínima ayuda a confianza y accesibilidad."
+      },
+      {
+        "q": "¿Debo poner el precio?",
+        "a": "Si el precio es estable y ayuda a filtrar, mostrarlo puede ser útil. En servicios personalizados puedes usar un precio inicial o explicar qué factores modifican el alcance."
+      },
+      {
+        "q": "¿Una buena landing garantiza clientes?",
+        "a": "No. Puede mejorar claridad, experiencia y medición, pero el resultado también depende de la oferta, tráfico, precio, reputación y seguimiento comercial."
+      }
     ],
     "relatedPage": "/landing-pages/para-captar-clientes/"
   },
   {
     "slug": "landing-page-o-pagina-web-cual-necesita-mi-negocio",
-    "title": "Landing page o página web: ¿cuál necesita mi negocio?",
-    "description": "Compara landing page y sitio web para elegir la estructura adecuada según tu oferta, objetivos, contenidos y etapa del negocio.",
-    "keyword": "landing page o página web cuál necesita mi negocio",
+    "title": "Landing page vs. página web: ¿cuál necesita realmente tu negocio?",
+    "description": "Comparativa completa entre landing page y sitio web para decidir qué estructura necesitas según tus objetivos, servicios, SEO, campañas y etapa del negocio.",
+    "keyword": "landing page vs página web",
     "published": "2026-08-13",
-    "updated": "2026-08-13",
-    "readTime": "7 min",
-    "intro": "Una landing page y un sitio web no compiten: resuelven necesidades diferentes. La decisión depende de cuántas ofertas tienes, qué información debe consultar el usuario y cuál es el objetivo prioritario.",
+    "updated": "2026-09-01",
+    "readTime": "13 min",
+    "intro": "Una landing page y un sitio web no compiten. Son herramientas distintas y elegir bien depende de lo que necesitas que ocurra. En esta guía te explico cómo separo ambos escenarios cuando un cliente llega con la duda de si necesita una sola página enfocada en conversión o un sitio con varias secciones y objetivos.",
     "sections": [
       {
-        "heading": "Cuándo elegir una landing page",
+        "heading": "1. La diferencia principal está en el objetivo, no en la cantidad de páginas",
         "paragraphs": [
-          "La landing es adecuada cuando existe una oferta principal y una acción concreta. Funciona para lanzar un servicio, captar solicitudes, presentar un evento, vender un ebook o recibir tráfico de una campaña.",
-          "También es útil para emprendedores que necesitan validar su mensaje antes de invertir en una arquitectura más amplia. Al limitar las opciones, permite aprender qué argumentos y objeciones importan."
+          "Una landing page se construye alrededor de una oferta y una acción principal. Puede ser solicitar información, reservar, comprar, descargar o iniciar una conversación. Todo el contenido se organiza para ayudar a esa decisión.",
+          "Un sitio web tradicional normalmente tiene varios objetivos: explicar la empresa, mostrar servicios, publicar contenido, atender diferentes audiencias, presentar equipo, soporte, recursos y contacto. Por eso suele dividir la información en varias URLs.",
+          "Decir que una landing es una “web pequeña” simplifica demasiado. Puede ser extensa y sofisticada. Lo que la define es su foco. Del mismo modo, un sitio de pocas páginas puede necesitar una arquitectura más amplia porque responde a intenciones diferentes."
         ]
       },
       {
-        "heading": "Cuándo necesitas un sitio multipágina",
+        "heading": "2. Cuándo elegir una landing page",
         "paragraphs": [
-          "Un sitio completo es más apropiado cuando el negocio tiene numerosos servicios, sedes, profesionales, recursos o contenidos que responden intenciones distintas. Cada tema importante puede necesitar su propia URL para ser útil y posicionarse.",
-          "Una clínica con varias especialidades, un bufete con múltiples áreas o una empresa con catálogo y soporte difícilmente debería reducir toda su información a una página."
+          "Yo recomendaría una landing cuando existe una oferta concreta y quieres dirigir tráfico hacia una acción. Es especialmente útil para campañas publicitarias, lanzamiento de un servicio, captación de leads, venta de un producto digital, registro a un evento o validación de una nueva propuesta.",
+          "También funciona cuando el negocio todavía no necesita explicar un catálogo amplio. Un profesional que vende una consulta específica puede obtener más claridad con una sola página bien construida que con un sitio de diez apartados vacíos.",
+          "La ventaja es el foco. La desventaja aparece cuando intentas obligar a una landing a resolver demasiadas necesidades: varios servicios independientes, blog, equipo, distintas ubicaciones y múltiples públicos. En ese punto la estructura empieza a pedir un sitio."
         ]
       },
       {
-        "heading": "El error de convertir la landing en un sitio interminable",
+        "heading": "3. Cuándo necesitas un sitio web completo",
         "paragraphs": [
-          "Añadir cada servicio, historia, publicación y detalle a una sola página elimina la concentración que justificaba la landing. También dificulta que Google relacione una URL con búsquedas específicas.",
-          "Si el contenido crece, la solución no es esconderlo en pestañas. Conviene crear una arquitectura donde la home presenta la marca y las páginas internas desarrollan cada intención."
+          "Un sitio multipágina tiene sentido cuando las personas buscan información distinta y cada tema merece su propia URL. Por ejemplo, una empresa con varios servicios B2B puede necesitar páginas individuales para explicar cada solución, casos de éxito, recursos, empresa y contacto.",
+          "También es más conveniente cuando el SEO orgánico forma parte importante de la estrategia. Una arquitectura con páginas específicas permite trabajar distintas intenciones de búsqueda sin intentar concentrar todo en una sola URL.",
+          "Otro indicador es la frecuencia de actualización. Si publicas artículos, documentación, proyectos, perfiles de equipo o recursos, un sitio con estructura clara facilita el crecimiento y el enlazado interno."
         ]
       },
       {
-        "heading": "Una estrategia híbrida",
+        "heading": "4. Puedes combinar ambos enfoques",
         "paragraphs": [
-          "Muchos negocios utilizan un sitio corporativo como base y landing pages específicas para ofertas, campañas o públicos. Así conservan información institucional y ofrecen recorridos enfocados cuando la conversión lo requiere.",
-          "La mejor elección no es la más grande, sino la que comunica con claridad y puede mantenerse correctamente."
+          "En muchos proyectos la mejor respuesta no es elegir uno u otro. Un sitio principal puede construir marca, autoridad y SEO mientras varias landing pages atienden campañas, servicios o audiencias concretas.",
+          "Por ejemplo, una firma puede tener su sitio corporativo y una landing específica para una campaña de inmigración, una consulta inicial o un webinar. La landing elimina distracciones; el sitio principal mantiene el ecosistema de contenidos y confianza.",
+          "Esta combinación también permite medir mejor. Puedes enviar tráfico pagado a una página enfocada sin alterar la navegación general del sitio."
+        ]
+      },
+      {
+        "heading": "5. SEO: una landing puede posicionar, pero necesita profundidad y contexto",
+        "paragraphs": [
+          "Una landing page sí puede aparecer en Google. El problema es intentar posicionarla para demasiadas búsquedas o publicar una página con poco contenido únicamente porque contiene una palabra clave.",
+          "Cuando el objetivo es SEO, la página necesita responder la intención de búsqueda, aportar información útil, tener enlaces internos, buena experiencia técnica y una propuesta suficientemente distinta de otras URLs del mismo dominio.",
+          "Si quieres posicionarte para varios servicios o ciudades, crear decenas de páginas casi iguales suele generar poco valor. Prefiero menos URLs, mejor explicadas y con contenido que realmente ayude a decidir."
+        ]
+      },
+      {
+        "heading": "6. Coste y mantenimiento: mira el ciclo completo",
+        "paragraphs": [
+          "Una landing suele requerir menos alcance inicial que un sitio completo, pero no siempre es barata. Copy, diseño personalizado, integraciones, checkout, versiones bilingües, analítica o funciones especiales pueden aumentar el trabajo.",
+          "Un sitio multipágina requiere más arquitectura, navegación, contenido y pruebas. También puede necesitar mantenimiento editorial más frecuente. A cambio, te da espacio para crecer sin meter todo en una sola página.",
+          "Antes de comparar presupuestos, revisa qué incluye cada propuesta. Dos precios pueden parecer similares y estar resolviendo problemas completamente distintos."
+        ]
+      },
+      {
+        "heading": "7. Cómo decidir según la etapa de tu negocio",
+        "paragraphs": [
+          "Si estás validando una oferta nueva, una landing puede ayudarte a salir más rápido, medir interés y aprender sin construir una estructura enorme. Si ya tienes varios servicios, clientes, contenido y búsquedas orgánicas, probablemente necesitas una base más amplia.",
+          "Si dependes de campañas, la landing enfocada suele ser especialmente útil. Si dependes de búsqueda orgánica, referencias y reputación institucional, un sitio con páginas específicas puede tener más sentido.",
+          "También importa tu capacidad de mantenerlo. Un sitio grande sin contenido actualizado ni responsables claros puede terminar siendo peor que una página pequeña pero cuidada."
+        ]
+      },
+      {
+        "heading": "8. Mi regla práctica para recomendar una opción",
+        "paragraphs": [
+          "Cuando alguien me pregunta qué necesita, intento responder tres cosas: cuántas ofertas diferentes quiere presentar, cuántas acciones principales espera del visitante y cuántas intenciones de búsqueda necesita cubrir.",
+          "Una oferta + una acción + una audiencia suele apuntar a una landing. Varias ofertas + varios recorridos + necesidad de SEO y contenidos suele apuntar a un sitio. Si existe una mezcla, planteo un sitio base con landings específicas.",
+          "La herramienta correcta es la que simplifica el recorrido del cliente y permite que el negocio crezca sin reconstruirlo todo a los pocos meses."
         ]
       }
     ],
     "faqs": [
-      { "q": "¿Una landing puede posicionarse en Google?", "a": "Sí, si responde bien una intención, es rastreable y posee señales suficientes. Sin embargo, una sola URL tiene un alcance temático limitado." },
-      { "q": "¿Puedo convertirla después en un sitio?", "a": "Sí. Una arquitectura técnica limpia permite conservar dominio, diseño y contenido mientras se añaden páginas." }
+      {
+        "q": "¿Puedo empezar con una landing y convertirla luego en sitio web?",
+        "a": "Sí, si la estructura y los activos se preparan correctamente. Puedes validar una oferta con una landing y ampliar después el ecosistema."
+      },
+      {
+        "q": "¿Una landing page sirve para SEO?",
+        "a": "Sí, cuando responde bien una intención concreta, aporta contenido útil y tiene una base técnica correcta. No es ideal para cubrir muchas intenciones diferentes en una sola URL."
+      },
+      {
+        "q": "¿Un sitio web convierte peor que una landing?",
+        "a": "No necesariamente. Un sitio puede convertir muy bien. La landing suele facilitar el foco cuando el tráfico llega con una intención específica."
+      },
+      {
+        "q": "¿Necesito una landing si ya tengo página web?",
+        "a": "Puede ser útil para campañas, servicios específicos, lanzamientos o audiencias concretas sin modificar la navegación general de tu sitio."
+      },
+      {
+        "q": "¿Qué opción es más rápida de publicar?",
+        "a": "Una landing con alcance claro suele publicarse antes, pero el plazo depende de contenido, diseño, integraciones y revisiones."
+      }
     ],
     "relatedPage": "/landing-pages/"
   },
   {
-    "slug": "cuanto-tarda-desarrollo-landing-page",
-    "title": "¿Cuánto tarda el desarrollo de una landing page?",
-    "description": "Plazos habituales para crear una landing page y factores que aceleran o retrasan estrategia, contenido, diseño, desarrollo y publicación.",
-    "keyword": "cuánto tarda el desarrollo de una landing page",
+    "slug": "cuanto-cuesta-crear-landing-page-profesional",
+    "title": "¿Cuánto cuesta una página web o landing page profesional en 2026?",
+    "description": "Guía para entender cuánto puede costar una página web o landing page profesional, qué factores cambian el precio y cómo comparar propuestas sin elegir solo por el número final.",
+    "keyword": "cuánto cuesta una página web o landing page profesional",
     "published": "2026-08-13",
-    "updated": "2026-08-13",
-    "readTime": "6 min",
-    "intro": "Una landing page profesional puede desarrollarse en pocos días, pero el plazo depende más de la claridad de la oferta y la disponibilidad del contenido que de escribir el código.",
+    "updated": "2026-09-01",
+    "readTime": "15 min",
+    "intro": "Preguntar cuánto cuesta una web es parecido a preguntar cuánto cuesta remodelar un local: necesitas conocer el alcance. Aun así, sí existen criterios que permiten entender por qué una propuesta cuesta más que otra. Aquí te explico qué estoy considerando cuando preparo un presupuesto y qué deberías revisar antes de contratar.",
     "sections": [
       {
-        "heading": "Etapas habituales del proyecto",
+        "heading": "1. El precio no depende únicamente del número de secciones",
         "paragraphs": [
-          "El proceso comienza con información sobre audiencia, oferta, objetivo y materiales. Después se organiza la jerarquía, se redacta o ajusta el contenido, se define la dirección visual, se desarrolla la página y se realizan pruebas.",
-          "Una landing estándar puede completarse entre cinco y diez días hábiles después de recibir los materiales. Esa referencia cambia si existen varios idiomas, integraciones o aprobaciones de equipos grandes."
+          "Dos landing pages con seis secciones pueden requerir cantidades de trabajo muy diferentes. Una puede llegar con textos, identidad y fotografías listas; la otra puede necesitar definir la oferta, reorganizar el mensaje, crear recursos visuales e integrar un sistema de reservas.",
+          "Por eso no uso la cantidad de bloques como única medida. El alcance real incluye estrategia, contenido, diseño, desarrollo, integraciones, pruebas, publicación y soporte acordado.",
+          "También influye el nivel de personalización. Adaptar una plantilla existente no es lo mismo que construir una experiencia propia alrededor de una marca y su proceso comercial."
         ]
       },
       {
-        "heading": "Lo que más suele retrasar la entrega",
+        "heading": "2. Qué trabajo existe antes de comenzar a diseñar",
         "paragraphs": [
-          "La falta de una oferta definida, fotografías pendientes, cambios de alcance y respuestas tardías al proceso de revisión generan más retrasos que el desarrollo técnico. También afecta comenzar sin saber quién aprueba el contenido.",
-          "Enviar comentarios agrupados y vinculados al objetivo ayuda a avanzar. Cambiar preferencias visuales en cada ronda sin una razón comercial convierte la revisión en un ciclo indefinido."
+          "Una parte importante del proyecto ocurre antes de abrir el editor. Necesito entender qué vendes, quién debería interesarse, qué objeciones aparecen, qué materiales existen y cuál es la acción principal.",
+          "Cuando esa información no está clara, el trabajo incluye ayudar a ordenarla. Esa etapa puede ahorrar muchas revisiones porque evita diseñar alrededor de mensajes que después cambian por completo.",
+          "Si el cliente entrega copy definitivo, identidad clara y recursos optimizados, el proyecto puede avanzar más rápido. Si debo trabajar también esos elementos, el presupuesto debe reflejarlo."
         ]
       },
       {
-        "heading": "Cómo preparar el proyecto",
+        "heading": "3. Diseño personalizado vs. plantilla",
         "paragraphs": [
-          "Reúne nombre de la oferta, cliente ideal, problema, beneficios, entregables, precio o método de cotización, preguntas frecuentes, testimonios y datos de contacto. Define también el dominio y quién tendrá acceso a las cuentas.",
-          "No es necesario entregar textos perfectos, pero sí información verdadera. Un buen formulario inicial reduce reuniones y evita suposiciones."
+          "Las plantillas son útiles cuando el presupuesto es muy limitado o se necesita validar algo rápido. El problema aparece cuando la marca termina adaptándose a la plantilla en lugar de que la estructura responda al negocio.",
+          "Un diseño personalizado permite priorizar contenido, jerarquía visual, confianza y llamadas a la acción según la oferta. También evita cargar componentes que no se utilizan.",
+          "Esto no significa que todo deba ser visualmente complejo. De hecho, prefiero interfaces limpias. La personalización está en las decisiones, no en llenar la pantalla de efectos."
         ]
       },
       {
-        "heading": "Publicar rápido sin sacrificar calidad",
+        "heading": "4. Desarrollo, rendimiento y experiencia móvil",
         "paragraphs": [
-          "Se puede definir una primera versión con los elementos esenciales y una lista de mejoras posteriores. Lo importante es no eliminar pruebas de funcionamiento, optimización móvil, metadatos o medición solo para ganar unas horas.",
-          "Una fecha urgente debe acompañarse de un alcance reducido y aprobaciones rápidas, no de promesas imposibles."
+          "El código también modifica el coste. Una página estática optimizada puede ser muy ligera. Un proyecto con panel de administración, autenticación, búsquedas, pagos o contenido dinámico necesita más desarrollo y pruebas.",
+          "En una landing profesional considero responsive, accesibilidad básica, optimización de imágenes, comportamiento de formularios, estados interactivos, metadatos y compatibilidad entre navegadores modernos.",
+          "El rendimiento no debería dejarse para el final. Elegir tecnologías y recursos ligeros desde el inicio reduce problemas de velocidad y mantenimiento."
+        ]
+      },
+      {
+        "heading": "5. Integraciones que suelen aumentar el alcance",
+        "paragraphs": [
+          "Formularios simples, WhatsApp y analítica suelen ser relativamente directos. Una agenda externa, CRM, automatización de correo, checkout, calculadora, API, membresía o área privada puede cambiar el proyecto de forma importante.",
+          "Cada integración requiere entender documentación, autenticación, manejo de errores, privacidad y pruebas. Si depende de una herramienta de terceros, también conviene dejar claros sus costos recurrentes.",
+          "Cuando compares presupuestos, verifica si la integración está incluida de verdad o si únicamente se colocará un enlace hacia otra plataforma."
+        ]
+      },
+      {
+        "heading": "6. Contenido bilingüe y SEO",
+        "paragraphs": [
+          "Una versión bilingüe bien implementada no consiste en instalar un traductor automático. Hay que crear URLs o versiones claras, revisar contenido, enlaces, metadatos y señales como hreflang cuando corresponda.",
+          "El SEO también tiene niveles. Una base técnica inicial incluye títulos, descripciones, estructura semántica, canonical, sitemap, robots y datos estructurados cuando aportan. Una estrategia de posicionamiento sostenida incluye investigación, contenidos, enlaces internos, seguimiento y mejoras continuas.",
+          "Es importante que una propuesta no venda “SEO incluido” sin explicar qué significa exactamente."
+        ]
+      },
+      {
+        "heading": "7. Dominio, hosting y costos recurrentes",
+        "paragraphs": [
+          "El dominio y el alojamiento son activos distintos al diseño. Pueden incluirse en una propuesta, pero conviene saber quién será el titular, dónde se administran y cuánto cuesta renovarlos.",
+          "También pueden existir servicios recurrentes: correo empresarial, herramientas de formularios, agenda, CDN, analítica avanzada, CRM, automatizaciones o plataformas de pago.",
+          "Yo prefiero separar estos costos para que el cliente sepa qué paga una vez y qué tendrá renovación. Esa transparencia facilita el mantenimiento."
+        ]
+      },
+      {
+        "heading": "8. Cómo comparar dos propuestas de forma justa",
+        "paragraphs": [
+          "No compares solo el precio final. Revisa entregables, revisiones, plazos, propiedad de archivos, publicación, soporte, integraciones, contenido y qué sucede si el alcance cambia.",
+          "También revisa proyectos reales y experiencia móvil. Una captura bonita no demuestra que el sitio cargue rápido, que el formulario funcione o que el contenido tenga una estructura útil.",
+          "Pregúntate qué problema está resolviendo cada propuesta. Una opción económica puede ser perfecta para validar una idea. Una solución más completa puede tener sentido cuando el sitio será una herramienta importante de captación."
+        ]
+      },
+      {
+        "heading": "9. Rangos y una referencia práctica",
+        "paragraphs": [
+          "No existe un precio universal porque los mercados y alcances cambian. Una landing simple basada en contenido listo puede tener un costo muy distinto a una página personalizada con estrategia, copy, integración y medición.",
+          "En mi sitio publico un precio inicial como referencia para proyectos de landing page, pero la propuesta final depende de lo que realmente necesites. Prefiero explicar el alcance antes de dar una cifra que luego cambie por elementos que no se conversaron.",
+          "Si estás pidiendo varios presupuestos, prepara un mismo resumen para todos: objetivo, público, páginas o secciones, idiomas, integraciones, fecha deseada, materiales disponibles y ejemplos de referencia. Obtendrás comparaciones mucho más útiles."
+        ]
+      },
+      {
+        "heading": "10. Qué debería quedar claro antes de pagar",
+        "paragraphs": [
+          "Antes de comenzar, deberías saber qué vas a recibir, quién aporta los textos e imágenes, cuántas revisiones existen, cuál es el calendario, qué pagos son recurrentes y quién conserva los accesos.",
+          "También conviene definir qué se considera un cambio de alcance. Añadir un idioma, una tienda, un sistema de usuarios o una integración nueva después de aprobar la propuesta puede requerir presupuesto adicional.",
+          "Un acuerdo claro protege a ambas partes y permite concentrar el trabajo en construir, no en discutir expectativas durante el proyecto."
         ]
       }
     ],
     "faqs": [
-      { "q": "¿Puede estar lista en 48 horas?", "a": "Solo cuando el alcance es pequeño, el contenido está completo y las decisiones se aprueban de inmediato. No es el plazo normal para un trabajo personalizado." },
-      { "q": "¿La publicación está incluida en el tiempo?", "a": "Sí cuando dominio y accesos están disponibles. Cambios de DNS pueden tardar en propagarse fuera del control del desarrollador." }
-    ],
-    "relatedPage": "/contacto/"
-  },
-  {
-    "slug": "como-crear-landing-page-para-vender-servicios",
-    "title": "Cómo crear una landing page para vender servicios",
-    "description": "Guía para estructurar una landing page de servicios con propuesta, proceso, prueba, alcance y llamados a la acción claros.",
-    "keyword": "cómo crear una landing page para vender servicios",
-    "published": "2026-08-13",
-    "updated": "2026-08-13",
-    "readTime": "8 min",
-    "intro": "Vender un servicio exige hacer visible algo intangible. La landing debe reducir incertidumbre mostrando problema, método, entregables, experiencia y el siguiente paso comercial.",
-    "sections": [
       {
-        "heading": "Define una oferta antes de diseñar",
-        "paragraphs": [
-          "Una lista de capacidades no es una oferta. Debes definir a quién ayudas, qué situación resuelves, qué incluye el trabajo, cómo se entrega y qué necesita el cliente para comenzar.",
-          "Si intentas hablar simultáneamente a médicos, restaurantes, autores y grandes empresas, el mensaje pierde precisión. Una landing puede dirigirse a un segmento aunque el profesional atienda otros proyectos."
-        ]
+        "q": "¿Cuál es el precio mínimo de una landing page?",
+        "a": "Depende del profesional, mercado y alcance. Un proyecto con contenido listo y pocas integraciones puede costar menos que uno personalizado con estrategia, copy, analítica e integraciones."
       },
       {
-        "heading": "Explica el proceso",
-        "paragraphs": [
-          "El proceso reduce el riesgo percibido porque permite imaginar cómo será trabajar contigo. Presenta fases concretas y explica en qué momentos participa el cliente.",
-          "No conviertas esta sección en un manual interno. Cuatro o cinco pasos suelen ser suficientes para mostrar orden, responsabilidad y tiempos."
-        ]
+        "q": "¿El dominio y el hosting están incluidos?",
+        "a": "No siempre. Deben aparecer expresamente en la propuesta, junto con costos de renovación y titularidad."
       },
       {
-        "heading": "Demuestra sin exagerar",
-        "paragraphs": [
-          "Los casos de éxito son más útiles cuando incluyen contexto: problema, acciones, plazo y resultado. Un número aislado puede llamar la atención, pero no demuestra que la misma situación se repetirá.",
-          "Si todavía no existen resultados cuantificables, utiliza proyectos, muestras, experiencia y una explicación transparente del método."
-        ]
+        "q": "¿Una página web tiene mensualidad?",
+        "a": "El diseño no necesariamente. Hosting, dominio y herramientas externas pueden tener pagos periódicos."
       },
       {
-        "heading": "Elige la conversión adecuada",
-        "paragraphs": [
-          "Un servicio económico y estandarizado puede venderse directamente. Una consultoría compleja probablemente necesita diagnóstico o llamada. El CTA debe corresponder con el nivel de compromiso que el prospecto está listo para asumir.",
-          "Después de publicar, mide solicitudes y calidad de los contactos. La conversión no se evalúa únicamente por cantidad."
-        ]
+        "q": "¿Por qué una web personalizada cuesta más que una plantilla?",
+        "a": "Porque incluye decisiones de estructura, identidad, desarrollo y pruebas adaptadas al proyecto, además de reducir dependencias de componentes innecesarios."
+      },
+      {
+        "q": "¿Cómo puedo pedir un presupuesto más preciso?",
+        "a": "Explica objetivo, audiencia, idiomas, integraciones, contenido disponible, fecha deseada y ejemplos. Cuanto más claro sea el alcance, más precisa será la propuesta."
       }
     ],
-    "faqs": [
-      { "q": "¿Debo explicar todos mis servicios?", "a": "No. La página debe concentrarse en la oferta que motivará la acción. Otros servicios pueden enlazarse desde una web principal." },
-      { "q": "¿Qué CTA funciona mejor?", "a": "El que describe el siguiente paso real: solicitar propuesta, reservar diagnóstico, consultar disponibilidad o comenzar compra." }
-    ],
-    "relatedPage": "/landing-pages/para-vender-servicios/"
-  },
-  {
-    "slug": "landing-page-para-whatsapp-estructura-ejemplos",
-    "title": "Landing page para WhatsApp: estructura y buenas prácticas",
-    "description": "Cómo estructurar una landing page para WhatsApp con botones contextuales, mensajes predeterminados y medición de clics.",
-    "keyword": "landing page para WhatsApp",
-    "published": "2026-08-13",
-    "updated": "2026-08-13",
-    "readTime": "7 min",
-    "intro": "WhatsApp puede reducir la distancia entre interés y conversación, pero enviar a todos directamente al chat también puede generar preguntas repetidas y contactos sin contexto.",
-    "sections": [
-      {
-        "heading": "La página debe preparar la conversación",
-        "paragraphs": [
-          "Antes del primer clic, explica oferta, alcance, precio orientativo, proceso y disponibilidad. Así el prospecto inicia la conversación con una expectativa más realista.",
-          "El botón puede repetirse después de bloques importantes, pero debe conducir a la misma acción. Un CTA fijo en móvil resulta útil cuando no cubre contenido ni compite con otros controles."
-        ]
-      },
-      {
-        "heading": "Utiliza mensajes predeterminados con contexto",
-        "paragraphs": [
-          "Un mensaje como “Hola, quiero información sobre la landing page para médicos” permite identificar el origen y responder con mayor rapidez. Evita textos demasiado largos que el usuario deba borrar antes de explicar su situación.",
-          "Si existen varias ofertas, cada botón puede utilizar un mensaje diferente. Esa distinción también puede enviarse a Analytics."
-        ]
-      },
-      {
-        "heading": "Mide clics y conversaciones por separado",
-        "paragraphs": [
-          "La web puede saber que alguien hizo clic, pero no necesariamente si envió el mensaje o contrató. El proceso comercial debe registrar esas etapas para conocer la conversión completa.",
-          "Configura eventos para el hero, los precios y el CTA final si necesitas comparar qué sección genera más conversaciones. No registres datos personales en Analytics."
-        ]
-      },
-      {
-        "heading": "Cuida la experiencia móvil",
-        "paragraphs": [
-          "Los botones deben tener tamaño táctil suficiente, contraste, texto visible y un estado de foco. También conviene ofrecer correo o formulario para personas que no utilizan WhatsApp.",
-          "Prueba el enlace en Android, iPhone y escritorio. El navegador elegirá entre aplicación y versión web según el dispositivo."
-        ]
-      }
-    ],
-    "faqs": [
-      { "q": "¿Puedo usar un chatbot dentro de la landing?", "a": "Sí, pero debe aportar una función concreta. Un widget pesado o intrusivo puede empeorar velocidad y experiencia." },
-      { "q": "¿WhatsApp sustituye el formulario?", "a": "No siempre. El formulario es útil para recopilar información estructurada y atender fuera del horario disponible." }
-    ],
-    "relatedPage": "/landing-pages/para-whatsapp/"
-  },
-  {
-    "slug": "errores-que-landing-page-no-convierta",
-    "title": "10 errores que hacen que una landing page no convierta",
-    "description": "Errores frecuentes de mensaje, diseño, velocidad, confianza, formulario y medición que reducen la conversión de una landing page.",
-    "keyword": "errores que hacen que una landing page no convierta",
-    "published": "2026-08-13",
-    "updated": "2026-08-13",
-    "readTime": "9 min",
-    "intro": "Cuando una landing no genera resultados, cambiar el color del botón rara vez resuelve el problema principal. Conviene revisar primero oferta, tráfico, mensaje, confianza y funcionamiento técnico.",
-    "sections": [
-      {
-        "heading": "1. Hablar de la empresa antes que del problema",
-        "paragraphs": [
-          "El visitante llega buscando una respuesta. Una introducción extensa sobre la historia de la marca puede ser valiosa más adelante, pero el primer bloque debe explicar la oferta y su relevancia.",
-          "El segundo error es utilizar un titular genérico. Si el nombre pudiera colocarse en la web de cualquier competidor, necesita mayor precisión."
-        ]
-      },
-      {
-        "heading": "2. Mezclar demasiadas ofertas y acciones",
-        "paragraphs": [
-          "Una página que invita a comprar, suscribirse, seguir redes, revisar veinte servicios y descargar un recurso obliga al usuario a decidir qué quiere la empresa. Define una conversión principal y utiliza las demás solo como apoyo.",
-          "También evita menús enormes. En campañas, cada enlace adicional puede sacar al visitante del recorrido antes de comprender la oferta."
-        ]
-      },
-      {
-        "heading": "3. Falta de confianza y detalles",
-        "paragraphs": [
-          "Promesas fuertes sin proceso, evidencia ni identidad generan sospecha. Añade casos, experiencia, responsables, condiciones, preguntas frecuentes y formas reales de contacto.",
-          "No inventes urgencia, testimonios ni contadores. Es preferible una prueba modesta pero verificable que una cifra espectacular sin contexto."
-        ]
-      },
-      {
-        "heading": "4. Formularios, velocidad y medición deficientes",
-        "paragraphs": [
-          "Otros errores habituales son formularios largos, botones rotos, imágenes de varios megabytes, widgets innecesarios, texto pequeño y contenido que se mueve mientras carga.",
-          "Finalmente, una página sin eventos de conversión no permite distinguir un problema de tráfico de uno de mensaje. Verifica también la calidad de los contactos, no solo el número de envíos."
-        ]
-      }
-    ],
-    "faqs": [
-      { "q": "¿Una tasa baja siempre significa mal diseño?", "a": "No. Puede deberse a tráfico irrelevante, precio, reputación, oferta o fallos en el seguimiento comercial." },
-      { "q": "¿Debo rediseñar toda la página?", "a": "Primero identifica el mayor punto de fricción. A veces basta con corregir mensaje, prueba, velocidad o formulario." }
-    ],
-    "relatedPage": "/landing-pages/para-captar-clientes/"
-  },
-  {
-    "slug": "informacion-para-contratar-landing-page",
-    "title": "Qué información necesitas para contratar una landing page",
-    "description": "Checklist de oferta, audiencia, contenidos, imágenes, accesos e integraciones que debes preparar antes de contratar una landing page.",
-    "keyword": "qué información necesito para contratar una landing page",
-    "published": "2026-08-13",
-    "updated": "2026-08-13",
-    "readTime": "6 min",
-    "intro": "No necesitas entregar un diseño terminado, pero sí información suficiente para que la página represente tu oferta con precisión. Prepararla reduce retrasos y revisiones innecesarias.",
-    "sections": [
-      {
-        "heading": "Oferta y objetivo",
-        "paragraphs": [
-          "Define qué se promocionará y qué debe hacer el visitante. Indica precio o forma de cotización, alcance, tiempos, condiciones y diferencias frente a otras opciones.",
-          "Explica cómo continúa el proceso después del formulario o clic. El CTA debe prometer exactamente el siguiente paso que el negocio puede cumplir."
-        ]
-      },
-      {
-        "heading": "Audiencia y objeciones",
-        "paragraphs": [
-          "Describe al cliente ideal con su situación, conocimientos y preocupaciones. Evita limitarte a edad o ubicación si esas características no modifican el mensaje.",
-          "Reúne preguntas reales recibidas por WhatsApp, correo o llamadas. Ese material suele ser más útil que una lista genérica de beneficios."
-        ]
-      },
-      {
-        "heading": "Pruebas y activos",
-        "paragraphs": [
-          "Prepara logo, colores, fotografías con permiso de uso, testimonios autorizados, proyectos, credenciales y datos de contacto. Si falta alguno, debe decidirse cómo resolverlo sin inventar evidencia.",
-          "Entrega archivos originales cuando sea posible. Descargar imágenes comprimidas de redes sociales reduce calidad y limita opciones de diseño."
-        ]
-      },
-      {
-        "heading": "Dominio, cuentas e integraciones",
-        "paragraphs": [
-          "Confirma quién controla el dominio, alojamiento, Analytics, agenda, correo y checkout. No envíes contraseñas por mensajes comunes; utiliza invitaciones o métodos seguros de acceso.",
-          "Indica también las políticas, avisos legales y requisitos regulatorios relacionados con el sector."
-        ]
-      }
-    ],
-    "faqs": [
-      { "q": "¿Necesito entregar el texto completo?", "a": "No necesariamente. Sí debes proporcionar la información verdadera que permita organizarlo y aprobar la versión final." },
-      { "q": "¿Qué ocurre si no tengo imágenes?", "a": "Puede utilizarse una dirección visual basada en tipografía, iconos y elementos gráficos, o acordar recursos con licencia." }
-    ],
-    "relatedPage": "/contacto/"
-  },
-  {
-    "slug": "landing-page-para-medicos-elementos-imprescindibles",
-    "title": "Landing page para médicos: elementos imprescindibles",
-    "description": "Estructura recomendada para una landing page de médicos: especialidad, credenciales, servicios, citas, privacidad y contenido responsable.",
-    "keyword": "landing page para médicos",
-    "published": "2026-08-13",
-    "updated": "2026-08-13",
-    "readTime": "8 min",
-    "intro": "Una landing médica debe ayudar al paciente a comprender si el profesional atiende su necesidad y cómo solicitar una cita, sin convertir información general en diagnóstico ni prometer resultados.",
-    "sections": [
-      {
-        "heading": "Especialidad, paciente y modalidad",
-        "paragraphs": [
-          "El primer bloque debe identificar especialidad, tipo de atención y ubicación o modalidad. “Cuidamos tu salud” es demasiado amplio para alguien que necesita un dermatólogo, cardiólogo o psicólogo.",
-          "Aclara si la consulta es presencial, virtual o ambas, qué edades atiende y si existen requisitos de referencia o seguro cuando corresponda."
-        ]
-      },
-      {
-        "heading": "Credenciales y experiencia relevantes",
-        "paragraphs": [
-          "Incluye nombre completo, formación, certificaciones o asociaciones verificables y experiencia vinculada con la especialidad. Una lista interminable de cursos dificulta encontrar lo importante.",
-          "Las reseñas médicas requieren especial cuidado por privacidad, regulaciones y políticas de cada jurisdicción. Nunca publiques información del paciente sin autorización válida."
-        ]
-      },
-      {
-        "heading": "Servicios explicados para pacientes",
-        "paragraphs": [
-          "Utiliza lenguaje comprensible y diferencia información educativa de recomendaciones individuales. Explica qué ocurre en la primera consulta y qué debe preparar la persona.",
-          "Las preguntas frecuentes pueden cubrir agenda, horarios, pagos, teleconsulta y ubicación. No deben ofrecer diagnósticos automáticos."
-        ]
-      },
-      {
-        "heading": "Citas, formularios y privacidad",
-        "paragraphs": [
-          "Solicita únicamente información necesaria para el contacto inicial. Los detalles clínicos deben manejarse en sistemas apropiados para datos de salud, no en un formulario genérico de una web estática.",
-          "El botón de cita debe indicar si abre una agenda, WhatsApp o una llamada. Añade políticas y avisos aplicables al lugar donde ejerce el profesional."
-        ]
-      }
-    ],
-    "faqs": [
-      { "q": "¿Una landing médica puede tener testimonios?", "a": "Depende de las normas profesionales, privacidad y publicidad de la jurisdicción. Debe revisarlo el médico o su asesor legal." },
-      { "q": "¿Puede recopilar síntomas?", "a": "No se recomienda hacerlo en un formulario genérico. Los datos de salud requieren medidas técnicas y legales específicas." }
-    ],
-    "relatedPage": "/landing-pages/para-medicos/"
-  },
-  {
-    "slug": "como-vender-ebook-con-landing-page",
-    "title": "Cómo vender un ebook con una landing page",
-    "description": "Estructura para vender un ebook con landing page: promesa, contenido, autor, muestra, testimonios, checkout y seguimiento.",
-    "keyword": "cómo vender un ebook con una landing page",
-    "published": "2026-08-13",
-    "updated": "2026-08-13",
-    "readTime": "8 min",
-    "intro": "Una portada atractiva llama la atención, pero la decisión de compra depende de que el lector comprenda para quién es el libro, qué encontrará y por qué el autor puede guiarlo en ese tema.",
-    "sections": [
-      {
-        "heading": "Presenta la transformación editorial",
-        "paragraphs": [
-          "El titular debe expresar el resultado o experiencia de lectura sin prometer más de lo que el libro puede ofrecer. La sinopsis comercial no es el resumen completo: conecta situación, contenido y beneficio.",
-          "Indica claramente formato, idioma, cantidad aproximada de páginas, método de acceso y compatibilidad cuando sea relevante."
-        ]
-      },
-      {
-        "heading": "Muestra el contenido sin regalar toda la obra",
-        "paragraphs": [
-          "Incluye temas, capítulos seleccionados, una muestra o recursos adicionales. El índice ayuda a evaluar profundidad y evita que el comprador espere un contenido distinto.",
-          "Una buena muestra demuestra tono y calidad. Puede entregarse a cambio de correo si existe un sistema adecuado de consentimiento y envío."
-        ]
-      },
-      {
-        "heading": "Construye confianza en el autor",
-        "paragraphs": [
-          "La biografía debe explicar la relación del autor con el tema, no narrar toda su vida. Añade otras obras, experiencia y comunidad cuando sean relevantes.",
-          "Los testimonios deben corresponder al libro o a la experiencia real del lector. Evita opiniones genéricas que no ayudan a comprender el valor."
-        ]
-      },
-      {
-        "heading": "Conecta la compra y mide el recorrido",
-        "paragraphs": [
-          "La landing puede dirigir a Hotmart, Amazon u otro checkout. Mantén consistencia de precio, nombre y portada para que el comprador no dude al cambiar de plataforma.",
-          "Mide clics de compra y, cuando la herramienta lo permita, confirmaciones. También registra consultas frecuentes para mejorar la página."
-        ]
-      }
-    ],
-    "faqs": [
-      { "q": "¿La landing puede alojar el archivo?", "a": "Puede, pero la venta y entrega requieren controles. Una plataforma de productos digitales suele gestionar mejor pagos, acceso e impuestos." },
-      { "q": "¿Necesito una página por libro?", "a": "Es recomendable para obras con públicos y promesas distintas. Un catálogo puede enlazar a cada landing individual." }
-    ],
-    "relatedPage": "/landing-pages/para-autores-ebooks/"
-  },
-  {
-    "slug": "landing-page-bilingue-cuando-es-necesaria",
-    "title": "Landing page bilingüe: cuándo es necesaria y cómo organizarla",
-    "description": "Cuándo crear una landing page bilingüe, cómo estructurar URLs, traducciones, formularios y etiquetas hreflang.",
-    "keyword": "landing page bilingüe",
-    "published": "2026-08-13",
-    "updated": "2026-08-13",
-    "readTime": "7 min",
-    "intro": "Ofrecer atención en dos idiomas no siempre significa que la página deba traducirse completa. La decisión depende del mercado, del proceso comercial y de la capacidad real de atender cada versión.",
-    "sections": [
-      {
-        "heading": "Cuándo sí conviene una versión bilingüe",
-        "paragraphs": [
-          "Es útil cuando una parte importante del público busca, compara o compra en otro idioma y el negocio puede responderle. También cuando las campañas o alianzas dirigen usuarios de mercados diferentes.",
-          "Si la atención solo está disponible en un idioma, una versión traducida puede crear expectativas incorrectas. Primero define el proceso posterior al formulario."
-        ]
-      },
-      {
-        "heading": "Una URL por idioma",
-        "paragraphs": [
-          "Cada versión debe tener una URL estable, por ejemplo /es/ y /en/. Esto permite compartir, indexar y medir por separado. Un widget que cambia texto en el navegador no ofrece la misma claridad técnica.",
-          "Las etiquetas hreflang relacionan versiones equivalentes y cada página conserva su canonical propio."
-        ]
-      },
-      {
-        "heading": "Traducir intención, no solo palabras",
-        "paragraphs": [
-          "Los ejemplos, expresiones, moneda, formatos y objeciones pueden variar. Una traducción literal técnicamente correcta puede sonar poco natural o no responder cómo compra la otra audiencia.",
-          "La versión final debe revisarse por una persona competente. Las herramientas automáticas pueden ayudar como borrador, pero no deberían ser la única revisión."
-        ]
-      },
-      {
-        "heading": "Formularios y seguimiento",
-        "paragraphs": [
-          "Los mensajes de confirmación, correos y llamadas posteriores también deben estar disponibles en el idioma prometido. Si distintos equipos atienden cada mercado, los formularios pueden dirigirse de manera separada.",
-          "Mide conversión por idioma antes de asumir que ambos necesitan exactamente el mismo contenido."
-        ]
-      }
-    ],
-    "faqs": [
-      { "q": "¿Debo usar dos dominios?", "a": "Normalmente no. Las carpetas por idioma dentro del mismo dominio permiten compartir autoridad y mantenimiento." },
-      { "q": "¿El selector debe detectar el idioma automáticamente?", "a": "Puede sugerirlo, pero conviene permitir que el usuario cambie y conservar su elección sin redirecciones forzadas." }
-    ],
-    "relatedPage": "/landing-pages/bilingues/"
-  },
-  {
-    "slug": "ejemplos-landing-pages-para-profesionales",
-    "title": "Ejemplos de landing pages para profesionales y qué aprender de ellas",
-    "description": "Estructuras y ejemplos de landing pages para médicos, abogados, coaches, autores y consultores, con aprendizajes aplicables.",
-    "keyword": "ejemplos de landing pages para profesionales",
-    "published": "2026-08-13",
-    "updated": "2026-08-13",
-    "readTime": "9 min",
-    "intro": "Un buen ejemplo no se copia por su apariencia. Se analiza para comprender cómo organiza información, reduce riesgo y facilita una acción según el tipo de servicio.",
-    "sections": [
-      {
-        "heading": "Médicos: confianza y acceso a citas",
-        "paragraphs": [
-          "Una landing médica eficaz identifica especialidad, modalidad, credenciales y próximos pasos. El diseño debe transmitir calma y legibilidad, no depender de animaciones espectaculares.",
-          "La lección aplicable es priorizar la información que la persona necesita para decidir si ese profesional puede atenderla."
-        ]
-      },
-      {
-        "heading": "Abogados: área de práctica y calificación",
-        "paragraphs": [
-          "La estructura legal debe explicar jurisdicción, tipo de casos y forma de consulta. Un formulario puede recopilar contexto sin pedir detalles sensibles ni prometer aceptación.",
-          "Aquí el aprendizaje es utilizar lenguaje comprensible y avisos responsables para reducir contactos completamente fuera del alcance."
-        ]
-      },
-      {
-        "heading": "Coaches y consultores: método y transformación",
-        "paragraphs": [
-          "Estas páginas hacen visible un servicio intangible mediante fases, entregables, perfil ideal y testimonios. La agenda suele ser el CTA, pero puede incluir un formulario previo para mejorar la calidad de llamadas.",
-          "El principio común es demostrar estructura: el prospecto necesita imaginar cómo será trabajar con el experto."
-        ]
-      },
-      {
-        "heading": "Autores: contenido, autoridad y compra",
-        "paragraphs": [
-          "Una landing editorial conecta portada, promesa, índice, muestra, autor y checkout. La experiencia visual debe apoyar el género del libro sin dificultar la lectura.",
-          "En todos los sectores, la mejor página no es la que acumula efectos. Es la que responde preguntas reales y hace evidente el siguiente paso."
-        ]
-      }
-    ],
-    "faqs": [
-      { "q": "¿Puedo copiar una landing que me gusta?", "a": "Puedes estudiar estructura y patrones, pero el diseño, texto, imágenes y marca deben ser originales y responder a tu oferta." },
-      { "q": "¿Todos los profesionales necesitan la misma estructura?", "a": "No. Confianza, regulación, ciclo de venta y tipo de conversión cambian según el sector." }
-    ],
-    "relatedPage": "/portafolio/"
-  },
-  {
-    "slug": "como-aparecer-en-las-serps-de-google",
-    "title": "Cómo aparecer en las SERPs de Google: guía práctica para tu web",
-    "description": "Aprende cómo aparecer en las SERPs de Google con una web rastreable, contenido útil, SEO técnico y una estrategia realista.",
-    "keyword": "cómo aparecer en las SERPs de Google",
-    "published": "2026-08-29",
-    "updated": "2026-08-29",
-    "readTime": "8 min",
-    "intro": "Aparecer en las SERPs de Google no consiste en repetir una palabra clave muchas veces ni en prometer posiciones rápidas. Se trata de ayudar a Google a rastrear tu web, entender su contenido y mostrarla cuando responde mejor a una búsqueda.",
-    "sections": [
-      {
-        "heading": "Qué significa aparecer en las SERPs",
-        "paragraphs": [
-          "Las SERPs son las páginas de resultados que Google muestra después de una búsqueda. Una web puede aparecer como resultado orgánico, fragmento destacado, resultado local, imagen o respuesta enriquecida, según la intención y el contenido disponible.",
-          "No todas las búsquedas tienen el mismo valor. Conviene priorizar consultas relacionadas con lo que vendes, la zona donde trabajas y las preguntas que tus clientes hacen antes de contactarte. Recibir visitas que nunca podrían convertirse no es una estrategia SEO completa."
-        ]
-      },
-      {
-        "heading": "Haz que Google pueda rastrear e indexar tu web",
-        "paragraphs": [
-          "Antes de optimizar textos, comprueba que Google pueda acceder a las páginas importantes. Revisa el archivo robots.txt, el sitemap, los códigos de respuesta, los enlaces internos y la etiqueta canonical. Una página bloqueada o inaccesible no podrá competir aunque tenga buen contenido.",
-          "Google puede descubrir una URL mediante enlaces, pero Search Console permite comprobar si fue rastreada, indexada y afectada por algún problema. Solicitar una indexación puntual sirve para avisar de una página nueva, no para forzar una posición."
-        ]
-      },
-      {
-        "heading": "Crea contenido que responda una intención concreta",
-        "paragraphs": [
-          "Cada página debe tener un tema principal, un título claro y contenido suficiente para resolver la necesidad del usuario. Explica conceptos, compara alternativas, muestra ejemplos y responde objeciones con información propia y verificable.",
-          "Evita crear muchas páginas casi iguales cambiando únicamente una ciudad o una palabra clave. Una arquitectura más pequeña, clara y conectada suele ser más útil que publicar textos repetitivos sin una diferencia real."
-        ]
-      },
-      {
-        "heading": "Mejora la experiencia y las señales de confianza",
-        "paragraphs": [
-          "La web debe funcionar bien en móvil, cargar con agilidad, ser legible y permitir que el visitante complete la acción principal. La experiencia de página no sustituye a la relevancia, pero una página lenta o difícil de usar puede desperdiciar tanto el tráfico orgánico como el de campañas.",
-          "Muestra quién está detrás del contenido, cómo contactarte, qué experiencia tienes y qué límites tiene tu oferta. En temas sensibles, la precisión, las fuentes y la responsabilidad pesan más que una promesa llamativa."
-        ]
-      }
-    ],
-    "faqs": [
-      { "q": "¿Cuánto tarda una web en aparecer en Google?", "a": "No existe un plazo fijo. Google puede descubrir una página en días o tardar más, y aparecer en los resultados no garantiza una posición concreta." },
-      { "q": "¿Pagar anuncios hace que mi web suba en los resultados orgánicos?", "a": "No. Los anuncios y los resultados orgánicos son sistemas distintos. La publicidad puede generar tráfico y datos, pero no compra posiciones orgánicas." }
-    ],
-    "relatedPage": "/landing-pages/"
+    "relatedPage": "/precios-landing-page/"
   }
 ]

@@ -104,13 +104,13 @@
     }
     const data = new FormData(form);
     const text = [
-      'Hola Edevis, quiero solicitar una propuesta para una landing page.',
+      'Hola Edevis, quiero conversar contigo sobre un proyecto.',
       '',
       `Nombre: ${data.get('name')}`,
       `Correo: ${data.get('email')}`,
       `País: ${data.get('country') || 'No indicado'}`,
-      `Proyecto: ${data.get('project')}`,
-      `Información: ${data.get('message')}`
+      `Tipo de proyecto: ${data.get('project')}`,
+      `Detalles: ${data.get('message')}`
     ].join('\n');
     const number = form.dataset.whatsapp;
     track('generate_lead', { method: 'whatsapp_form', project_type: String(data.get('project')) });

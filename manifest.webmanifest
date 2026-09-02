@@ -1,10 +1,10 @@
 {
-  "name": "Edevis Raga — Landing Pages Profesionales",
+  "name": "Edevis Raga — Desarrollo Web, Marca y Marketing",
   "short_name": "Edevis Raga",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#090b10",
-  "theme_color": "#090b10",
+  "background_color": "#ffffff",
+  "theme_color": "#7407b8",
   "lang": "es",
   "icons": [
     {

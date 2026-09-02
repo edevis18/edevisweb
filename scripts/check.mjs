@@ -13,7 +13,7 @@ async function walk(dir) {
     const full = join(dir, entry);
     const info = await stat(full);
     if (info.isDirectory()) await walk(full);
-    else if (entry.endsWith('.html')) htmlFiles.push(full);
+    else if (entry.endsWith('.html') && !entry.startsWith('google')) htmlFiles.push(full);
   }
 }
 

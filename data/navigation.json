@@ -1,24 +1,10 @@
 {
   "items": [
     { "label": "Inicio", "url": "/", "icon": "home" },
-    { "label": "Landing Pages", "url": "/landing-pages/", "icon": "layout" },
-    {
-      "label": "Soluciones",
-      "url": "/landing-pages/",
-      "icon": "target",
-      "children": [
-        { "label": "Para médicos", "url": "/landing-pages/para-medicos/" },
-        { "label": "Para abogados", "url": "/landing-pages/para-abogados/" },
-        { "label": "Para coaches", "url": "/landing-pages/para-coaches-consultores/" },
-        { "label": "Para iglesias", "url": "/landing-pages/para-iglesias-ministerios/" },
-        { "label": "Para autores y ebooks", "url": "/landing-pages/para-autores-ebooks/" },
-        { "label": "Para emprendedores", "url": "/landing-pages/para-emprendedores/" }
-      ]
-    },
-    { "label": "Portafolio", "url": "/portafolio/", "icon": "briefcase" },
-    { "label": "Casos de éxito", "url": "/casos-de-exito/", "icon": "chart" },
-    { "label": "Blog", "url": "/blog/", "icon": "book" },
-    { "label": "Sobre mí", "url": "/sobre-mi/", "icon": "user" }
+    { "label": "Sobre mí", "url": "/sobre-mi/", "icon": "user" },
+    { "label": "Servicios", "url": "/#servicios", "icon": "target" },
+    { "label": "Proyectos", "url": "/portafolio/", "icon": "briefcase" },
+    { "label": "Blog", "url": "/blog/", "icon": "book" }
   ],
-  "cta": { "label": "Solicitar propuesta", "url": "/contacto/" }
+  "cta": { "label": "Hablemos", "url": "/contacto/" }
 }

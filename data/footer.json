@@ -1,22 +1,22 @@
 {
-  "summary": "Landing pages profesionales, rápidas y diseñadas estratégicamente para convertir visitas en oportunidades comerciales.",
+  "summary": "Ayudo a negocios, profesionales y marcas a construir una presencia digital clara, rápida y con propósito. Trabajo directamente contigo desde la idea hasta la publicación.",
   "columns": [
     {
-      "title": "Servicio",
+      "title": "Servicios",
       "links": [
-        { "label": "Creación de landing pages", "url": "/landing-pages/" },
-        { "label": "Precios", "url": "/precios-landing-page/" },
+        { "label": "Desarrollo web", "url": "/#servicios" },
+        { "label": "Landing pages", "url": "/landing-pages/" },
         { "label": "Landing pages bilingües", "url": "/landing-pages/bilingues/" },
-        { "label": "Para captar clientes", "url": "/landing-pages/para-captar-clientes/" }
+        { "label": "Precios de landing page", "url": "/precios-landing-page/" }
       ]
     },
     {
-      "title": "Recursos",
+      "title": "Explora",
       "links": [
-        { "label": "Portafolio", "url": "/portafolio/" },
-        { "label": "Casos de éxito", "url": "/casos-de-exito/" },
-        { "label": "Blog", "url": "/blog/" },
-        { "label": "Sobre Edevis", "url": "/sobre-mi/" }
+        { "label": "Sobre mí", "url": "/sobre-mi/" },
+        { "label": "Proyectos", "url": "/portafolio/" },
+        { "label": "Caso DABAR", "url": "/casos-de-exito/dabar-landing-page-ebooks/" },
+        { "label": "Blog", "url": "/blog/" }
       ]
     },
     {
